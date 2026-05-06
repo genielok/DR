@@ -6,8 +6,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { type Species } from "../../../data/mockData";
-import { DetectionAudioPlayer } from "./DetectionAudioPlayer";
-import { ConfidenceBadge } from "./ConfidenceBadge";
+// import { RegisterAudioPlayer } from "./RegisterAudioPlayer";
 import { F } from "../const";
 
 export const SpeciesItem = memo(
@@ -19,7 +18,7 @@ export const SpeciesItem = memo(
     onToggleExpand,
     onSetPlayingAudio,
     onImageClick,
-    onOpenDetections,
+    onOpenRegisters,
   }: {
     species: Species;
     color: string;
@@ -33,7 +32,7 @@ export const SpeciesItem = memo(
       commonName: string,
       scientificName: string,
     ) => void;
-    onOpenDetections: (species: Species) => void;
+    onOpenRegisters: (species: Species) => void;
   }) => {
     const [imgLoaded, setImgLoaded] = useState(false);
 
@@ -61,7 +60,7 @@ export const SpeciesItem = memo(
               >
                 {species.scientificName}
               </div>
-              <a
+              {/* <a
                 href={`https://www.iucnredlist.org/search?query=${encodeURIComponent(species.scientificName)}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -71,7 +70,7 @@ export const SpeciesItem = memo(
               >
                 <ExternalLink size={9} />
                 <span>IUCN</span>
-              </a>
+              </a> */}
             </div>
           </div>
           {isExpanded ? (
@@ -88,10 +87,10 @@ export const SpeciesItem = memo(
         </div>
 
         {isExpanded && (
-          <div className="flex bg-[#252936] min-h-[210px]">
+          <div className="flex bg-[#252936] min-h-[100px]">
             {/* Left: image (100×200) */}
             <button
-              className="group relative w-[130px] self-stretch flex-shrink-0 overflow-hidden cursor-zoom-in"
+              className="group relative w-[180px] self-stretch flex-shrink-0 overflow-hidden cursor-zoom-in"
               onClick={(e) => {
                 e.stopPropagation();
                 onImageClick(
@@ -184,10 +183,10 @@ export const SpeciesItem = memo(
                       style={{ fontFamily: F.bold }}
                     >
                       {(() => {
-                        const total = species.detectionInfo
-                          ? species.detectionInfo.BirdNET + species.detectionInfo.Perch + species.detectionInfo.CustomModel
+                        const total = species.registerInfo
+                          ? species.registerInfo.BirdNET + species.registerInfo.Perch + species.registerInfo.CustomModel
                           : 0;
-                        return total > 0 ? `${total} detections` : "—";
+                        return total > 0 ? `${total}` : "—";
                       })()}
                     </span>
                   </div>
@@ -197,27 +196,37 @@ export const SpeciesItem = memo(
                     className="text-[10px] text-[#778192] uppercase tracking-wider mb-[3px]"
                     style={{ fontFamily: F.bold }}
                   >
-                    Max AI Confidence
+                    Confidence Range
                   </div>
                   {species.sensorInfo.length > 0
-                    ? <ConfidenceBadge confidence={Math.max(...species.sensorInfo.map((s) => s.confidence))} />
+                    ? (() => {
+                      const confidences = species.sensorInfo.map((s) => s.confidence);
+                      const minPct = Math.round(Math.min(...confidences) * 100);
+                      const maxPct = Math.round(Math.max(...confidences) * 100);
+                      const color = maxPct >= 70 ? "#60A896" : maxPct >= 50 ? "#E6901A" : "#D03A1E";
+                      return (
+                        <span className="text-[11px]" style={{ fontFamily: F.bold, color }}>
+                          {minPct === maxPct ? `${minPct}%` : `${minPct}% – ${maxPct}%`}
+                        </span>
+                      );
+                    })()
                     : <span className="text-[12px] text-[#778192]">—</span>
                   }
                 </div>
               </div>
 
               {/* Divider */}
-              <div className="border-t border-[#474f5f]" />
+              {/* <div className="border-t border-[#474f5f]" /> */}
 
               {/* Audio Sample */}
-              <div>
+              {/* <div>
                 <div
                   className="text-[9px] text-[#778192] uppercase tracking-wider mb-[4px]"
                   style={{ fontFamily: F.bold }}
                 >
                   Audio Sample
                 </div>
-                <DetectionAudioPlayer
+                <RegisterAudioPlayer
                   sampleKey={species.id}
                   sensorId="SNR-001"
                   date="Jan 15"
@@ -229,15 +238,15 @@ export const SpeciesItem = memo(
                     );
                   }}
                 />
-              </div>
+              </div> */}
 
-              {/* View All Detections */}
+              {/* View All Registers */}
               <div className="border-t border-[#474f5f] pt-[8px]">
                 <button
-                  onClick={(e) => { e.stopPropagation(); onOpenDetections(species); }}
+                  onClick={(e) => { e.stopPropagation(); onOpenRegisters(species); }}
                   className="w-full h-[30px] flex items-center justify-center gap-[6px] bg-[#3b82f6] hover:bg-[#2563eb] text-white transition-colors duration-150 cursor-pointer"
                 >
-                  <span style={{ fontFamily: F.regular, fontSize: "11px" }}>View All Detections</span>
+                  <span style={{ fontFamily: F.regular, fontSize: "11px" }}>View All Registers</span>
                 </button>
               </div>
             </div>

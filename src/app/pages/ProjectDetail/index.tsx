@@ -61,7 +61,7 @@ export default function ProjectDetail() {
               </div>
             </div>
 
-            <div className="flex gap-[8px] flex-shrink-0">
+            {/* <div className="flex gap-[8px] flex-shrink-0">
               <button
                 onClick={() => navigate(`/projects/${id}/import`)}
                 className="h-[34px] px-[14px] bg-[#3b82f6] hover:bg-[#2563eb] text-white transition-colors duration-150 inline-flex items-center gap-[6px] cursor-pointer">
@@ -72,7 +72,7 @@ export default function ProjectDetail() {
                 <Download size={13} />
                 <span className="text-[12px] leading-[18px]" style={{ fontFamily: F.regular }}>Export CSV</span>
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

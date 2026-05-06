@@ -9,6 +9,7 @@ interface IucnDonutChartProps {
   hiddenLegends: Set<string>;
   onLegendHover: (index: number | null) => void;
   onLegendClick: (name: string) => void;
+  onScrollToStatus?: (status: string) => void;
 }
 
 export function IucnDonutChart({
@@ -17,6 +18,7 @@ export function IucnDonutChart({
   hiddenLegends,
   onLegendHover,
   onLegendClick,
+  onScrollToStatus,
 }: IucnDonutChartProps) {
   const visibleChartData = chartData.filter(
     (item) => !hiddenLegends.has(item.name),
@@ -104,6 +106,9 @@ export function IucnDonutChart({
         onLegendHover(params.dataIndex);
     },
     mouseout: () => onLegendHover(null),
+    click: (params: any) => {
+      if (params.name) onScrollToStatus?.(params.name);
+    },
   };
 
   return (

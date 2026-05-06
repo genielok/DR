@@ -1,6 +1,6 @@
 import type { Species } from "./mockData";
 
-// Auto-generated L3 species (2+ model positives) with detectionInfo + sensorInfo
+// Auto-generated L3 species (2+ model positives) with registerInfo + sensorInfo
 // Generated: 2026-04-30
 // Species count: 251
 
@@ -8,23 +8,23 @@ export const speciesData: Species[] = [
   {
     "id": "sp-Aegolius_harrisii",
     "scientificName": "Aegolius harrisii",
-    "commonName": "",
+    "commonName": "Buff-Fronted Owl",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/61739943/medium.jpg",
+    "attribution": "(c) André Adeodato, some rights reserved (CC BY-NC), uploaded by André Adeodato",
     "sampleAudioUrl": "",
-    "detectionCount": 352,
+    "registerCount": 352,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 60,
       "Perch": 352,
       "CustomModel": 0,
       "max": 352
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Aegolius%20harrisii"
   },
   {
@@ -35,18 +35,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/6991599/medium.jpg",
     "attribution": "(c) Carlos Sanchez; some rights reserved (CC BY-NC); uploaded by Carlos Sanchez",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.6179,
     "maxConfidence": 0.6179,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 1,
       "CustomModel": 0,
       "max": 1
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Alectrurus%20tricolor"
   },
   {
@@ -57,40 +57,40 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/64680468/medium.jpeg",
     "attribution": "(c) Juliano Marques; some rights reserved (CC BY-NC); uploaded by Juliano Marques",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.8219,
     "maxConfidence": 0.8219,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 1,
       "CustomModel": 0,
       "max": 1
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Amaurospiza%20moesta"
   },
   {
     "id": "sp-Anabacerthia_amaurotis",
     "scientificName": "Anabacerthia amaurotis",
-    "commonName": "",
+    "commonName": "White-Browed Foliage-Gleaner",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/27919744/medium.jpeg",
+    "attribution": "(c) Rob Van Epps, some rights reserved (CC BY-NC), uploaded by Rob Van Epps",
     "sampleAudioUrl": "",
-    "detectionCount": 4,
+    "registerCount": 4,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 3,
       "Perch": 0,
       "CustomModel": 4,
       "max": 4
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Anabacerthia%20amaurotis"
   },
   {
@@ -101,18 +101,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/5643323/medium.jpeg",
     "attribution": "(c) Claudia Komesu; some rights reserved (CC BY-NC); uploaded by Claudia Komesu",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0.2772,
     "maxConfidence": 0.2772,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 1,
       "CustomModel": 2,
       "max": 2
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Anabazenops%20fuscus"
   },
   {
@@ -123,11 +123,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/414331079/medium.jpeg",
     "attribution": "(c) KENNEDY BORGES; some rights reserved (CC BY-NC); uploaded by KENNEDY BORGES",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.146,
     "maxConfidence": 0.146,
-    "lastDetected": "2025-04-07T17:40:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-07T17:40:00Z",
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 1,
@@ -143,21 +143,21 @@ export const speciesData: Species[] = [
         "observationId": "d0980a6b-77fa-6bff-343c-0f767ed890d7"
       }
     ],
-    "firstDetected": "2025-04-07T17:40:00Z",
+    "firstRegistered": "2025-04-07T17:40:00Z",
     "mapUrl": "https://mol.org/species/map/Ara%20ararauna"
   },
   {
     "id": "sp-Ara_chloropterus",
     "scientificName": "Ara chloropterus",
-    "commonName": "",
+    "commonName": "Red-And-Green Macaw",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/103212299/medium.jpg",
+    "attribution": "(c) jackcallumsp, some rights reserved (CC BY-NC), uploaded by jackcallumsp",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.3583,
     "maxConfidence": 0.3583,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 1,
@@ -173,22 +173,22 @@ export const speciesData: Species[] = [
         "observationId": "5b7285f9-79d4-7c8a-2b8d-5b826ab72b46"
       }
     ],
-    "firstDetected": "2025-04-01T08:50:00Z",
-    "lastDetected": "2025-04-01T08:50:00Z",
+    "firstRegistered": "2025-04-01T08:50:00Z",
+    "lastRegistered": "2025-04-01T08:50:00Z",
     "mapUrl": "https://mol.org/species/map/Ara%20chloropterus"
   },
   {
     "id": "sp-Ara_macao",
     "scientificName": "Ara macao",
-    "commonName": "",
+    "commonName": "Scarlet Macaw",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://static.inaturalist.org/photos/67503679/medium.jpg",
+    "attribution": "(c) Andrew Whitworth, all rights reserved, uploaded by Andrew Whitworth",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.1138,
     "maxConfidence": 0.1138,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 1,
@@ -204,22 +204,22 @@ export const speciesData: Species[] = [
         "observationId": "57aed268-8e53-b575-0a32-ef61db97ed26"
       }
     ],
-    "firstDetected": "2025-04-07T15:30:00Z",
-    "lastDetected": "2025-04-07T15:30:00Z",
+    "firstRegistered": "2025-04-07T15:30:00Z",
+    "lastRegistered": "2025-04-07T15:30:00Z",
     "mapUrl": "https://mol.org/species/map/Ara%20macao"
   },
   {
     "id": "sp-Ara_severus",
     "scientificName": "Ara severus",
-    "commonName": "",
+    "commonName": "Chestnut-Fronted Macaw",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/241440199/medium.jpeg",
+    "attribution": "(c) Justin Walker, some rights reserved (CC BY-NC), uploaded by Justin Walker",
     "sampleAudioUrl": "",
-    "detectionCount": 5,
+    "registerCount": 5,
     "confidence": 0.716,
     "maxConfidence": 0.716,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 5,
@@ -267,30 +267,30 @@ export const speciesData: Species[] = [
         "observationId": "ceb37e66-dbbf-60d9-859c-4e9f0476732e"
       }
     ],
-    "firstDetected": "2025-04-01T15:15:00Z",
-    "lastDetected": "2025-04-05T11:50:00Z",
+    "firstRegistered": "2025-04-01T15:15:00Z",
+    "lastRegistered": "2025-04-05T11:50:00Z",
     "mapUrl": "https://mol.org/species/map/Ara%20severus"
   },
   {
     "id": "sp-Ardea_cinerea",
     "scientificName": "Ardea cinerea",
-    "commonName": "",
+    "commonName": "Grey Heron",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/73516715/medium.jpg",
+    "attribution": "(c) Frank Sengpiel, some rights reserved (CC BY), uploaded by Frank Sengpiel",
     "sampleAudioUrl": "",
-    "detectionCount": 11,
+    "registerCount": 11,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 4,
       "Perch": 11,
       "CustomModel": 0,
       "max": 11
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Ardea%20cinerea"
   },
   {
@@ -301,18 +301,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/387889/medium.jpg",
     "attribution": "(c) Dario Sanches; some rights reserved (CC BY-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 316,
+    "registerCount": 316,
     "confidence": 0.6135,
     "maxConfidence": 0.6135,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 114,
       "Perch": 81,
       "CustomModel": 316,
       "max": 316
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Arremon%20flavirostris"
   },
   {
@@ -323,18 +323,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/104170167/medium.jpeg",
     "attribution": "(c) Maicon Molina; all rights reserved; uploaded by Maicon Molina",
     "sampleAudioUrl": "",
-    "detectionCount": 39,
+    "registerCount": 39,
     "confidence": 0.7109,
     "maxConfidence": 0.7109,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 17,
       "Perch": 1,
       "CustomModel": 39,
       "max": 39
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Arremon%20semitorquatus"
   },
   {
@@ -345,11 +345,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/60594904/medium.jpg",
     "attribution": "(c) eduardovieira17; some rights reserved (CC BY-NC); uploaded by eduardovieira17",
     "sampleAudioUrl": "",
-    "detectionCount": 78,
+    "registerCount": 78,
     "confidence": 0.7485,
     "maxConfidence": 0.7485,
-    "lastDetected": "2025-04-08T23:20:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T23:20:00Z",
+    "registerInfo": {
       "BirdNET": 15,
       "Perch": 36,
       "CustomModel": 78,
@@ -1301,7 +1301,7 @@ export const speciesData: Species[] = [
         "observationId": "e6e4d750-8b99-a3b6-778c-677af1409c20"
       }
     ],
-    "firstDetected": "2025-03-31T20:35:00Z",
+    "firstRegistered": "2025-03-31T20:35:00Z",
     "mapUrl": "https://mol.org/species/map/Arremon%20taciturnus"
   },
   {
@@ -1312,11 +1312,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/1119324/medium.jpg",
     "attribution": "(c) Aldo Ortíz Reyes; some rights reserved (CC BY-NC); uploaded by Aldo Ortíz Reyes",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.1561,
     "maxConfidence": 0.1561,
-    "lastDetected": "2025-04-03T06:45:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-03T06:45:00Z",
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 1,
       "CustomModel": 0,
@@ -1332,29 +1332,29 @@ export const speciesData: Species[] = [
         "observationId": "19b258ef-ee7e-06cf-2f0e-c74340e11240"
       }
     ],
-    "firstDetected": "2025-04-03T06:45:00Z",
+    "firstRegistered": "2025-04-03T06:45:00Z",
     "mapUrl": "https://mol.org/species/map/Asio%20stygius"
   },
   {
     "id": "sp-Atalotriccus_pilaris",
     "scientificName": "Atalotriccus pilaris",
-    "commonName": "",
+    "commonName": "Pale-Eyed Pygmy-Tyrant",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/117029982/medium.jpg",
+    "attribution": "(c) Oswaldo Hernández, some rights reserved (CC BY-NC), uploaded by Oswaldo Hernández",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 1,
       "CustomModel": 0,
       "max": 1
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Atalotriccus%20pilaris"
   },
   {
@@ -1365,32 +1365,32 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/1507217/medium.jpg",
     "attribution": "(c) Nigel Voaden; some rights reserved (CC BY)",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0.8939,
     "maxConfidence": 0.8939,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 2,
       "max": 2
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Attila%20rufus"
   },
   {
     "id": "sp-Attila_spadiceus",
     "scientificName": "Attila spadiceus",
-    "commonName": "",
+    "commonName": "Bright-Rumped Attila",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/176409496/medium.jpg",
+    "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY), uploaded by Trevor Van Loon",
     "sampleAudioUrl": "",
-    "detectionCount": 4,
+    "registerCount": 4,
     "confidence": 0.5055,
     "maxConfidence": 0.5055,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 4,
       "CustomModel": 0,
@@ -1422,8 +1422,8 @@ export const speciesData: Species[] = [
         "observationId": "0516b7f4-b706-626f-b36c-a56b87128055"
       }
     ],
-    "firstDetected": "2025-04-01T11:15:00Z",
-    "lastDetected": "2025-04-04T10:25:00Z",
+    "firstRegistered": "2025-04-01T11:15:00Z",
+    "lastRegistered": "2025-04-04T10:25:00Z",
     "mapUrl": "https://mol.org/species/map/Attila%20spadiceus"
   },
   {
@@ -1434,32 +1434,32 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/88652894/medium.jpeg",
     "attribution": "(c) Maicon Molina; all rights reserved; uploaded by Maicon Molina",
     "sampleAudioUrl": "",
-    "detectionCount": 13,
+    "registerCount": 13,
     "confidence": 0.8085,
     "maxConfidence": 0.8085,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 5,
       "Perch": 13,
       "CustomModel": 10,
       "max": 13
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Automolus%20leucophthalmus"
   },
   {
     "id": "sp-Automolus_ochrolaemus",
     "scientificName": "Automolus ochrolaemus",
-    "commonName": "",
+    "commonName": "Ochre-Throated Foliage-Gleaner",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://static.inaturalist.org/photos/21923299/medium.jpg",
+    "attribution": "(c) Rolando Chavez, all rights reserved, uploaded by Rolando Chavez",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0.2297,
     "maxConfidence": 0.2297,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 1,
       "CustomModel": 2,
@@ -1483,8 +1483,8 @@ export const speciesData: Species[] = [
         "observationId": "4578b1aa-dbd3-4d27-cd81-c6d8de9c3f18"
       }
     ],
-    "firstDetected": "2025-03-31T13:45:00Z",
-    "lastDetected": "2025-04-03T13:15:00Z",
+    "firstRegistered": "2025-03-31T13:45:00Z",
+    "lastRegistered": "2025-04-03T13:15:00Z",
     "mapUrl": "https://mol.org/species/map/Automolus%20ochrolaemus"
   },
   {
@@ -1495,18 +1495,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/120651643/medium.jpg",
     "attribution": "(c) Thomas Fuhrmann; some rights reserved (CC BY-NC); uploaded by Thomas Fuhrmann",
     "sampleAudioUrl": "",
-    "detectionCount": 16,
+    "registerCount": 16,
     "confidence": 0.6031,
     "maxConfidence": 0.6031,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 16,
       "Perch": 1,
       "CustomModel": 9,
       "max": 16
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Baryphthengus%20ruficapillus"
   },
   {
@@ -1517,18 +1517,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/113525254/medium.jpg",
     "attribution": "(c) jodiboe; all rights reserved; uploaded by jodiboe",
     "sampleAudioUrl": "",
-    "detectionCount": 407,
+    "registerCount": 407,
     "confidence": 0.7894,
     "maxConfidence": 0.7894,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 194,
       "Perch": 332,
       "CustomModel": 407,
       "max": 407
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Basileuterus%20culicivorus"
   },
   {
@@ -1539,32 +1539,32 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/14549085/medium.jpg",
     "attribution": "(c) Paul G. Johnson; some rights reserved (CC BY-NC-SA); uploaded by Paul G. Johnson",
     "sampleAudioUrl": "",
-    "detectionCount": 1590,
+    "registerCount": 1590,
     "confidence": 0.5018,
     "maxConfidence": 0.5018,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 96,
       "Perch": 1590,
       "CustomModel": 45,
       "max": 1590
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Bubo%20virginianus"
   },
   {
     "id": "sp-Buteo_platypterus",
     "scientificName": "Buteo platypterus",
-    "commonName": "",
+    "commonName": "Broad-Winged Hawk",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/112152791/medium.jpg",
+    "attribution": "(c) Andy Pearce 🕊, some rights reserved (CC BY-NC), uploaded by Andy Pearce 🕊",
     "sampleAudioUrl": "",
-    "detectionCount": 11,
+    "registerCount": 11,
     "confidence": 0.2165,
     "maxConfidence": 0.2165,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 3,
       "Perch": 11,
       "CustomModel": 0,
@@ -1612,8 +1612,8 @@ export const speciesData: Species[] = [
         "observationId": "61aadfb0-3e80-6290-f06a-1fc7ea8f0adf"
       }
     ],
-    "firstDetected": "2025-03-31T14:10:00Z",
-    "lastDetected": "2025-04-05T14:10:00Z",
+    "firstRegistered": "2025-03-31T14:10:00Z",
+    "lastRegistered": "2025-04-05T14:10:00Z",
     "mapUrl": "https://mol.org/species/map/Buteo%20platypterus"
   },
   {
@@ -1624,11 +1624,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/56759119/medium.jpg",
     "attribution": "(c) Allan Hopkins; some rights reserved (CC BY-NC-ND)",
     "sampleAudioUrl": "",
-    "detectionCount": 6,
+    "registerCount": 6,
     "confidence": 0.2276,
     "maxConfidence": 0.2276,
-    "lastDetected": "2025-04-05T11:35:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-05T11:35:00Z",
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 6,
       "CustomModel": 1,
@@ -1668,7 +1668,7 @@ export const speciesData: Species[] = [
         "observationId": "93bbf419-6d02-f114-d27d-4c19faec24cb"
       }
     ],
-    "firstDetected": "2025-04-03T13:05:00Z",
+    "firstRegistered": "2025-04-03T13:05:00Z",
     "mapUrl": "https://mol.org/species/map/Buteogallus%20urubitinga"
   },
   {
@@ -1679,11 +1679,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/268858460/medium.jpg",
     "attribution": "(c) Ad Konings; some rights reserved (CC BY-NC); uploaded by Ad Konings",
     "sampleAudioUrl": "",
-    "detectionCount": 20,
+    "registerCount": 20,
     "confidence": 0.4642,
     "maxConfidence": 0.4642,
-    "lastDetected": "2025-04-05T12:40:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-05T12:40:00Z",
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 20,
@@ -1851,7 +1851,7 @@ export const speciesData: Species[] = [
         "observationId": "e4b79f30-2170-0bb2-8346-6b7577c8cf6d"
       }
     ],
-    "firstDetected": "2025-04-02T13:10:00Z",
+    "firstRegistered": "2025-04-02T13:10:00Z",
     "mapUrl": "https://mol.org/species/map/Cacicus%20cela"
   },
   {
@@ -1862,11 +1862,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/648143/medium.jpg",
     "attribution": "(c) Cláudio Dias Timm; some rights reserved (CC BY-NC-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 35,
+    "registerCount": 35,
     "confidence": 0.4478,
     "maxConfidence": 0.4478,
-    "lastDetected": "2025-04-04T17:05:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-04T17:05:00Z",
+    "registerInfo": {
       "BirdNET": 3,
       "Perch": 3,
       "CustomModel": 35,
@@ -2170,7 +2170,7 @@ export const speciesData: Species[] = [
         "observationId": "63701b9f-d42f-2420-185b-62119f406000"
       }
     ],
-    "firstDetected": "2025-03-31T13:35:00Z",
+    "firstRegistered": "2025-03-31T13:35:00Z",
     "mapUrl": "https://mol.org/species/map/Cacicus%20haemorrhous"
   },
   {
@@ -2181,18 +2181,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/75959/medium.jpg",
     "attribution": "(c) Cláudio Dias Timm; some rights reserved (CC BY-NC-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 19,
+    "registerCount": 19,
     "confidence": 0.842,
     "maxConfidence": 0.842,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 19,
       "CustomModel": 5,
       "max": 19
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Campephilus%20robustus"
   },
   {
@@ -2203,11 +2203,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/28180172/medium.jpg",
     "attribution": "(c) Marcio Fontana; all rights reserved; uploaded by Marcio Fontana",
     "sampleAudioUrl": "",
-    "detectionCount": 53,
+    "registerCount": 53,
     "confidence": 0.9989,
     "maxConfidence": 0.9989,
-    "lastDetected": "2025-04-08T17:30:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T17:30:00Z",
+    "registerInfo": {
       "BirdNET": 10,
       "Perch": 53,
       "CustomModel": 14,
@@ -2751,21 +2751,21 @@ export const speciesData: Species[] = [
         "observationId": "8da16373-6f4b-bc01-1fe3-8bdd9512a63c"
       }
     ],
-    "firstDetected": "2025-04-01T09:25:00Z",
+    "firstRegistered": "2025-04-01T09:25:00Z",
     "mapUrl": "https://mol.org/species/map/Camptostoma%20obsoletum"
   },
   {
     "id": "sp-Campylorhynchus_turdinus",
     "scientificName": "Campylorhynchus turdinus",
-    "commonName": "",
+    "commonName": "Thrush-Like Wren",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/64387929/medium.jpg",
+    "attribution": "(c) Nick Athanas, some rights reserved (CC BY-NC-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 6,
+    "registerCount": 6,
     "confidence": 0.3553,
     "maxConfidence": 0.3553,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 6,
       "Perch": 0,
       "CustomModel": 5,
@@ -2813,8 +2813,8 @@ export const speciesData: Species[] = [
         "observationId": "306feefc-4e04-6814-6455-79dda940bbf7"
       }
     ],
-    "firstDetected": "2025-03-31T14:15:00Z",
-    "lastDetected": "2025-04-03T13:35:00Z",
+    "firstRegistered": "2025-03-31T14:15:00Z",
+    "lastRegistered": "2025-04-03T13:35:00Z",
     "mapUrl": "https://mol.org/species/map/Campylorhynchus%20turdinus"
   },
   {
@@ -2825,32 +2825,32 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/152063537/medium.jpg",
     "attribution": "(c) Claudio Martins de Souza; some rights reserved (CC BY-NC); uploaded by Claudio Martins de Souza",
     "sampleAudioUrl": "",
-    "detectionCount": 15,
+    "registerCount": 15,
     "confidence": 0.9165,
     "maxConfidence": 0.9165,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 15,
       "CustomModel": 1,
       "max": 15
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Capsiempis%20flaveola"
   },
   {
     "id": "sp-Catharus_fuscescens",
     "scientificName": "Catharus fuscescens",
-    "commonName": "",
+    "commonName": "Veery",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/169438063/medium.jpeg",
+    "attribution": "(c) Jacob Collison, some rights reserved (CC BY-NC), uploaded by Jacob Collison",
     "sampleAudioUrl": "",
-    "detectionCount": 16,
+    "registerCount": 16,
     "confidence": 0.893,
     "maxConfidence": 0.893,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 16,
       "CustomModel": 0,
@@ -3002,52 +3002,52 @@ export const speciesData: Species[] = [
         "observationId": "fc83d41c-f583-4494-18db-9220c8296b20"
       }
     ],
-    "firstDetected": "2025-03-31T14:10:00Z",
-    "lastDetected": "2025-04-08T08:50:00Z",
+    "firstRegistered": "2025-03-31T14:10:00Z",
+    "lastRegistered": "2025-04-08T08:50:00Z",
     "mapUrl": "https://mol.org/species/map/Catharus%20fuscescens"
   },
   {
     "id": "sp-Catharus_ustulatus",
     "scientificName": "Catharus ustulatus",
-    "commonName": "",
+    "commonName": "Swainson'S Thrush",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/194570525/medium.jpg",
+    "attribution": "(c) Jing-Yi Lu, some rights reserved (CC BY-NC), uploaded by Jing-Yi Lu",
     "sampleAudioUrl": "",
-    "detectionCount": 45,
+    "registerCount": 45,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 3,
       "Perch": 45,
       "CustomModel": 0,
       "max": 45
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Catharus%20ustulatus"
   },
   {
     "id": "sp-Cercomacra_melanaria",
     "scientificName": "Cercomacra melanaria",
-    "commonName": "",
+    "commonName": "Mato Grosso Antbird",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/9004581/medium.jpeg",
+    "attribution": "(c) markus lilje, some rights reserved (CC BY-NC-ND), uploaded by markus lilje",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 2,
       "max": 2
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Cercomacra%20melanaria"
   },
   {
@@ -3058,32 +3058,32 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/101556492/medium.jpeg",
     "attribution": "(c) gstroz; all rights reserved",
     "sampleAudioUrl": "",
-    "detectionCount": 1190,
+    "registerCount": 1190,
     "confidence": 0.6953,
     "maxConfidence": 0.6953,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1190,
       "Perch": 648,
       "CustomModel": 1056,
       "max": 1190
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Chiroxiphia%20caudata"
   },
   {
     "id": "sp-Chiroxiphia_pareola",
     "scientificName": "Chiroxiphia pareola",
-    "commonName": "",
+    "commonName": "Blue-Backed Manakin",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://static.inaturalist.org/photos/73670587/medium.jpg",
+    "attribution": "(c) Marcelo Maux, all rights reserved, uploaded by Marcelo Maux",
     "sampleAudioUrl": "",
-    "detectionCount": 6,
+    "registerCount": 6,
     "confidence": 0.8446,
     "maxConfidence": 0.8446,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 6,
       "CustomModel": 3,
@@ -3155,8 +3155,8 @@ export const speciesData: Species[] = [
         "observationId": "419902d5-82c3-9e07-ba9e-9515e95a3547"
       }
     ],
-    "firstDetected": "2025-03-31T14:10:00Z",
-    "lastDetected": "2025-04-03T16:35:00Z",
+    "firstRegistered": "2025-03-31T14:10:00Z",
+    "lastRegistered": "2025-04-03T16:35:00Z",
     "mapUrl": "https://mol.org/species/map/Chiroxiphia%20pareola"
   },
   {
@@ -3167,11 +3167,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/58961887/medium.jpg",
     "attribution": "(c) Joao Quental; all rights reserved; uploaded by Joao Quental",
     "sampleAudioUrl": "",
-    "detectionCount": 4,
+    "registerCount": 4,
     "confidence": 0.2052,
     "maxConfidence": 0.2052,
-    "lastDetected": "2025-04-04T17:25:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-04T17:25:00Z",
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 4,
       "CustomModel": 1,
@@ -3211,7 +3211,7 @@ export const speciesData: Species[] = [
         "observationId": "615ebee9-2b30-0ce7-672c-00ebe0af4188"
       }
     ],
-    "firstDetected": "2025-04-03T08:10:00Z",
+    "firstRegistered": "2025-04-03T08:10:00Z",
     "mapUrl": "https://mol.org/species/map/Chlorophanes%20spiza"
   },
   {
@@ -3222,18 +3222,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/95545/medium.jpg",
     "attribution": "(c) Dave Curtis; some rights reserved (CC BY-NC-ND)",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.5009,
     "maxConfidence": 0.5009,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 1,
       "CustomModel": 1,
       "max": 1
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Chlorophonia%20cyanea"
   },
   {
@@ -3244,11 +3244,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/279194539/medium.jpg",
     "attribution": "(c) Mike Stewart; some rights reserved (CC BY-NC); uploaded by Mike Stewart",
     "sampleAudioUrl": "",
-    "detectionCount": 4,
+    "registerCount": 4,
     "confidence": 0.6352,
     "maxConfidence": 0.6352,
-    "lastDetected": "2025-04-01T17:50:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-01T17:50:00Z",
+    "registerInfo": {
       "BirdNET": 4,
       "Perch": 2,
       "CustomModel": 0,
@@ -3272,7 +3272,7 @@ export const speciesData: Species[] = [
         "observationId": "93451bc1-dcb8-bafc-9703-bf0c1074f65d"
       }
     ],
-    "firstDetected": "2025-04-01T17:40:00Z",
+    "firstRegistered": "2025-04-01T17:40:00Z",
     "mapUrl": "https://mol.org/species/map/Chordeiles%20minor"
   },
   {
@@ -3283,18 +3283,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/106682699/medium.jpeg",
     "attribution": "(c) Maicon Molina; all rights reserved; uploaded by Maicon Molina",
     "sampleAudioUrl": "",
-    "detectionCount": 10,
+    "registerCount": 10,
     "confidence": 0.5588,
     "maxConfidence": 0.5588,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 7,
       "Perch": 1,
       "CustomModel": 10,
       "max": 10
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Cichlocolaptes%20leucophrus"
   },
   {
@@ -3305,11 +3305,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/136201418/medium.jpg",
     "attribution": "(c) Mike Hooper; all rights reserved; uploaded by Mike Hooper",
     "sampleAudioUrl": "",
-    "detectionCount": 5,
+    "registerCount": 5,
     "confidence": 0.6071,
     "maxConfidence": 0.6071,
-    "lastDetected": "2025-04-05T15:10:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-05T15:10:00Z",
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 1,
       "CustomModel": 5,
@@ -3357,29 +3357,29 @@ export const speciesData: Species[] = [
         "observationId": "f244f5e6-c456-b939-668e-cc2539ab03d5"
       }
     ],
-    "firstDetected": "2025-03-31T12:05:00Z",
+    "firstRegistered": "2025-03-31T12:05:00Z",
     "mapUrl": "https://mol.org/species/map/Claravis%20pretiosa"
   },
   {
     "id": "sp-Clibanornis_dendrocolaptoides",
     "scientificName": "Clibanornis dendrocolaptoides",
-    "commonName": "",
+    "commonName": "Canebrake Groundcreeper",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://static.inaturalist.org/photos/394047908/medium.jpg",
+    "attribution": "(c) Celso Modesto Jr., all rights reserved, uploaded by Celso Modesto Jr.",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 0,
       "CustomModel": 2,
       "max": 2
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Clibanornis%20dendrocolaptoides"
   },
   {
@@ -3390,11 +3390,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/207544720/medium.jpg",
     "attribution": "(c) Mason Maron; all rights reserved; uploaded by Mason Maron",
     "sampleAudioUrl": "",
-    "detectionCount": 160,
+    "registerCount": 160,
     "confidence": 0.9907,
     "maxConfidence": 0.9907,
-    "lastDetected": "2025-04-08T21:30:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T21:30:00Z",
+    "registerInfo": {
       "BirdNET": 39,
       "Perch": 160,
       "CustomModel": 1,
@@ -4586,7 +4586,7 @@ export const speciesData: Species[] = [
         "observationId": "2a779cd4-47a8-8bfd-17b6-6fd32c0a3bd0"
       }
     ],
-    "firstDetected": "2025-03-31T12:50:00Z",
+    "firstRegistered": "2025-03-31T12:50:00Z",
     "mapUrl": "https://mol.org/species/map/Coereba%20flaveola"
   },
   {
@@ -4597,18 +4597,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/233462427/medium.jpg",
     "attribution": "(c) Laurent Quéno; some rights reserved (CC BY-NC); uploaded by Laurent Quéno",
     "sampleAudioUrl": "",
-    "detectionCount": 55,
+    "registerCount": 55,
     "confidence": 0.7194,
     "maxConfidence": 0.7194,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 32,
       "Perch": 55,
       "CustomModel": 23,
       "max": 55
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Colonia%20colonus"
   },
   {
@@ -4619,11 +4619,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/466776975/medium.jpg",
     "attribution": "(c) Birds of Gilgit-Baltistan; some rights reserved (CC BY-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 4,
+    "registerCount": 4,
     "confidence": 0.1053,
     "maxConfidence": 0.1053,
-    "lastDetected": "2025-04-03T11:50:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-03T11:50:00Z",
+    "registerInfo": {
       "BirdNET": 4,
       "Perch": 1,
       "CustomModel": 1,
@@ -4647,7 +4647,7 @@ export const speciesData: Species[] = [
         "observationId": "0d705275-018a-17f1-c7ea-1231b21c9187"
       }
     ],
-    "firstDetected": "2025-03-31T14:00:00Z",
+    "firstRegistered": "2025-03-31T14:00:00Z",
     "mapUrl": "https://mol.org/species/map/Columba%20livia"
   },
   {
@@ -4658,18 +4658,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/105253280/medium.jpg",
     "attribution": "(c) Joao Quental; all rights reserved; uploaded by Joao Quental",
     "sampleAudioUrl": "",
-    "detectionCount": 30,
+    "registerCount": 30,
     "confidence": 0.5941,
     "maxConfidence": 0.5941,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 11,
       "Perch": 14,
       "CustomModel": 30,
       "max": 30
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Conirostrum%20speciosum"
   },
   {
@@ -4680,18 +4680,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/8651080/medium.jpg",
     "attribution": "(c) fabiomanfredini; some rights reserved (CC BY-NC); uploaded by fabiomanfredini",
     "sampleAudioUrl": "",
-    "detectionCount": 29,
+    "registerCount": 29,
     "confidence": 0.5552,
     "maxConfidence": 0.5552,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 26,
       "Perch": 27,
       "CustomModel": 29,
       "max": 29
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Conopophaga%20lineata"
   },
   {
@@ -4702,18 +4702,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/223774510/medium.jpg",
     "attribution": "no rights reserved; uploaded by Paulo Mascaretti",
     "sampleAudioUrl": "",
-    "detectionCount": 4,
+    "registerCount": 4,
     "confidence": 0.6395,
     "maxConfidence": 0.6395,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 1,
       "CustomModel": 4,
       "max": 4
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Conopophaga%20melanops"
   },
   {
@@ -4724,18 +4724,18 @@ export const speciesData: Species[] = [
     "imageUrl": "",
     "attribution": "",
     "sampleAudioUrl": "",
-    "detectionCount": 65,
+    "registerCount": 65,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 10,
       "Perch": 65,
       "CustomModel": 0,
       "max": 65
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Contopus%20virescens"
   },
   {
@@ -4746,18 +4746,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/14689662/medium.jpg",
     "attribution": "(c) llsproat; some rights reserved (CC BY-NC-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.2711,
     "maxConfidence": 0.2711,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 1,
       "CustomModel": 0,
       "max": 1
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Coragyps%20atratus"
   },
   {
@@ -4768,54 +4768,54 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/556103716/medium.jpg",
     "attribution": "(c) Gustavo Dallaqua; all rights reserved; uploaded by Gustavo Dallaqua",
     "sampleAudioUrl": "",
-    "detectionCount": 174,
+    "registerCount": 174,
     "confidence": 0.939,
     "maxConfidence": 0.939,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 15,
       "Perch": 174,
       "CustomModel": 128,
       "max": 174
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Corythopis%20delalandi"
   },
   {
     "id": "sp-Crax_fasciolata",
     "scientificName": "Crax fasciolata",
-    "commonName": "",
+    "commonName": "Bare-Faced Curassow",
     "iucnStatus": "NT",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/379960/medium.JPG",
+    "attribution": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
     "sampleAudioUrl": "",
-    "detectionCount": 22,
+    "registerCount": 22,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 19,
       "CustomModel": 22,
       "max": 22
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Crax%20fasciolata"
   },
   {
     "id": "sp-Crypturellus_cinereus",
     "scientificName": "Crypturellus cinereus",
-    "commonName": "",
+    "commonName": "Cinereous Tinamou",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/356053303/medium.jpg",
+    "attribution": "(c) Josh van der Meulen, some rights reserved (CC BY-NC-ND), uploaded by Josh van der Meulen",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.2124,
     "maxConfidence": 0.2124,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 1,
@@ -4831,8 +4831,8 @@ export const speciesData: Species[] = [
         "observationId": "fa9a8e0a-7cb2-8923-5323-aa4b4378d47d"
       }
     ],
-    "firstDetected": "2025-04-04T09:20:00Z",
-    "lastDetected": "2025-04-04T09:20:00Z",
+    "firstRegistered": "2025-04-04T09:20:00Z",
+    "lastRegistered": "2025-04-04T09:20:00Z",
     "mapUrl": "https://mol.org/species/map/Crypturellus%20cinereus"
   },
   {
@@ -4843,18 +4843,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/86359703/medium.jpg",
     "attribution": "(c) Juan Diego Döke; some rights reserved (CC BY-NC); uploaded by Juan Diego Döke",
     "sampleAudioUrl": "",
-    "detectionCount": 53,
+    "registerCount": 53,
     "confidence": 0.3448,
     "maxConfidence": 0.3448,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 44,
       "Perch": 53,
       "CustomModel": 26,
       "max": 53
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Crypturellus%20obsoletus"
   },
   {
@@ -4865,11 +4865,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/582371550/medium.jpg",
     "attribution": "(c) Santi MD; some rights reserved (CC BY-NC); uploaded by Santi MD",
     "sampleAudioUrl": "",
-    "detectionCount": 17,
+    "registerCount": 17,
     "confidence": 0.2311,
     "maxConfidence": 0.2311,
-    "lastDetected": "2025-04-06T09:35:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-06T09:35:00Z",
+    "registerInfo": {
       "BirdNET": 8,
       "Perch": 5,
       "CustomModel": 17,
@@ -5045,7 +5045,7 @@ export const speciesData: Species[] = [
         "observationId": "9bae514f-e6fb-e858-bd44-33965df35503"
       }
     ],
-    "firstDetected": "2025-03-31T14:05:00Z",
+    "firstRegistered": "2025-03-31T14:05:00Z",
     "mapUrl": "https://mol.org/species/map/Crypturellus%20soui"
   },
   {
@@ -5056,40 +5056,40 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/173079358/medium.jpeg",
     "attribution": "(c) Jeanne Martins Nascimento; some rights reserved (CC BY-NC); uploaded by Jeanne Martins Nascimento",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.7555,
     "maxConfidence": 0.7555,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 1,
       "CustomModel": 1,
       "max": 1
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Crypturellus%20tataupa"
   },
   {
     "id": "sp-Crypturellus_undulatus",
     "scientificName": "Crypturellus undulatus",
-    "commonName": "",
+    "commonName": "Undulated Tinamou",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/428604621/medium.jpeg",
+    "attribution": "(c) Darren Obbard, some rights reserved (CC BY), uploaded by Darren Obbard",
     "sampleAudioUrl": "",
-    "detectionCount": 8,
+    "registerCount": 8,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 8,
       "Perch": 1,
       "CustomModel": 0,
       "max": 8
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Crypturellus%20undulatus"
   },
   {
@@ -5100,11 +5100,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/71632226/medium.jpg",
     "attribution": "(c) Oswaldo Hernández; some rights reserved (CC BY-NC); uploaded by Oswaldo Hernández",
     "sampleAudioUrl": "",
-    "detectionCount": 15,
+    "registerCount": 15,
     "confidence": 0.417,
     "maxConfidence": 0.417,
-    "lastDetected": "2025-04-05T14:25:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-05T14:25:00Z",
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 2,
       "CustomModel": 15,
@@ -5272,7 +5272,7 @@ export const speciesData: Species[] = [
         "observationId": "a102729b-a49e-a73e-ee52-071ae68aaa21"
       }
     ],
-    "firstDetected": "2025-03-31T15:55:00Z",
+    "firstRegistered": "2025-03-31T15:55:00Z",
     "mapUrl": "https://mol.org/species/map/Cyclarhis%20gujanensis"
   },
   {
@@ -5283,11 +5283,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/65613623/medium.jpg",
     "attribution": "(c) Hudson Martins Soares; some rights reserved (CC BY-NC); uploaded by Hudson Martins Soares",
     "sampleAudioUrl": "",
-    "detectionCount": 67,
+    "registerCount": 67,
     "confidence": 0.7433,
     "maxConfidence": 0.7433,
-    "lastDetected": "2025-04-08T10:00:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T10:00:00Z",
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 67,
       "CustomModel": 9,
@@ -5927,21 +5927,21 @@ export const speciesData: Species[] = [
         "observationId": "d4b19128-e809-add1-ad2c-cb76ba07052d"
       }
     ],
-    "firstDetected": "2025-03-31T11:55:00Z",
+    "firstRegistered": "2025-03-31T11:55:00Z",
     "mapUrl": "https://mol.org/species/map/Dacnis%20cayana"
   },
   {
     "id": "sp-Dendrexetastes_rufigula",
     "scientificName": "Dendrexetastes rufigula",
-    "commonName": "",
+    "commonName": "Cinnamon-Throated Woodcreeper",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/565469/medium.jpg",
+    "attribution": "(c) Cláudio Dias Timm, some rights reserved (CC BY-NC-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 11,
+    "registerCount": 11,
     "confidence": 0.4455,
     "maxConfidence": 0.4455,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 2,
       "CustomModel": 11,
@@ -6053,8 +6053,8 @@ export const speciesData: Species[] = [
         "observationId": "2274a9a8-8523-31d1-18f2-1c9ccb631869"
       }
     ],
-    "firstDetected": "2025-03-31T21:35:00Z",
-    "lastDetected": "2025-04-08T11:25:00Z",
+    "firstRegistered": "2025-03-31T21:35:00Z",
+    "lastRegistered": "2025-04-08T11:25:00Z",
     "mapUrl": "https://mol.org/species/map/Dendrexetastes%20rufigula"
   },
   {
@@ -6065,11 +6065,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/2633520/medium.JPG",
     "attribution": "(c) Carmelo López Abad; some rights reserved (CC BY-NC); uploaded by Carmelo López Abad",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0.1155,
     "maxConfidence": 0.1155,
-    "lastDetected": "2025-04-01T18:10:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-01T18:10:00Z",
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 1,
       "CustomModel": 1,
@@ -6085,7 +6085,7 @@ export const speciesData: Species[] = [
         "observationId": "e6e832f2-3df5-5fe9-31a6-3e63d040df74"
       }
     ],
-    "firstDetected": "2025-04-01T18:10:00Z",
+    "firstRegistered": "2025-04-01T18:10:00Z",
     "mapUrl": "https://mol.org/species/map/Dendrocincla%20fuliginosa"
   },
   {
@@ -6096,18 +6096,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/10474608/medium.jpg",
     "attribution": "(c) Instituto Últimos Refúgios; some rights reserved (CC BY-NC); uploaded by Instituto Últimos Refúgios",
     "sampleAudioUrl": "",
-    "detectionCount": 3,
+    "registerCount": 3,
     "confidence": 0.901,
     "maxConfidence": 0.901,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 3,
       "Perch": 0,
       "CustomModel": 2,
       "max": 3
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Dendrocincla%20turdina"
   },
   {
@@ -6118,32 +6118,32 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/384070/medium.JPG",
     "attribution": "(c) Carmelo López Abad; some rights reserved (CC BY-NC); uploaded by Carmelo López Abad",
     "sampleAudioUrl": "",
-    "detectionCount": 2442,
+    "registerCount": 2442,
     "confidence": 0.9445,
     "maxConfidence": 0.9445,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 2442,
       "CustomModel": 5,
       "max": 2442
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Dendrocolaptes%20platyrostris"
   },
   {
     "id": "sp-Dendroplex_picus",
     "scientificName": "Dendroplex picus",
-    "commonName": "",
+    "commonName": "Straight-Billed Woodcreeper",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://static.inaturalist.org/photos/343558926/medium.jpg",
+    "attribution": "(c) Scott Walmsley, all rights reserved, uploaded by Scott Walmsley",
     "sampleAudioUrl": "",
-    "detectionCount": 7,
+    "registerCount": 7,
     "confidence": 0.4313,
     "maxConfidence": 0.4313,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 7,
       "CustomModel": 0,
@@ -6191,52 +6191,52 @@ export const speciesData: Species[] = [
         "observationId": "646d498a-3594-33d1-fc39-ae5fef11f71f"
       }
     ],
-    "firstDetected": "2025-04-01T08:30:00Z",
-    "lastDetected": "2025-04-04T08:20:00Z",
+    "firstRegistered": "2025-04-01T08:30:00Z",
+    "lastRegistered": "2025-04-04T08:20:00Z",
     "mapUrl": "https://mol.org/species/map/Dendroplex%20picus"
   },
   {
     "id": "sp-Dichrozona_cincta",
     "scientificName": "Dichrozona cincta",
-    "commonName": "",
+    "commonName": "Banded Antbird",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://static.inaturalist.org/photos/262788745/medium.jpg",
+    "attribution": "(c) Luiz Fernando Matos, all rights reserved, uploaded by Luiz Fernando Matos",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 1,
       "CustomModel": 0,
       "max": 1
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Dichrozona%20cincta"
   },
   {
     "id": "sp-Drymophila_genei",
     "scientificName": "Drymophila genei",
-    "commonName": "",
+    "commonName": "Rufous-Tailed Antbird",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/27918409/medium.jpeg",
+    "attribution": "(c) Rob Van Epps, some rights reserved (CC BY-NC), uploaded by Rob Van Epps",
     "sampleAudioUrl": "",
-    "detectionCount": 3,
+    "registerCount": 3,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 3,
       "max": 3
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Drymophila%20genei"
   },
   {
@@ -6247,18 +6247,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/90370020/medium.jpeg",
     "attribution": "(c) Maicon Molina; all rights reserved; uploaded by Maicon Molina",
     "sampleAudioUrl": "",
-    "detectionCount": 4,
+    "registerCount": 4,
     "confidence": 0.9239,
     "maxConfidence": 0.9239,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 1,
       "CustomModel": 4,
       "max": 4
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Drymophila%20malura"
   },
   {
@@ -6269,18 +6269,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/340722800/medium.jpeg",
     "attribution": "(c) Laura Gaudette; some rights reserved (CC BY); uploaded by Laura Gaudette",
     "sampleAudioUrl": "",
-    "detectionCount": 417,
+    "registerCount": 417,
     "confidence": 0.8119,
     "maxConfidence": 0.8119,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 417,
       "Perch": 371,
       "CustomModel": 303,
       "max": 417
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Drymophila%20ochropyga"
   },
   {
@@ -6291,18 +6291,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/213337059/medium.jpg",
     "attribution": "(c) Luciano Bernardes; some rights reserved (CC BY-NC); uploaded by Luciano Bernardes",
     "sampleAudioUrl": "",
-    "detectionCount": 10,
+    "registerCount": 10,
     "confidence": 0.4669,
     "maxConfidence": 0.4669,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 7,
       "Perch": 2,
       "CustomModel": 10,
       "max": 10
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Drymophila%20squamata"
   },
   {
@@ -6313,18 +6313,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/204756402/medium.jpg",
     "attribution": "(c) Joao Quental; all rights reserved; uploaded by Joao Quental",
     "sampleAudioUrl": "",
-    "detectionCount": 33,
+    "registerCount": 33,
     "confidence": 0.8755,
     "maxConfidence": 0.8755,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 26,
       "Perch": 33,
       "CustomModel": 21,
       "max": 33
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Dysithamnus%20mentalis"
   },
   {
@@ -6335,40 +6335,40 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/92583336/medium.jpg",
     "attribution": "(c) Joao Quental; all rights reserved; uploaded by Joao Quental",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.4546,
     "maxConfidence": 0.4546,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 1,
       "max": 1
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Dysithamnus%20stictothorax"
   },
   {
     "id": "sp-Dysithamnus_xanthopterus",
     "scientificName": "Dysithamnus xanthopterus",
-    "commonName": "",
+    "commonName": "Rufous-Backed Antvireo",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://static.inaturalist.org/photos/63754173/medium.jpg",
+    "attribution": "(c) Eden Fontes, all rights reserved, uploaded by Eden Fontes",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 0,
       "CustomModel": 2,
       "max": 2
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Dysithamnus%20xanthopterus"
   },
   {
@@ -6379,11 +6379,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/79031477/medium.jpg",
     "attribution": "(c) Oswaldo Hernández; some rights reserved (CC BY-NC); uploaded by Oswaldo Hernández",
     "sampleAudioUrl": "",
-    "detectionCount": 5,
+    "registerCount": 5,
     "confidence": 0.5813,
     "maxConfidence": 0.5813,
-    "lastDetected": "2025-04-07T17:25:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-07T17:25:00Z",
+    "registerInfo": {
       "BirdNET": 5,
       "Perch": 3,
       "CustomModel": 4,
@@ -6439,7 +6439,7 @@ export const speciesData: Species[] = [
         "observationId": "beddda4a-1b9b-893b-9393-cf1c9672c874"
       }
     ],
-    "firstDetected": "2025-04-05T11:55:00Z",
+    "firstRegistered": "2025-04-05T11:55:00Z",
     "mapUrl": "https://mol.org/species/map/Elaenia%20chiriquensis"
   },
   {
@@ -6450,62 +6450,62 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/118419148/medium.jpg",
     "attribution": "(c) Luciano Bernardes; some rights reserved (CC BY-NC); uploaded by Luciano Bernardes",
     "sampleAudioUrl": "",
-    "detectionCount": 6,
+    "registerCount": 6,
     "confidence": 0.756,
     "maxConfidence": 0.756,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 6,
       "Perch": 6,
       "CustomModel": 2,
       "max": 6
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Eleoscytalopus%20indigoticus"
   },
   {
     "id": "sp-Empidonax_alnorum",
     "scientificName": "Empidonax alnorum",
-    "commonName": "",
+    "commonName": "Alder Flycatcher",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/14906697/medium.jpg",
+    "attribution": "(c) Mark Dennis, some rights reserved (CC BY-NC), uploaded by Mark Dennis",
     "sampleAudioUrl": "",
-    "detectionCount": 218,
+    "registerCount": 218,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 6,
       "Perch": 218,
       "CustomModel": 0,
       "max": 218
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Empidonax%20alnorum"
   },
   {
     "id": "sp-Epinecrophylla_leucophthalma",
     "scientificName": "Epinecrophylla leucophthalma",
-    "commonName": "",
+    "commonName": "White-Eyed Stipplethroat",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/345127325/medium.jpg",
+    "attribution": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson",
     "sampleAudioUrl": "",
-    "detectionCount": 3,
+    "registerCount": 3,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 3,
       "Perch": 2,
       "CustomModel": 3,
       "max": 3
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Epinecrophylla%20leucophthalma"
   },
   {
@@ -6516,11 +6516,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/84311/medium.jpg",
     "attribution": "(c) Aralcal; some rights reserved (CC BY-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 26,
+    "registerCount": 26,
     "confidence": 0.4894,
     "maxConfidence": 0.4894,
-    "lastDetected": "2025-04-08T10:40:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T10:40:00Z",
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 26,
       "CustomModel": 3,
@@ -6664,7 +6664,7 @@ export const speciesData: Species[] = [
         "observationId": "9e6bd5a2-c774-3737-2dd1-4a0db2360357"
       }
     ],
-    "firstDetected": "2025-03-31T12:45:00Z",
+    "firstRegistered": "2025-03-31T12:45:00Z",
     "mapUrl": "https://mol.org/species/map/Eucometis%20penicillata"
   },
   {
@@ -6675,11 +6675,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/176773163/medium.jpg",
     "attribution": "(c) Egon Fink; some rights reserved (CC BY)",
     "sampleAudioUrl": "",
-    "detectionCount": 56,
+    "registerCount": 56,
     "confidence": 0.9902,
     "maxConfidence": 0.9902,
-    "lastDetected": "2025-04-08T12:50:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T12:50:00Z",
+    "registerInfo": {
       "BirdNET": 21,
       "Perch": 43,
       "CustomModel": 56,
@@ -7471,7 +7471,7 @@ export const speciesData: Species[] = [
         "observationId": "6ea373ee-3e65-10b9-a7ab-2b565b0d5e1a"
       }
     ],
-    "firstDetected": "2025-04-01T07:20:00Z",
+    "firstRegistered": "2025-04-01T07:20:00Z",
     "mapUrl": "https://mol.org/species/map/Euphonia%20chlorotica"
   },
   {
@@ -7482,11 +7482,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/28179600/medium.jpg",
     "attribution": "(c) Marcio Fontana; all rights reserved; uploaded by Marcio Fontana",
     "sampleAudioUrl": "",
-    "detectionCount": 3,
+    "registerCount": 3,
     "confidence": 0.1991,
     "maxConfidence": 0.1991,
-    "lastDetected": "2025-04-04T10:25:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-04T10:25:00Z",
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 1,
       "CustomModel": 3,
@@ -7526,21 +7526,21 @@ export const speciesData: Species[] = [
         "observationId": "0516b7f4-b706-626f-b36c-a56b87128055"
       }
     ],
-    "firstDetected": "2025-04-01T10:50:00Z",
+    "firstRegistered": "2025-04-01T10:50:00Z",
     "mapUrl": "https://mol.org/species/map/Euphonia%20violacea"
   },
   {
     "id": "sp-Formicarius_analis",
     "scientificName": "Formicarius analis",
-    "commonName": "",
+    "commonName": "Black-Faced Antthrush",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/466502680/medium.jpeg",
+    "attribution": "(c) Andrés Paniagua, some rights reserved (CC BY-NC), uploaded by Andrés Paniagua",
     "sampleAudioUrl": "",
-    "detectionCount": 5,
+    "registerCount": 5,
     "confidence": 0.2412,
     "maxConfidence": 0.2412,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 5,
       "CustomModel": 1,
@@ -7572,8 +7572,8 @@ export const speciesData: Species[] = [
         "observationId": "dadc205c-b401-a5e9-5dc1-fc5817f7600b"
       }
     ],
-    "firstDetected": "2025-04-04T09:35:00Z",
-    "lastDetected": "2025-04-05T09:50:00Z",
+    "firstRegistered": "2025-04-04T09:35:00Z",
+    "lastRegistered": "2025-04-05T09:50:00Z",
     "mapUrl": "https://mol.org/species/map/Formicarius%20analis"
   },
   {
@@ -7584,11 +7584,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/648185/medium.jpg",
     "attribution": "(c) Dario Sanches; some rights reserved (CC BY-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 4,
+    "registerCount": 4,
     "confidence": 0.4945,
     "maxConfidence": 0.4945,
-    "lastDetected": "2025-04-08T18:00:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T18:00:00Z",
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 4,
       "CustomModel": 4,
@@ -7660,7 +7660,7 @@ export const speciesData: Species[] = [
         "observationId": "3a7e5107-b07b-2bcf-48ca-802378f5b951"
       }
     ],
-    "firstDetected": "2025-04-03T11:55:00Z",
+    "firstRegistered": "2025-04-03T11:55:00Z",
     "mapUrl": "https://mol.org/species/map/Formicarius%20colma"
   },
   {
@@ -7671,18 +7671,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/29289299/medium.jpg",
     "attribution": "(c) Rolando Chavez; all rights reserved; uploaded by Rolando Chavez",
     "sampleAudioUrl": "",
-    "detectionCount": 4,
+    "registerCount": 4,
     "confidence": 0.6745,
     "maxConfidence": 0.6745,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 3,
       "Perch": 2,
       "CustomModel": 4,
       "max": 4
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Galbula%20ruficauda"
   },
   {
@@ -7693,18 +7693,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/390363916/medium.jpg",
     "attribution": "(c) Luciano Bernardes; some rights reserved (CC BY-NC); uploaded by Luciano Bernardes",
     "sampleAudioUrl": "",
-    "detectionCount": 57,
+    "registerCount": 57,
     "confidence": 0.572,
     "maxConfidence": 0.572,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 57,
       "Perch": 14,
       "CustomModel": 0,
       "max": 57
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Gallinago%20undulata"
   },
   {
@@ -7715,18 +7715,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/171773229/medium.jpg",
     "attribution": "(c) Alexis Lours; some rights reserved (CC BY); uploaded by Alexis Lours",
     "sampleAudioUrl": "",
-    "detectionCount": 90,
+    "registerCount": 90,
     "confidence": 0.6838,
     "maxConfidence": 0.6838,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 3,
       "Perch": 90,
       "CustomModel": 0,
       "max": 90
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Gallinula%20chloropus"
   },
   {
@@ -7737,11 +7737,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/257226707/medium.jpg",
     "attribution": "(c) Brennan Moore; some rights reserved (CC BY-NC); uploaded by Brennan Moore",
     "sampleAudioUrl": "",
-    "detectionCount": 11,
+    "registerCount": 11,
     "confidence": 0.7788,
     "maxConfidence": 0.7788,
-    "lastDetected": "2025-04-07T21:20:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-07T21:20:00Z",
+    "registerInfo": {
       "BirdNET": 11,
       "Perch": 9,
       "CustomModel": 11,
@@ -7901,7 +7901,7 @@ export const speciesData: Species[] = [
         "observationId": "4ef68231-7edf-3e6c-3ef2-70ce3c47733d"
       }
     ],
-    "firstDetected": "2025-03-31T13:00:00Z",
+    "firstRegistered": "2025-03-31T13:00:00Z",
     "mapUrl": "https://mol.org/species/map/Geotrygon%20montana"
   },
   {
@@ -7912,11 +7912,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/95577167/medium.jpg",
     "attribution": "(c) Felipe Eduardo San Martín González; all rights reserved; uploaded by Felipe Eduardo San Martín González",
     "sampleAudioUrl": "",
-    "detectionCount": 3,
+    "registerCount": 3,
     "confidence": 0.1803,
     "maxConfidence": 0.1803,
-    "lastDetected": "2025-04-07T13:00:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-07T13:00:00Z",
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 3,
       "CustomModel": 1,
@@ -7956,43 +7956,43 @@ export const speciesData: Species[] = [
         "observationId": "c7222180-5fc0-24a0-43fb-909a1a992bf9"
       }
     ],
-    "firstDetected": "2025-04-01T10:50:00Z",
+    "firstRegistered": "2025-04-01T10:50:00Z",
     "mapUrl": "https://mol.org/species/map/Glaucidium%20brasilianum"
   },
   {
     "id": "sp-Grallaria_guatimalensis",
     "scientificName": "Grallaria guatimalensis",
-    "commonName": "",
+    "commonName": "Scaled Antpitta",
     "iucnStatus": "EN",
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/280189112/large.jpg",
     "attribution": "",
     "sampleAudioUrl": "",
-    "detectionCount": 11,
+    "registerCount": 11,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 11,
       "Perch": 2,
       "CustomModel": 0,
       "max": 11
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Grallaria%20guatimalensis"
   },
   {
     "id": "sp-Grallaria_varia",
     "scientificName": "Grallaria varia",
-    "commonName": "",
+    "commonName": "Variegated Antpitta",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/5901291/medium.jpg",
+    "attribution": "(c) fabiomanfredini, some rights reserved (CC BY-NC), uploaded by fabiomanfredini",
     "sampleAudioUrl": "",
-    "detectionCount": 116,
+    "registerCount": 116,
     "confidence": 0.419,
     "maxConfidence": 0.419,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 116,
       "CustomModel": 17,
@@ -8320,8 +8320,8 @@ export const speciesData: Species[] = [
         "observationId": "1e62c3a5-2c51-852f-a9f4-0d43e18f7629"
       }
     ],
-    "firstDetected": "2025-04-02T04:20:00Z",
-    "lastDetected": "2025-04-06T04:45:00Z",
+    "firstRegistered": "2025-04-02T04:20:00Z",
+    "lastRegistered": "2025-04-06T04:45:00Z",
     "mapUrl": "https://mol.org/species/map/Grallaria%20varia"
   },
   {
@@ -8332,11 +8332,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/424905909/medium.jpg",
     "attribution": "(c) Enéas V. Gouvêa Junior; some rights reserved (CC BY-SA); uploaded by Enéas V. Gouvêa Junior",
     "sampleAudioUrl": "",
-    "detectionCount": 35,
+    "registerCount": 35,
     "confidence": 0.5175,
     "maxConfidence": 0.5175,
-    "lastDetected": "2025-04-08T12:00:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T12:00:00Z",
+    "registerInfo": {
       "BirdNET": 6,
       "Perch": 3,
       "CustomModel": 35,
@@ -8640,7 +8640,7 @@ export const speciesData: Species[] = [
         "observationId": "d4b19128-e809-add1-ad2c-cb76ba07052d"
       }
     ],
-    "firstDetected": "2025-04-01T09:20:00Z",
+    "firstRegistered": "2025-04-01T09:20:00Z",
     "mapUrl": "https://mol.org/species/map/Habia%20rubica"
   },
   {
@@ -8651,18 +8651,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/1507236/medium.jpg",
     "attribution": "(c) Nigel Voaden; some rights reserved (CC BY)",
     "sampleAudioUrl": "",
-    "detectionCount": 465,
+    "registerCount": 465,
     "confidence": 0.6909,
     "maxConfidence": 0.6909,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 462,
       "Perch": 369,
       "CustomModel": 465,
       "max": 465
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Haplospiza%20unicolor"
   },
   {
@@ -8673,18 +8673,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/119051399/medium.jpg",
     "attribution": "(c) Luciano Bernardes; some rights reserved (CC BY-NC); uploaded by Luciano Bernardes",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.734,
     "maxConfidence": 0.734,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 1,
       "CustomModel": 0,
       "max": 1
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Heliothryx%20auritus"
   },
   {
@@ -8695,11 +8695,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/109203635/medium.jpeg",
     "attribution": "(c) Frederico Acaz Sonntag; some rights reserved (CC BY-NC); uploaded by Frederico Acaz Sonntag",
     "sampleAudioUrl": "",
-    "detectionCount": 37,
+    "registerCount": 37,
     "confidence": 0.3706,
     "maxConfidence": 0.3706,
-    "lastDetected": "2025-04-08T18:15:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T18:15:00Z",
+    "registerInfo": {
       "BirdNET": 7,
       "Perch": 37,
       "CustomModel": 11,
@@ -9027,7 +9027,7 @@ export const speciesData: Species[] = [
         "observationId": "327dd647-ebb8-440d-d6e6-f7550c33ffa0"
       }
     ],
-    "firstDetected": "2025-03-31T18:25:00Z",
+    "firstRegistered": "2025-03-31T18:25:00Z",
     "mapUrl": "https://mol.org/species/map/Hemithraupis%20guira"
   },
   {
@@ -9038,18 +9038,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/64718673/medium.jpg",
     "attribution": "(c) Hudson Martins Soares; some rights reserved (CC BY-NC); uploaded by Hudson Martins Soares",
     "sampleAudioUrl": "",
-    "detectionCount": 191,
+    "registerCount": 191,
     "confidence": 0.2015,
     "maxConfidence": 0.2015,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 1,
       "CustomModel": 191,
       "max": 191
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Hemithraupis%20ruficapilla"
   },
   {
@@ -9060,62 +9060,62 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/63679139/medium.jpg",
     "attribution": "(c) Eden Fontes; all rights reserved; uploaded by Eden Fontes",
     "sampleAudioUrl": "",
-    "detectionCount": 27,
+    "registerCount": 27,
     "confidence": 0.6124,
     "maxConfidence": 0.6124,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 21,
       "Perch": 27,
       "CustomModel": 13,
       "max": 27
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Hemitriccus%20diops"
   },
   {
     "id": "sp-Hemitriccus_furcatus",
     "scientificName": "Hemitriccus furcatus",
-    "commonName": "",
+    "commonName": "Fork-Tailed Pygmy-Tyrant",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://static.inaturalist.org/photos/227102311/medium.jpeg",
+    "attribution": "(c) Tomé Silva, all rights reserved, uploaded by Tomé Silva",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 1,
       "max": 1
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Hemitriccus%20furcatus"
   },
   {
     "id": "sp-Hemitriccus_griseipectus",
     "scientificName": "Hemitriccus griseipectus",
-    "commonName": "",
+    "commonName": "White-Bellied Tody-Tyrant",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/212904024/medium.jpg",
+    "attribution": "(c) eduardovieira17, some rights reserved (CC BY-NC), uploaded by eduardovieira17",
     "sampleAudioUrl": "",
-    "detectionCount": 4,
+    "registerCount": 4,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 1,
       "CustomModel": 4,
       "max": 4
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Hemitriccus%20griseipectus"
   },
   {
@@ -9126,32 +9126,32 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/257324903/medium.jpg",
     "attribution": "(c) pedrosantoss; some rights reserved (CC BY-NC)",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0.8838,
     "maxConfidence": 0.8838,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 2,
       "CustomModel": 0,
       "max": 2
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Hemitriccus%20margaritaceiventer"
   },
   {
     "id": "sp-Hemitriccus_minor",
     "scientificName": "Hemitriccus minor",
-    "commonName": "",
+    "commonName": "Snethlage'S Tody-Tyrant",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/118430547/medium.jpg",
+    "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
     "sampleAudioUrl": "",
-    "detectionCount": 12,
+    "registerCount": 12,
     "confidence": 0.6108,
     "maxConfidence": 0.6108,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 2,
       "CustomModel": 12,
@@ -9279,8 +9279,8 @@ export const speciesData: Species[] = [
         "observationId": "e6e4d750-8b99-a3b6-778c-677af1409c20"
       }
     ],
-    "firstDetected": "2025-03-31T15:55:00Z",
-    "lastDetected": "2025-04-05T07:00:00Z",
+    "firstRegistered": "2025-03-31T15:55:00Z",
+    "lastRegistered": "2025-04-05T07:00:00Z",
     "mapUrl": "https://mol.org/species/map/Hemitriccus%20minor"
   },
   {
@@ -9291,18 +9291,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/1507222/medium.jpg",
     "attribution": "(c) Nigel Voaden; some rights reserved (CC BY)",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.942,
     "maxConfidence": 0.942,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 1,
       "CustomModel": 1,
       "max": 1
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Hemitriccus%20nidipendulus"
   },
   {
@@ -9313,18 +9313,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/153116/medium.jpg",
     "attribution": "(c) Tim Hirsch; some rights reserved (CC BY)",
     "sampleAudioUrl": "",
-    "detectionCount": 25,
+    "registerCount": 25,
     "confidence": 0.5147,
     "maxConfidence": 0.5147,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 25,
       "CustomModel": 3,
       "max": 25
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Hemitriccus%20orbitatus"
   },
   {
@@ -9335,11 +9335,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/121267586/medium.jpeg",
     "attribution": "(c) Lina Crespo; some rights reserved (CC BY-NC); uploaded by Lina Crespo",
     "sampleAudioUrl": "",
-    "detectionCount": 4,
+    "registerCount": 4,
     "confidence": 0.3138,
     "maxConfidence": 0.3138,
-    "lastDetected": "2025-04-07T14:15:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-07T14:15:00Z",
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 4,
       "CustomModel": 1,
@@ -9379,7 +9379,7 @@ export const speciesData: Species[] = [
         "observationId": "23ad3e0a-eed9-7112-7424-12c70685a926"
       }
     ],
-    "firstDetected": "2025-04-02T16:20:00Z",
+    "firstRegistered": "2025-04-02T16:20:00Z",
     "mapUrl": "https://mol.org/species/map/Herpetotheres%20cachinnans"
   },
   {
@@ -9390,18 +9390,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/317212271/medium.jpg",
     "attribution": "(c) Artur Luiz; all rights reserved; uploaded by Artur Luiz",
     "sampleAudioUrl": "",
-    "detectionCount": 113,
+    "registerCount": 113,
     "confidence": 0.8509,
     "maxConfidence": 0.8509,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 113,
       "Perch": 102,
       "CustomModel": 97,
       "max": 113
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Herpsilochmus%20atricapillus"
   },
   {
@@ -9412,18 +9412,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/75277768/medium.jpeg",
     "attribution": "(c) matiasgomes; some rights reserved (CC BY-NC)",
     "sampleAudioUrl": "",
-    "detectionCount": 16,
+    "registerCount": 16,
     "confidence": 0.3947,
     "maxConfidence": 0.3947,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 16,
       "CustomModel": 6,
       "max": 16
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Herpsilochmus%20rufimarginatus"
   },
   {
@@ -9434,18 +9434,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/567541/medium.jpg",
     "attribution": "(c) Dario Sanches; some rights reserved (CC BY-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 9,
+    "registerCount": 9,
     "confidence": 0.7722,
     "maxConfidence": 0.7722,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 4,
       "Perch": 9,
       "CustomModel": 7,
       "max": 9
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Hirundinea%20ferruginea"
   },
   {
@@ -9456,40 +9456,40 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/28410117/medium.jpg",
     "attribution": "(c) Jorge Schlemmer; all rights reserved",
     "sampleAudioUrl": "",
-    "detectionCount": 30,
+    "registerCount": 30,
     "confidence": 0.2907,
     "maxConfidence": 0.2907,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 30,
       "CustomModel": 4,
       "max": 30
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Hydropsalis%20torquata"
   },
   {
     "id": "sp-Hylocharis_chrysura",
     "scientificName": "Hylocharis chrysura",
-    "commonName": "",
+    "commonName": "Gilded Hummingbird",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/407947064/medium.jpg",
+    "attribution": "(c) Leonardo Quintana, some rights reserved (CC BY-NC), uploaded by Leonardo Quintana",
     "sampleAudioUrl": "",
-    "detectionCount": 16,
+    "registerCount": 16,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 16,
       "CustomModel": 7,
       "max": 16
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Hylocharis%20chrysura"
   },
   {
@@ -9500,18 +9500,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/129711005/medium.jpg",
     "attribution": "(c) Sergio R Porto; some rights reserved (CC BY-NC); uploaded by Sergio R Porto",
     "sampleAudioUrl": "",
-    "detectionCount": 8,
+    "registerCount": 8,
     "confidence": 0.9728,
     "maxConfidence": 0.9728,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 8,
       "CustomModel": 4,
       "max": 8
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Hylophilus%20amaurocephalus"
   },
   {
@@ -9522,11 +9522,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/101406684/medium.jpg",
     "attribution": "(c) Joao Quental; all rights reserved; uploaded by Joao Quental",
     "sampleAudioUrl": "",
-    "detectionCount": 6,
+    "registerCount": 6,
     "confidence": 0.2437,
     "maxConfidence": 0.2437,
-    "lastDetected": "2025-04-08T08:50:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T08:50:00Z",
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 2,
       "CustomModel": 6,
@@ -9606,21 +9606,21 @@ export const speciesData: Species[] = [
         "observationId": "f569e13f-a833-f352-3656-75d978509a6d"
       }
     ],
-    "firstDetected": "2025-04-01T07:25:00Z",
+    "firstRegistered": "2025-04-01T07:25:00Z",
     "mapUrl": "https://mol.org/species/map/Hylophilus%20thoracicus"
   },
   {
     "id": "sp-Hylophylax_naevius",
     "scientificName": "Hylophylax naevius",
-    "commonName": "",
+    "commonName": "Spot-Backed Antbird",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://static.inaturalist.org/photos/400700273/medium.jpg",
+    "attribution": "(c) Luiz Fernando Matos, all rights reserved, uploaded by Luiz Fernando Matos",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.1614,
     "maxConfidence": 0.1614,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 1,
       "CustomModel": 1,
@@ -9644,8 +9644,8 @@ export const speciesData: Species[] = [
         "observationId": "4bf6a87d-eb66-3d9a-fd7e-c7a07d6370bd"
       }
     ],
-    "firstDetected": "2025-04-05T12:50:00Z",
-    "lastDetected": "2025-04-06T15:35:00Z",
+    "firstRegistered": "2025-04-05T12:50:00Z",
+    "lastRegistered": "2025-04-06T15:35:00Z",
     "mapUrl": "https://mol.org/species/map/Hylophylax%20naevius"
   },
   {
@@ -9656,18 +9656,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/107843985/medium.jpg",
     "attribution": "(c) Joao Quental; all rights reserved; uploaded by Joao Quental",
     "sampleAudioUrl": "",
-    "detectionCount": 22,
+    "registerCount": 22,
     "confidence": 0.348,
     "maxConfidence": 0.348,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 22,
       "Perch": 9,
       "CustomModel": 1,
       "max": 22
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Hypoedaleus%20guttatus"
   },
   {
@@ -9678,32 +9678,32 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/58804933/medium.jpg",
     "attribution": "(c) Hudson Martins Soares; some rights reserved (CC BY-NC); uploaded by Hudson Martins Soares",
     "sampleAudioUrl": "",
-    "detectionCount": 201,
+    "registerCount": 201,
     "confidence": 0.5345,
     "maxConfidence": 0.5345,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 30,
       "Perch": 201,
       "CustomModel": 67,
       "max": 201
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Ilicura%20militaris"
   },
   {
     "id": "sp-Jacamerops_aureus",
     "scientificName": "Jacamerops aureus",
-    "commonName": "",
+    "commonName": "Great Jacamar",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/445088239/medium.jpeg",
+    "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
     "sampleAudioUrl": "",
-    "detectionCount": 3,
+    "registerCount": 3,
     "confidence": 0.3054,
     "maxConfidence": 0.3054,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 1,
       "CustomModel": 3,
@@ -9743,8 +9743,8 @@ export const speciesData: Species[] = [
         "observationId": "6bdaf847-9d64-3763-cb87-546d2da85c60"
       }
     ],
-    "firstDetected": "2025-04-02T16:30:00Z",
-    "lastDetected": "2025-04-08T18:00:00Z",
+    "firstRegistered": "2025-04-02T16:30:00Z",
+    "lastRegistered": "2025-04-08T18:00:00Z",
     "mapUrl": "https://mol.org/species/map/Jacamerops%20aureus"
   },
   {
@@ -9755,18 +9755,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/922856/medium.jpg",
     "attribution": "(c) Cláudio Dias Timm; some rights reserved (CC BY-NC-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 37,
+    "registerCount": 37,
     "confidence": 0.5535,
     "maxConfidence": 0.5535,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 6,
       "Perch": 11,
       "CustomModel": 37,
       "max": 37
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Laterallus%20melanophaius"
   },
   {
@@ -9777,11 +9777,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/6863445/medium.jpg",
     "attribution": "(c) Cláudio Dias Timm; some rights reserved (CC BY-NC-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 181,
+    "registerCount": 181,
     "confidence": 0.9995,
     "maxConfidence": 0.9995,
-    "lastDetected": "2025-04-08T18:05:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T18:05:00Z",
+    "registerInfo": {
       "BirdNET": 84,
       "Perch": 181,
       "CustomModel": 60,
@@ -11725,7 +11725,7 @@ export const speciesData: Species[] = [
         "observationId": "9f2e0063-6f8b-b32b-6c62-ef3d909ee4d6"
       }
     ],
-    "firstDetected": "2025-03-31T18:05:00Z",
+    "firstRegistered": "2025-03-31T18:05:00Z",
     "mapUrl": "https://mol.org/species/map/Lathrotriccus%20euleri"
   },
   {
@@ -11736,11 +11736,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/63359967/medium.jpg",
     "attribution": "(c) Josh van der Meulen; some rights reserved (CC BY-NC-ND); uploaded by Josh van der Meulen",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0.5685,
     "maxConfidence": 0.5685,
-    "lastDetected": "2025-04-04T11:20:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-04T11:20:00Z",
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 1,
       "CustomModel": 2,
@@ -11772,29 +11772,29 @@ export const speciesData: Species[] = [
         "observationId": "ff6257e2-c163-3b44-fdc1-276c3e0263fc"
       }
     ],
-    "firstDetected": "2025-04-01T08:50:00Z",
+    "firstRegistered": "2025-04-01T08:50:00Z",
     "mapUrl": "https://mol.org/species/map/Legatus%20leucophaius"
   },
   {
     "id": "sp-Lepidocolaptes_souleyetii",
     "scientificName": "Lepidocolaptes souleyetii",
-    "commonName": "",
+    "commonName": "Streak-Headed Woodcreeper",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://static.inaturalist.org/photos/238560722/medium.jpg",
+    "attribution": "(c) Perk, all rights reserved, uploaded by Perk",
     "sampleAudioUrl": "",
-    "detectionCount": 20,
+    "registerCount": 20,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 20,
       "Perch": 2,
       "CustomModel": 0,
       "max": 20
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Lepidocolaptes%20souleyetii"
   },
   {
@@ -11805,11 +11805,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/5643258/medium.jpeg",
     "attribution": "(c) Claudia Komesu; some rights reserved (CC BY-NC); uploaded by Claudia Komesu",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0.1336,
     "maxConfidence": 0.1336,
-    "lastDetected": "2025-04-07T03:15:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-07T03:15:00Z",
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 0,
       "CustomModel": 2,
@@ -11833,7 +11833,7 @@ export const speciesData: Species[] = [
         "observationId": "f5868909-e94d-f237-f15e-d762cac8acb2"
       }
     ],
-    "firstDetected": "2025-04-06T00:25:00Z",
+    "firstRegistered": "2025-04-06T00:25:00Z",
     "mapUrl": "https://mol.org/species/map/Leptotila%20rufaxilla"
   },
   {
@@ -11844,11 +11844,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/268175748/medium.jpeg",
     "attribution": "(c) Christoph Moning; some rights reserved (CC BY); uploaded by Christoph Moning",
     "sampleAudioUrl": "",
-    "detectionCount": 20,
+    "registerCount": 20,
     "confidence": 0.3933,
     "maxConfidence": 0.3933,
-    "lastDetected": "2025-04-06T15:20:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-06T15:20:00Z",
+    "registerInfo": {
       "BirdNET": 9,
       "Perch": 10,
       "CustomModel": 20,
@@ -12064,7 +12064,7 @@ export const speciesData: Species[] = [
         "observationId": "e705c3a1-5167-b45b-55e5-43a7b59a6159"
       }
     ],
-    "firstDetected": "2025-04-01T16:25:00Z",
+    "firstRegistered": "2025-04-01T16:25:00Z",
     "mapUrl": "https://mol.org/species/map/Leptotila%20verreauxi"
   },
   {
@@ -12075,11 +12075,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/405214933/medium.jpg",
     "attribution": "(c) whenthebird; some rights reserved (CC BY-NC)",
     "sampleAudioUrl": "",
-    "detectionCount": 3,
+    "registerCount": 3,
     "confidence": 0.3833,
     "maxConfidence": 0.3833,
-    "lastDetected": "2025-04-03T16:10:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-03T16:10:00Z",
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 1,
       "CustomModel": 3,
@@ -12119,7 +12119,7 @@ export const speciesData: Species[] = [
         "observationId": "308c6e26-4408-1241-811f-5b9cbbf0399c"
       }
     ],
-    "firstDetected": "2025-03-31T16:35:00Z",
+    "firstRegistered": "2025-03-31T16:35:00Z",
     "mapUrl": "https://mol.org/species/map/Lipaugus%20vociferans"
   },
   {
@@ -12130,32 +12130,32 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/35800662/medium.jpg",
     "attribution": "(c) Guillermo Menéndez; some rights reserved (CC BY-NC); uploaded by Guillermo Menéndez",
     "sampleAudioUrl": "",
-    "detectionCount": 1516,
+    "registerCount": 1516,
     "confidence": 0.6904,
     "maxConfidence": 0.6904,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1158,
       "Perch": 1516,
       "CustomModel": 969,
       "max": 1516
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Lochmias%20nematura"
   },
   {
     "id": "sp-Lophostrix_cristata",
     "scientificName": "Lophostrix cristata",
-    "commonName": "",
+    "commonName": "Crested Owl",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://static.inaturalist.org/photos/175632579/medium.jpg",
+    "attribution": "(c) Luiz Fernando Matos, all rights reserved, uploaded by Luiz Fernando Matos",
     "sampleAudioUrl": "",
-    "detectionCount": 8,
+    "registerCount": 8,
     "confidence": 0.1448,
     "maxConfidence": 0.1448,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 8,
       "Perch": 0,
       "CustomModel": 2,
@@ -12179,8 +12179,8 @@ export const speciesData: Species[] = [
         "observationId": "fb76f5df-678f-ad57-f8f0-9990a5859af3"
       }
     ],
-    "firstDetected": "2025-04-01T19:10:00Z",
-    "lastDetected": "2025-04-01T20:05:00Z",
+    "firstRegistered": "2025-04-01T19:10:00Z",
+    "lastRegistered": "2025-04-01T20:05:00Z",
     "mapUrl": "https://mol.org/species/map/Lophostrix%20cristata"
   },
   {
@@ -12191,11 +12191,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/67503974/medium.jpg",
     "attribution": "(c) Andrew Whitworth; all rights reserved; uploaded by Andrew Whitworth",
     "sampleAudioUrl": "",
-    "detectionCount": 9,
+    "registerCount": 9,
     "confidence": 0.3146,
     "maxConfidence": 0.3146,
-    "lastDetected": "2025-04-06T12:05:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-06T12:05:00Z",
+    "registerInfo": {
       "BirdNET": 9,
       "Perch": 0,
       "CustomModel": 4,
@@ -12235,29 +12235,29 @@ export const speciesData: Species[] = [
         "observationId": "6e636bb6-3c37-04ea-321f-17a9cc6f7911"
       }
     ],
-    "firstDetected": "2025-03-31T19:20:00Z",
+    "firstRegistered": "2025-03-31T19:20:00Z",
     "mapUrl": "https://mol.org/species/map/Lurocalis%20semitorquatus"
   },
   {
     "id": "sp-Machaeropterus_pyrocephalus",
     "scientificName": "Machaeropterus pyrocephalus",
-    "commonName": "",
+    "commonName": "Fiery-Capped Manakin",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/26589868/medium.jpeg",
+    "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
     "sampleAudioUrl": "",
-    "detectionCount": 14,
+    "registerCount": 14,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 14,
       "CustomModel": 2,
       "max": 14
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Machaeropterus%20pyrocephalus"
   },
   {
@@ -12268,18 +12268,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/430823581/medium.jpg",
     "attribution": "(c) eric gofreed; some rights reserved (CC BY-NC); uploaded by eric gofreed",
     "sampleAudioUrl": "",
-    "detectionCount": 12,
+    "registerCount": 12,
     "confidence": 0.7883,
     "maxConfidence": 0.7883,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 9,
       "Perch": 7,
       "CustomModel": 12,
       "max": 12
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Mackenziaena%20severa"
   },
   {
@@ -12290,18 +12290,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/143992963/medium.jpg",
     "attribution": "(c) NINA WENÓLI; some rights reserved (CC BY-NC); uploaded by NINA WENÓLI",
     "sampleAudioUrl": "",
-    "detectionCount": 11,
+    "registerCount": 11,
     "confidence": 0.6961,
     "maxConfidence": 0.6961,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 5,
       "Perch": 11,
       "CustomModel": 3,
       "max": 11
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Malacoptila%20striata"
   },
   {
@@ -12312,11 +12312,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/61719716/medium.jpg",
     "attribution": "(c) Stephen Cresswell; some rights reserved (CC BY-NC-ND); uploaded by Stephen Cresswell",
     "sampleAudioUrl": "",
-    "detectionCount": 26,
+    "registerCount": 26,
     "confidence": 0.5853,
     "maxConfidence": 0.5853,
-    "lastDetected": "2025-04-07T14:20:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-07T14:20:00Z",
+    "registerInfo": {
       "BirdNET": 13,
       "Perch": 5,
       "CustomModel": 26,
@@ -12572,7 +12572,7 @@ export const speciesData: Species[] = [
         "observationId": "7e6c9697-bba9-6311-d7f4-acabdf295e05"
       }
     ],
-    "firstDetected": "2025-04-01T02:35:00Z",
+    "firstRegistered": "2025-04-01T02:35:00Z",
     "mapUrl": "https://mol.org/species/map/Manacus%20manacus"
   },
   {
@@ -12583,11 +12583,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/29962569/medium.jpg",
     "attribution": "(c) Amelia Ryan; some rights reserved (CC BY-NC); uploaded by Amelia Ryan",
     "sampleAudioUrl": "",
-    "detectionCount": 3,
+    "registerCount": 3,
     "confidence": 0.4357,
     "maxConfidence": 0.4357,
-    "lastDetected": "2025-04-04T17:00:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-04T17:00:00Z",
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 3,
       "CustomModel": 1,
@@ -12619,7 +12619,7 @@ export const speciesData: Species[] = [
         "observationId": "023d8393-ae5a-8bb7-a961-c8da61677515"
       }
     ],
-    "firstDetected": "2025-03-31T18:05:00Z",
+    "firstRegistered": "2025-03-31T18:05:00Z",
     "mapUrl": "https://mol.org/species/map/Megaceryle%20torquata"
   },
   {
@@ -12630,11 +12630,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/33899382/medium.jpg",
     "attribution": "(c) iturriagal; some rights reserved (CC BY-NC-ND); uploaded by iturriagal",
     "sampleAudioUrl": "",
-    "detectionCount": 19,
+    "registerCount": 19,
     "confidence": 0.9835,
     "maxConfidence": 0.9835,
-    "lastDetected": "2025-04-06T10:15:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-06T10:15:00Z",
+    "registerInfo": {
       "BirdNET": 6,
       "Perch": 19,
       "CustomModel": 5,
@@ -12858,7 +12858,7 @@ export const speciesData: Species[] = [
         "observationId": "891c0351-c533-4577-5329-71125b10a7f6"
       }
     ],
-    "firstDetected": "2025-03-31T11:45:00Z",
+    "firstRegistered": "2025-03-31T11:45:00Z",
     "mapUrl": "https://mol.org/species/map/Megarynchus%20pitangua"
   },
   {
@@ -12869,18 +12869,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/197972/medium.jpg",
     "attribution": "(c) Dario Sanches; some rights reserved (CC BY-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 5304,
+    "registerCount": 5304,
     "confidence": 0.6954,
     "maxConfidence": 0.6954,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 202,
       "Perch": 5057,
       "CustomModel": 5304,
       "max": 5304
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Megascops%20atricapilla"
   },
   {
@@ -12891,11 +12891,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/460430074/medium.jpg",
     "attribution": "(c) DavidLarson; some rights reserved (CC BY-NC); uploaded by DavidLarson",
     "sampleAudioUrl": "",
-    "detectionCount": 12,
+    "registerCount": 12,
     "confidence": 0.3289,
     "maxConfidence": 0.3289,
-    "lastDetected": "2025-04-06T05:05:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-06T05:05:00Z",
+    "registerInfo": {
       "BirdNET": 3,
       "Perch": 2,
       "CustomModel": 12,
@@ -12999,51 +12999,51 @@ export const speciesData: Species[] = [
         "observationId": "ca63326a-4ae0-4a55-3b3c-6680f705071e"
       }
     ],
-    "firstDetected": "2025-03-31T22:55:00Z",
+    "firstRegistered": "2025-03-31T22:55:00Z",
     "mapUrl": "https://mol.org/species/map/Megascops%20choliba"
   },
   {
     "id": "sp-Megascops_sanctaecatarinae",
     "scientificName": "Megascops sanctaecatarinae",
-    "commonName": "",
+    "commonName": "Long-Tufted Screech-Owl",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/117550780/medium.jpg",
+    "attribution": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
     "sampleAudioUrl": "",
-    "detectionCount": 3,
+    "registerCount": 3,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 3,
       "CustomModel": 2,
       "max": 3
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Megascops%20sanctaecatarinae"
   },
   {
     "id": "sp-Megaxenops_parnaguae",
     "scientificName": "Megaxenops parnaguae",
-    "commonName": "",
+    "commonName": "Great Xenops",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://static.inaturalist.org/photos/358145323/medium.jpg",
+    "attribution": "(c) Sanjay Veiga, all rights reserved, uploaded by Sanjay Veiga",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 1,
       "CustomModel": 0,
       "max": 1
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Megaxenops%20parnaguae"
   },
   {
@@ -13054,40 +13054,40 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/54050830/medium.jpg",
     "attribution": "(c) Joao Quental; all rights reserved; uploaded by Joao Quental",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0.8826,
     "maxConfidence": 0.8826,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 1,
       "CustomModel": 2,
       "max": 2
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Melanerpes%20flavifrons"
   },
   {
     "id": "sp-Merulaxis_ater",
     "scientificName": "Merulaxis ater",
-    "commonName": "",
+    "commonName": "Slaty Bristlefront",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/65602409/medium.jpg",
+    "attribution": "(c) Hudson Martins Soares, some rights reserved (CC BY-NC), uploaded by Hudson Martins Soares",
     "sampleAudioUrl": "",
-    "detectionCount": 3,
+    "registerCount": 3,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 2,
       "CustomModel": 3,
       "max": 3
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Merulaxis%20ater"
   },
   {
@@ -13098,11 +13098,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/46772236/medium.jpg",
     "attribution": "(c) Rolando Pasos Pérez; some rights reserved (CC BY-NC); uploaded by Rolando Pasos Pérez",
     "sampleAudioUrl": "",
-    "detectionCount": 9,
+    "registerCount": 9,
     "confidence": 0.8479,
     "maxConfidence": 0.8479,
-    "lastDetected": "2025-04-05T10:55:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-05T10:55:00Z",
+    "registerInfo": {
       "BirdNET": 4,
       "Perch": 9,
       "CustomModel": 0,
@@ -13166,7 +13166,7 @@ export const speciesData: Species[] = [
         "observationId": "1ff8fa4f-4b76-66c4-35d7-a7633ca9fc3f"
       }
     ],
-    "firstDetected": "2025-03-31T14:30:00Z",
+    "firstRegistered": "2025-03-31T14:30:00Z",
     "mapUrl": "https://mol.org/species/map/Micrastur%20ruficollis"
   },
   {
@@ -13177,11 +13177,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/394112373/medium.jpg",
     "attribution": "(c) Alvaro Monter Pozos; some rights reserved (CC BY-NC); uploaded by Alvaro Monter Pozos",
     "sampleAudioUrl": "",
-    "detectionCount": 67,
+    "registerCount": 67,
     "confidence": 0.9999,
     "maxConfidence": 0.9999,
-    "lastDetected": "2025-04-06T01:50:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-06T01:50:00Z",
+    "registerInfo": {
       "BirdNET": 59,
       "Perch": 33,
       "CustomModel": 67,
@@ -14013,7 +14013,7 @@ export const speciesData: Species[] = [
         "observationId": "60d3c547-7621-7219-be78-36de7668b56f"
       }
     ],
-    "firstDetected": "2025-03-31T18:40:00Z",
+    "firstRegistered": "2025-03-31T18:40:00Z",
     "mapUrl": "https://mol.org/species/map/Micrastur%20semitorquatus"
   },
   {
@@ -14024,11 +14024,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/79568634/medium.jpeg",
     "attribution": "(c) Larry Zheng; all rights reserved; uploaded by Larry Zheng",
     "sampleAudioUrl": "",
-    "detectionCount": 58,
+    "registerCount": 58,
     "confidence": 0.9765,
     "maxConfidence": 0.9765,
-    "lastDetected": "2025-04-05T13:05:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-05T13:05:00Z",
+    "registerInfo": {
       "BirdNET": 58,
       "Perch": 0,
       "CustomModel": 20,
@@ -14196,21 +14196,21 @@ export const speciesData: Species[] = [
         "observationId": "db1394ae-a653-3e8f-6c31-711c038e767c"
       }
     ],
-    "firstDetected": "2025-04-02T14:00:00Z",
+    "firstRegistered": "2025-04-02T14:00:00Z",
     "mapUrl": "https://mol.org/species/map/Milvago%20chimachima"
   },
   {
     "id": "sp-Mionectes_oleagineus",
     "scientificName": "Mionectes oleagineus",
-    "commonName": "",
+    "commonName": "Ochre-Bellied Flycatcher",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/2029461/medium.jpg",
+    "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
     "sampleAudioUrl": "",
-    "detectionCount": 25,
+    "registerCount": 25,
     "confidence": 0.3719,
     "maxConfidence": 0.3719,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 25,
       "Perch": 10,
       "CustomModel": 2,
@@ -14314,8 +14314,8 @@ export const speciesData: Species[] = [
         "observationId": "37c14178-6bbe-5f27-c6b1-1c56bd477966"
       }
     ],
-    "firstDetected": "2025-03-31T18:05:00Z",
-    "lastDetected": "2025-04-06T17:30:00Z",
+    "firstRegistered": "2025-03-31T18:05:00Z",
+    "lastRegistered": "2025-04-06T17:30:00Z",
     "mapUrl": "https://mol.org/species/map/Mionectes%20oleagineus"
   },
   {
@@ -14326,54 +14326,54 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/155582632/medium.jpg",
     "attribution": "(c) Joao Quental; all rights reserved; uploaded by Joao Quental",
     "sampleAudioUrl": "",
-    "detectionCount": 20,
+    "registerCount": 20,
     "confidence": 0.8413,
     "maxConfidence": 0.8413,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 20,
       "Perch": 8,
       "CustomModel": 8,
       "max": 20
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Mionectes%20rufiventris"
   },
   {
     "id": "sp-Mitrospingus_oleagineus",
     "scientificName": "Mitrospingus oleagineus",
-    "commonName": "",
+    "commonName": "Olive-Backed Tanager",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/65758108/medium.jpg",
+    "attribution": "(c) M.L. Watson, some rights reserved (CC BY-NC-ND), uploaded by M.L. Watson",
     "sampleAudioUrl": "",
-    "detectionCount": 7,
+    "registerCount": 7,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 7,
       "Perch": 1,
       "CustomModel": 0,
       "max": 7
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Mitrospingus%20oleagineus"
   },
   {
     "id": "sp-Momotus_momota",
     "scientificName": "Momotus momota",
-    "commonName": "",
+    "commonName": "Amazonian Motmot",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/475620583/medium.jpg",
+    "attribution": "(c) eduardovieira17, some rights reserved (CC BY-NC), uploaded by eduardovieira17",
     "sampleAudioUrl": "",
-    "detectionCount": 35,
+    "registerCount": 35,
     "confidence": 0.5456,
     "maxConfidence": 0.5456,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 4,
       "Perch": 1,
       "CustomModel": 35,
@@ -14669,8 +14669,8 @@ export const speciesData: Species[] = [
         "observationId": "e6ee4abb-6482-90b6-dc75-bff5fe62bf99"
       }
     ],
-    "firstDetected": "2025-03-31T12:25:00Z",
-    "lastDetected": "2025-04-08T22:40:00Z",
+    "firstRegistered": "2025-03-31T12:25:00Z",
+    "lastRegistered": "2025-04-08T22:40:00Z",
     "mapUrl": "https://mol.org/species/map/Momotus%20momota"
   },
   {
@@ -14681,11 +14681,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/53349662/medium.jpg",
     "attribution": "(c) Paul Donahue; some rights reserved (CC BY-NC); uploaded by Paul Donahue",
     "sampleAudioUrl": "",
-    "detectionCount": 42,
+    "registerCount": 42,
     "confidence": 1.0,
     "maxConfidence": 1.0,
-    "lastDetected": "2025-04-08T11:30:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T11:30:00Z",
+    "registerInfo": {
       "BirdNET": 29,
       "Perch": 42,
       "CustomModel": 33,
@@ -15333,7 +15333,7 @@ export const speciesData: Species[] = [
         "observationId": "20000bd1-4a24-7f3f-24ef-fdd25a247dcf"
       }
     ],
-    "firstDetected": "2025-04-01T16:10:00Z",
+    "firstRegistered": "2025-04-01T16:10:00Z",
     "mapUrl": "https://mol.org/species/map/Myiarchus%20ferox"
   },
   {
@@ -15344,11 +15344,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/436950508/medium.jpeg",
     "attribution": "(c) Christoph Moning; some rights reserved (CC BY); uploaded by Christoph Moning",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0.6295,
     "maxConfidence": 0.6295,
-    "lastDetected": "2025-03-31T17:00:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-03-31T17:00:00Z",
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 2,
       "CustomModel": 0,
@@ -15364,7 +15364,7 @@ export const speciesData: Species[] = [
         "observationId": "15e07a09-046e-d296-617e-6d42d4c826e3"
       }
     ],
-    "firstDetected": "2025-03-31T17:00:00Z",
+    "firstRegistered": "2025-03-31T17:00:00Z",
     "mapUrl": "https://mol.org/species/map/Myiarchus%20swainsoni"
   },
   {
@@ -15375,11 +15375,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/117932912/medium.jpeg",
     "attribution": "(c) Daniel Garza Tobón; all rights reserved; uploaded by Daniel Garza Tobón",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0.3559,
     "maxConfidence": 0.3559,
-    "lastDetected": "2025-04-05T06:40:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-05T06:40:00Z",
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 2,
       "CustomModel": 2,
@@ -15419,7 +15419,7 @@ export const speciesData: Species[] = [
         "observationId": "1fdeafbc-56cc-6b21-aac4-59ae38faf01a"
       }
     ],
-    "firstDetected": "2025-04-02T11:55:00Z",
+    "firstRegistered": "2025-04-02T11:55:00Z",
     "mapUrl": "https://mol.org/species/map/Myiarchus%20tuberculifer"
   },
   {
@@ -15430,11 +15430,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/70760951/medium.jpeg",
     "attribution": "(c) Siegfried Baesler; all rights reserved; uploaded by Siegfried Baesler",
     "sampleAudioUrl": "",
-    "detectionCount": 15,
+    "registerCount": 15,
     "confidence": 0.9228,
     "maxConfidence": 0.9228,
-    "lastDetected": "2025-04-08T17:05:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T17:05:00Z",
+    "registerInfo": {
       "BirdNET": 5,
       "Perch": 15,
       "CustomModel": 5,
@@ -15650,7 +15650,7 @@ export const speciesData: Species[] = [
         "observationId": "0516b7f4-b706-626f-b36c-a56b87128055"
       }
     ],
-    "firstDetected": "2025-03-31T15:20:00Z",
+    "firstRegistered": "2025-03-31T15:20:00Z",
     "mapUrl": "https://mol.org/species/map/Myiarchus%20tyrannulus"
   },
   {
@@ -15661,11 +15661,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/94210447/medium.jpg",
     "attribution": "(c) Thibaud Aronson; some rights reserved (CC BY-SA); uploaded by Thibaud Aronson",
     "sampleAudioUrl": "",
-    "detectionCount": 5,
+    "registerCount": 5,
     "confidence": 0.1715,
     "maxConfidence": 0.1715,
-    "lastDetected": "2025-04-05T19:20:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-05T19:20:00Z",
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 5,
       "CustomModel": 1,
@@ -15697,29 +15697,29 @@ export const speciesData: Species[] = [
         "observationId": "2145de83-07ca-df5c-a99e-0a754d994ac5"
       }
     ],
-    "firstDetected": "2025-04-03T20:10:00Z",
+    "firstRegistered": "2025-04-03T20:10:00Z",
     "mapUrl": "https://mol.org/species/map/Myiobius%20barbatus"
   },
   {
     "id": "sp-Myioborus_miniatus",
     "scientificName": "Myioborus miniatus",
-    "commonName": "",
+    "commonName": "Slate-Throated Redstart",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://static.inaturalist.org/photos/30145559/medium.jpg",
+    "attribution": "(c) kurtongman, all rights reserved, uploaded by kurtongman",
     "sampleAudioUrl": "",
-    "detectionCount": 7,
+    "registerCount": 7,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 7,
       "CustomModel": 0,
       "max": 7
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Myioborus%20miniatus"
   },
   {
@@ -15730,11 +15730,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/103070798/medium.jpg",
     "attribution": "(c) Tomaz Nascimento de Melo; some rights reserved (CC BY-NC-ND); uploaded by Tomaz Nascimento de Melo",
     "sampleAudioUrl": "",
-    "detectionCount": 8,
+    "registerCount": 8,
     "confidence": 0.5227,
     "maxConfidence": 0.5227,
-    "lastDetected": "2025-04-08T16:10:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T16:10:00Z",
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 8,
@@ -15806,7 +15806,7 @@ export const speciesData: Species[] = [
         "observationId": "77e95f64-82c2-94a1-d173-a76d6da9254e"
       }
     ],
-    "firstDetected": "2025-03-31T14:00:00Z",
+    "firstRegistered": "2025-03-31T14:00:00Z",
     "mapUrl": "https://mol.org/species/map/Myiopagis%20caniceps"
   },
   {
@@ -15817,18 +15817,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/141578669/medium.jpeg",
     "attribution": "(c) Julio Alejandro Álvarez Ruiz; all rights reserved; uploaded by Julio Alejandro Álvarez Ruiz",
     "sampleAudioUrl": "",
-    "detectionCount": 55,
+    "registerCount": 55,
     "confidence": 0.8157,
     "maxConfidence": 0.8157,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 55,
       "CustomModel": 32,
       "max": 55
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Myiopagis%20viridicata"
   },
   {
@@ -15839,18 +15839,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/44391677/medium.jpg",
     "attribution": "(c) Jan Axel Cubilla Rodríguez; all rights reserved; uploaded by Jan Axel Cubilla Rodríguez",
     "sampleAudioUrl": "",
-    "detectionCount": 4,
+    "registerCount": 4,
     "confidence": 0.5135,
     "maxConfidence": 0.5135,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 1,
       "CustomModel": 4,
       "max": 4
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Myiophobus%20fasciatus"
   },
   {
@@ -15861,18 +15861,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/28179987/medium.jpg",
     "attribution": "(c) Marcio Fontana; all rights reserved; uploaded by Marcio Fontana",
     "sampleAudioUrl": "",
-    "detectionCount": 18,
+    "registerCount": 18,
     "confidence": 0.5974,
     "maxConfidence": 0.5974,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 18,
       "CustomModel": 1,
       "max": 18
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Myiornis%20auricularis"
   },
   {
@@ -15883,11 +15883,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/671056/medium.jpg",
     "attribution": "(c) Rolando Chavez; all rights reserved",
     "sampleAudioUrl": "",
-    "detectionCount": 10,
+    "registerCount": 10,
     "confidence": 0.9993,
     "maxConfidence": 0.9993,
-    "lastDetected": "2025-04-08T10:30:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T10:30:00Z",
+    "registerInfo": {
       "BirdNET": 8,
       "Perch": 10,
       "CustomModel": 0,
@@ -15983,29 +15983,29 @@ export const speciesData: Species[] = [
         "observationId": "dadc205c-b401-a5e9-5dc1-fc5817f7600b"
       }
     ],
-    "firstDetected": "2025-04-03T13:45:00Z",
+    "firstRegistered": "2025-04-03T13:45:00Z",
     "mapUrl": "https://mol.org/species/map/Myiozetetes%20similis"
   },
   {
     "id": "sp-Myrmornis_torquata",
     "scientificName": "Myrmornis torquata",
-    "commonName": "",
+    "commonName": "Wing-Banded Antbird",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://static.inaturalist.org/photos/40830807/medium.jpg",
+    "attribution": "(c) David Beadle, all rights reserved, uploaded by David Beadle",
     "sampleAudioUrl": "",
-    "detectionCount": 3,
+    "registerCount": 3,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 3,
       "max": 3
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Myrmornis%20torquata"
   },
   {
@@ -16016,11 +16016,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/38530001/medium.jpg",
     "attribution": "(c) Eden Fontes; all rights reserved; uploaded by Eden Fontes",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.1051,
     "maxConfidence": 0.1051,
-    "lastDetected": "2025-04-03T12:10:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-03T12:10:00Z",
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 1,
@@ -16036,7 +16036,7 @@ export const speciesData: Species[] = [
         "observationId": "d3d5258b-010a-c45a-188e-6ee009157556"
       }
     ],
-    "firstDetected": "2025-04-03T12:10:00Z",
+    "firstRegistered": "2025-04-03T12:10:00Z",
     "mapUrl": "https://mol.org/species/map/Myrmotherula%20axillaris"
   },
   {
@@ -16047,32 +16047,32 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/93209688/medium.jpeg",
     "attribution": "(c) andretostes; some rights reserved (CC BY-NC); uploaded by andretostes",
     "sampleAudioUrl": "",
-    "detectionCount": 3,
+    "registerCount": 3,
     "confidence": 0.8119,
     "maxConfidence": 0.8119,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 3,
       "Perch": 0,
       "CustomModel": 2,
       "max": 3
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Neopelma%20pallescens"
   },
   {
     "id": "sp-Neopipo_cinnamomea",
     "scientificName": "Neopipo cinnamomea",
-    "commonName": "",
+    "commonName": "Cinnamon Manakin-Tyrant",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://static.inaturalist.org/photos/475568169/medium.jpg",
+    "attribution": "(c) Aisse Gaertner, all rights reserved, uploaded by Aisse Gaertner",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.2653,
     "maxConfidence": 0.2653,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 1,
       "CustomModel": 0,
@@ -16088,22 +16088,22 @@ export const speciesData: Species[] = [
         "observationId": "7b625b82-b846-1e8d-97e1-db8943f1c146"
       }
     ],
-    "firstDetected": "2025-04-05T12:35:00Z",
-    "lastDetected": "2025-04-05T12:35:00Z",
+    "firstRegistered": "2025-04-05T12:35:00Z",
+    "lastRegistered": "2025-04-05T12:35:00Z",
     "mapUrl": "https://mol.org/species/map/Neopipo%20cinnamomea"
   },
   {
     "id": "sp-Nothocrax_urumutum",
     "scientificName": "Nothocrax urumutum",
-    "commonName": "",
+    "commonName": "Nocturnal Curassow",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/12081138/medium.jpg",
+    "attribution": "(c) Jelle Oostrom, some rights reserved (CC BY-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 12,
+    "registerCount": 12,
     "confidence": 0.1294,
     "maxConfidence": 0.1294,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 12,
       "Perch": 2,
       "CustomModel": 0,
@@ -16127,30 +16127,30 @@ export const speciesData: Species[] = [
         "observationId": "8c6b8958-443f-0cd9-f686-1feb878bd0a5"
       }
     ],
-    "firstDetected": "2025-04-03T21:10:00Z",
-    "lastDetected": "2025-04-03T23:45:00Z",
+    "firstRegistered": "2025-04-03T21:10:00Z",
+    "lastRegistered": "2025-04-03T23:45:00Z",
     "mapUrl": "https://mol.org/species/map/Nothocrax%20urumutum"
   },
   {
     "id": "sp-Numenius_phaeopus",
     "scientificName": "Numenius phaeopus",
-    "commonName": "",
+    "commonName": "Eurasian Whimbrel",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/588065881/medium.jpg",
+    "attribution": "(c) Pierre Dalous, some rights reserved (CC BY-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 18,
+    "registerCount": 18,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 18,
       "CustomModel": 0,
       "max": 18
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Numenius%20phaeopus"
   },
   {
@@ -16161,11 +16161,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/508102028/medium.jpg",
     "attribution": "(c) gabriel_delasala; some rights reserved (CC BY-NC)",
     "sampleAudioUrl": "",
-    "detectionCount": 424,
+    "registerCount": 424,
     "confidence": 0.6153,
     "maxConfidence": 0.6153,
-    "lastDetected": "2025-04-08T23:00:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T23:00:00Z",
+    "registerInfo": {
       "BirdNET": 6,
       "Perch": 78,
       "CustomModel": 424,
@@ -19741,7 +19741,7 @@ export const speciesData: Species[] = [
         "observationId": "6afcb393-ab54-ca3e-62a7-8fed76a92f02"
       }
     ],
-    "firstDetected": "2025-03-31T18:30:00Z",
+    "firstRegistered": "2025-03-31T18:30:00Z",
     "mapUrl": "https://mol.org/species/map/Nyctibius%20griseus"
   },
   {
@@ -19752,18 +19752,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/49357930/medium.jpg",
     "attribution": "no rights reserved; uploaded by Kyle Nessen",
     "sampleAudioUrl": "",
-    "detectionCount": 87,
+    "registerCount": 87,
     "confidence": 0.4286,
     "maxConfidence": 0.4286,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 13,
       "Perch": 87,
       "CustomModel": 0,
       "max": 87
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Nycticorax%20nycticorax"
   },
   {
@@ -19774,11 +19774,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/352431299/medium.jpg",
     "attribution": "(c) Luis Enrique Girón Mejía; all rights reserved; uploaded by Luis Enrique Girón Mejía",
     "sampleAudioUrl": "",
-    "detectionCount": 39,
+    "registerCount": 39,
     "confidence": 0.9906,
     "maxConfidence": 0.9906,
-    "lastDetected": "2025-04-07T21:05:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-07T21:05:00Z",
+    "registerInfo": {
       "BirdNET": 27,
       "Perch": 39,
       "CustomModel": 27,
@@ -20386,7 +20386,7 @@ export const speciesData: Species[] = [
         "observationId": "f10c964b-6181-171a-c7ed-9fe860b79885"
       }
     ],
-    "firstDetected": "2025-03-31T16:50:00Z",
+    "firstRegistered": "2025-03-31T16:50:00Z",
     "mapUrl": "https://mol.org/species/map/Nyctidromus%20albicollis"
   },
   {
@@ -20397,11 +20397,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/648133/medium.jpg",
     "attribution": "(c) Cláudio Dias Timm; some rights reserved (CC BY-NC-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0.9935,
     "maxConfidence": 0.9935,
-    "lastDetected": "2025-04-02T16:00:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-02T16:00:00Z",
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 2,
       "CustomModel": 2,
@@ -20441,29 +20441,29 @@ export const speciesData: Species[] = [
         "observationId": "c00a51b5-583c-04d5-bd33-3fa44ca50a23"
       }
     ],
-    "firstDetected": "2025-03-31T17:30:00Z",
+    "firstRegistered": "2025-03-31T17:30:00Z",
     "mapUrl": "https://mol.org/species/map/Nyctiphrynus%20ocellatus"
   },
   {
     "id": "sp-Orchesticus_abeillei",
     "scientificName": "Orchesticus abeillei",
-    "commonName": "",
+    "commonName": "Brown Tanager",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/102742890/medium.jpg",
+    "attribution": "(c) Ria Vogels, some rights reserved (CC BY-NC), uploaded by Ria Vogels",
     "sampleAudioUrl": "",
-    "detectionCount": 3,
+    "registerCount": 3,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 2,
       "CustomModel": 3,
       "max": 3
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Orchesticus%20abeillei"
   },
   {
@@ -20474,11 +20474,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/31262332/medium.jpg",
     "attribution": "(c) marcelo_allende; some rights reserved (CC BY-NC); uploaded by marcelo_allende",
     "sampleAudioUrl": "",
-    "detectionCount": 11,
+    "registerCount": 11,
     "confidence": 0.2688,
     "maxConfidence": 0.2688,
-    "lastDetected": "2025-04-06T06:35:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-06T06:35:00Z",
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 1,
       "CustomModel": 11,
@@ -20574,7 +20574,7 @@ export const speciesData: Species[] = [
         "observationId": "81f3e378-aa25-60af-f1d8-12eee953d29d"
       }
     ],
-    "firstDetected": "2025-04-01T06:45:00Z",
+    "firstRegistered": "2025-04-01T06:45:00Z",
     "mapUrl": "https://mol.org/species/map/Pachyramphus%20castaneus"
   },
   {
@@ -20585,11 +20585,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/233216264/medium.jpg",
     "attribution": "(c) Laurent Quéno; some rights reserved (CC BY-NC); uploaded by Laurent Quéno",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0.2123,
     "maxConfidence": 0.2123,
-    "lastDetected": "2025-04-07T05:50:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-07T05:50:00Z",
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 1,
       "CustomModel": 1,
@@ -20613,7 +20613,7 @@ export const speciesData: Species[] = [
         "observationId": "dc18b315-a7ab-fbd8-cad5-b32b3410784d"
       }
     ],
-    "firstDetected": "2025-04-02T11:55:00Z",
+    "firstRegistered": "2025-04-02T11:55:00Z",
     "mapUrl": "https://mol.org/species/map/Pachyramphus%20polychopterus"
   },
   {
@@ -20624,11 +20624,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/6903515/medium.jpg",
     "attribution": "(c) Greg Lasley; some rights reserved (CC BY-NC); uploaded by Greg Lasley",
     "sampleAudioUrl": "",
-    "detectionCount": 3,
+    "registerCount": 3,
     "confidence": 0.4852,
     "maxConfidence": 0.4852,
-    "lastDetected": "2025-04-05T09:50:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-05T09:50:00Z",
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 3,
       "CustomModel": 0,
@@ -20652,7 +20652,7 @@ export const speciesData: Species[] = [
         "observationId": "725f425f-534e-d983-9f0f-f1dc9524d70c"
       }
     ],
-    "firstDetected": "2025-04-02T10:40:00Z",
+    "firstRegistered": "2025-04-02T10:40:00Z",
     "mapUrl": "https://mol.org/species/map/Pandion%20haliaetus"
   },
   {
@@ -20663,11 +20663,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/363242635/medium.jpg",
     "attribution": "(c) Eduardo Borges; all rights reserved; uploaded by Eduardo Borges",
     "sampleAudioUrl": "",
-    "detectionCount": 13,
+    "registerCount": 13,
     "confidence": 0.3311,
     "maxConfidence": 0.3311,
-    "lastDetected": "2025-04-07T11:25:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-07T11:25:00Z",
+    "registerInfo": {
       "BirdNET": 4,
       "Perch": 6,
       "CustomModel": 13,
@@ -20803,7 +20803,7 @@ export const speciesData: Species[] = [
         "observationId": "1ab3dd9c-b6cc-ba24-978b-9e04eecb90cf"
       }
     ],
-    "firstDetected": "2025-04-01T17:05:00Z",
+    "firstRegistered": "2025-04-01T17:05:00Z",
     "mapUrl": "https://mol.org/species/map/Patagioenas%20plumbea"
   },
   {
@@ -20814,11 +20814,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/35617670/medium.jpeg",
     "attribution": "(c) Jan Meerman; some rights reserved (CC BY-NC); uploaded by Jan Meerman",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.1396,
     "maxConfidence": 0.1396,
-    "lastDetected": "2025-04-07T11:40:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-07T11:40:00Z",
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 1,
       "CustomModel": 1,
@@ -20834,7 +20834,7 @@ export const speciesData: Species[] = [
         "observationId": "5671a2ac-e512-1446-7c50-172d22acecdc"
       }
     ],
-    "firstDetected": "2025-04-07T11:40:00Z",
+    "firstRegistered": "2025-04-07T11:40:00Z",
     "mapUrl": "https://mol.org/species/map/Patagioenas%20speciosa"
   },
   {
@@ -20845,18 +20845,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/254236224/medium.jpg",
     "attribution": "(c) Claudio Martins de Souza; some rights reserved (CC BY-NC); uploaded by Claudio Martins de Souza",
     "sampleAudioUrl": "",
-    "detectionCount": 13,
+    "registerCount": 13,
     "confidence": 0.7213,
     "maxConfidence": 0.7213,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 13,
       "max": 13
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Penelope%20obscura"
   },
   {
@@ -20867,18 +20867,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/32133738/medium.jpeg",
     "attribution": "(c) Heitor Fagundes Beloch; some rights reserved (CC BY-NC); uploaded by Heitor Fagundes Beloch",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0.8172,
     "maxConfidence": 0.8172,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 2,
       "max": 2
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Penelope%20superciliaris"
   },
   {
@@ -20889,11 +20889,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/73972124/medium.jpg",
     "attribution": "(c) Marcelo Maux; all rights reserved; uploaded by Marcelo Maux",
     "sampleAudioUrl": "",
-    "detectionCount": 3,
+    "registerCount": 3,
     "confidence": 0.3119,
     "maxConfidence": 0.3119,
-    "lastDetected": "2025-04-07T09:25:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-07T09:25:00Z",
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 3,
       "CustomModel": 2,
@@ -20933,7 +20933,7 @@ export const speciesData: Species[] = [
         "observationId": "3d1d291c-626f-4ea9-4b40-f6f31f9b9b1d"
       }
     ],
-    "firstDetected": "2025-04-01T07:50:00Z",
+    "firstRegistered": "2025-04-01T07:50:00Z",
     "mapUrl": "https://mol.org/species/map/Phaethornis%20ruber"
   },
   {
@@ -20944,40 +20944,40 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/942643/medium.jpg",
     "attribution": "(c) Dario Sanches; some rights reserved (CC BY-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 6,
+    "registerCount": 6,
     "confidence": 0.7393,
     "maxConfidence": 0.7393,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 2,
       "CustomModel": 6,
       "max": 6
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Philydor%20atricapillus"
   },
   {
     "id": "sp-Phlegopsis_nigromaculata",
     "scientificName": "Phlegopsis nigromaculata",
-    "commonName": "",
+    "commonName": "Black-Spotted Bare-Eye",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://static.inaturalist.org/photos/160182328/medium.jpeg",
+    "attribution": "(c) Rudy Gelis, all rights reserved, uploaded by Rudy Gelis",
     "sampleAudioUrl": "",
-    "detectionCount": 26,
+    "registerCount": 26,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 18,
       "Perch": 3,
       "CustomModel": 26,
       "max": 26
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Phlegopsis%20nigromaculata"
   },
   {
@@ -20988,40 +20988,40 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/102043725/medium.jpg",
     "attribution": "(c) Norton Santos; some rights reserved (CC BY-NC); uploaded by Norton Santos",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0.5006,
     "maxConfidence": 0.5006,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 0,
       "CustomModel": 2,
       "max": 2
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Phyllomyias%20fasciatus"
   },
   {
     "id": "sp-Phyllomyias_griseiceps",
     "scientificName": "Phyllomyias griseiceps",
-    "commonName": "",
+    "commonName": "Sooty-Headed Tyrannulet",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/178946144/medium.jpg",
+    "attribution": "(c) Oswaldo Hernández, some rights reserved (CC BY-NC), uploaded by Oswaldo Hernández",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 1,
       "CustomModel": 0,
       "max": 1
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Phyllomyias%20griseiceps"
   },
   {
@@ -21032,18 +21032,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/10203188/medium.jpg",
     "attribution": "(c) Jorge Schlemmer; all rights reserved",
     "sampleAudioUrl": "",
-    "detectionCount": 3,
+    "registerCount": 3,
     "confidence": 0.4915,
     "maxConfidence": 0.4915,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 3,
       "CustomModel": 2,
       "max": 3
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Phylloscartes%20ventralis"
   },
   {
@@ -21054,11 +21054,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/96366121/medium.jpg",
     "attribution": "(c) abelardomendesjr; some rights reserved (CC BY-NC); uploaded by abelardomendesjr",
     "sampleAudioUrl": "",
-    "detectionCount": 8,
+    "registerCount": 8,
     "confidence": 0.3908,
     "maxConfidence": 0.3908,
-    "lastDetected": "2025-04-08T05:55:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T05:55:00Z",
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 8,
       "CustomModel": 3,
@@ -21146,7 +21146,7 @@ export const speciesData: Species[] = [
         "observationId": "dc3e36e2-c44b-e963-9b09-31719974e660"
       }
     ],
-    "firstDetected": "2025-03-31T15:25:00Z",
+    "firstRegistered": "2025-03-31T15:25:00Z",
     "mapUrl": "https://mol.org/species/map/Piaya%20cayana"
   },
   {
@@ -21157,18 +21157,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/226767660/medium.jpeg",
     "attribution": "(c) Eduardo Luis Beltrocco; some rights reserved (CC BY); uploaded by Eduardo Luis Beltrocco",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0.3416,
     "maxConfidence": 0.3416,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 2,
       "max": 2
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Picumnus%20cirratus"
   },
   {
@@ -21179,18 +21179,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/75948/medium.jpg",
     "attribution": "(c) Cláudio Dias Timm; some rights reserved (CC BY-NC-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.8591,
     "maxConfidence": 0.8591,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 1,
       "CustomModel": 1,
       "max": 1
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Picumnus%20temminckii"
   },
   {
@@ -21201,32 +21201,32 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/314019219/medium.jpg",
     "attribution": "(c) David Rodriguez; some rights reserved (CC BY-NC); uploaded by David Rodriguez",
     "sampleAudioUrl": "",
-    "detectionCount": 20,
+    "registerCount": 20,
     "confidence": 0.167,
     "maxConfidence": 0.167,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 13,
       "Perch": 16,
       "CustomModel": 20,
       "max": 20
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Pionus%20maximiliani"
   },
   {
     "id": "sp-Pionus_menstruus",
     "scientificName": "Pionus menstruus",
-    "commonName": "",
+    "commonName": "Blue-Headed Parrot",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/64477914/medium.jpg",
+    "attribution": "(c) Arman Moreno, some rights reserved (CC BY-NC), uploaded by Arman Moreno",
     "sampleAudioUrl": "",
-    "detectionCount": 3,
+    "registerCount": 3,
     "confidence": 0.1796,
     "maxConfidence": 0.1796,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 3,
       "CustomModel": 1,
@@ -21258,52 +21258,52 @@ export const speciesData: Species[] = [
         "observationId": "7e3bfd29-a136-5b52-6226-d71c853a64a1"
       }
     ],
-    "firstDetected": "2025-04-03T15:10:00Z",
-    "lastDetected": "2025-04-06T08:10:00Z",
+    "firstRegistered": "2025-04-03T15:10:00Z",
+    "lastRegistered": "2025-04-06T08:10:00Z",
     "mapUrl": "https://mol.org/species/map/Pionus%20menstruus"
   },
   {
     "id": "sp-Piranga_leucoptera",
     "scientificName": "Piranga leucoptera",
-    "commonName": "",
+    "commonName": "White-Winged Tanager",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://static.inaturalist.org/photos/62745867/medium.jpg",
+    "attribution": "(c) Juan Miguel Artigas Azas, all rights reserved, uploaded by Juan Miguel Artigas Azas",
     "sampleAudioUrl": "",
-    "detectionCount": 6,
+    "registerCount": 6,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 5,
       "Perch": 6,
       "CustomModel": 0,
       "max": 6
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Piranga%20leucoptera"
   },
   {
     "id": "sp-Piranga_olivacea",
     "scientificName": "Piranga olivacea",
-    "commonName": "",
+    "commonName": "Scarlet Tanager",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://static.inaturalist.org/photos/199674966/medium.jpeg",
+    "attribution": "(c) samzhang, all rights reserved",
     "sampleAudioUrl": "",
-    "detectionCount": 6,
+    "registerCount": 6,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 6,
       "CustomModel": 0,
       "max": 6
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Piranga%20olivacea"
   },
   {
@@ -21314,11 +21314,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/1766279/medium.jpg",
     "attribution": "(c) Dario Sanches; some rights reserved (CC BY-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 6,
+    "registerCount": 6,
     "confidence": 0.6216,
     "maxConfidence": 0.6216,
-    "lastDetected": "2025-04-04T11:55:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-04T11:55:00Z",
+    "registerInfo": {
       "BirdNET": 4,
       "Perch": 1,
       "CustomModel": 6,
@@ -21390,21 +21390,21 @@ export const speciesData: Species[] = [
         "observationId": "039d2356-0a70-b431-5f44-d9bc04644b39"
       }
     ],
-    "firstDetected": "2025-04-02T09:55:00Z",
+    "firstRegistered": "2025-04-02T09:55:00Z",
     "mapUrl": "https://mol.org/species/map/Pitangus%20sulphuratus"
   },
   {
     "id": "sp-Platyrinchus_coronatus",
     "scientificName": "Platyrinchus coronatus",
-    "commonName": "",
+    "commonName": "Golden-Crowned Spadebill",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/102956714/medium.jpeg",
+    "attribution": "(c) Tom Murray, some rights reserved (CC BY-NC), uploaded by Tom Murray",
     "sampleAudioUrl": "",
-    "detectionCount": 6,
+    "registerCount": 6,
     "confidence": 0.1274,
     "maxConfidence": 0.1274,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 6,
       "CustomModel": 0,
@@ -21444,8 +21444,8 @@ export const speciesData: Species[] = [
         "observationId": "6c1b3c98-5a9f-db99-a8de-6d523884988b"
       }
     ],
-    "firstDetected": "2025-04-02T08:40:00Z",
-    "lastDetected": "2025-04-05T01:15:00Z",
+    "firstRegistered": "2025-04-02T08:40:00Z",
+    "lastRegistered": "2025-04-05T01:15:00Z",
     "mapUrl": "https://mol.org/species/map/Platyrinchus%20coronatus"
   },
   {
@@ -21456,18 +21456,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/77933/medium.jpg",
     "attribution": "(c) Dario Sanches; some rights reserved (CC BY-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 43,
+    "registerCount": 43,
     "confidence": 0.8254,
     "maxConfidence": 0.8254,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 32,
       "Perch": 43,
       "CustomModel": 18,
       "max": 43
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Platyrinchus%20mystaceus"
   },
   {
@@ -21478,18 +21478,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/118442274/medium.jpg",
     "attribution": "(c) Luciano Bernardes; some rights reserved (CC BY-NC); uploaded by Luciano Bernardes",
     "sampleAudioUrl": "",
-    "detectionCount": 14,
+    "registerCount": 14,
     "confidence": 0.8667,
     "maxConfidence": 0.8667,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 14,
       "CustomModel": 2,
       "max": 14
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Poecilotriccus%20plumbeiceps"
   },
   {
@@ -21500,32 +21500,32 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/168838550/medium.jpeg",
     "attribution": "(c) gstroz; all rights reserved",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0.8936,
     "maxConfidence": 0.8936,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 2,
       "CustomModel": 1,
       "max": 2
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Procnias%20nudicollis"
   },
   {
     "id": "sp-Psarocolius_angustifrons",
     "scientificName": "Psarocolius angustifrons",
-    "commonName": "",
+    "commonName": "Russet-Backed Oropendola",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/360816895/medium.jpeg",
+    "attribution": "(c) Bill Levine, some rights reserved (CC BY), uploaded by Bill Levine",
     "sampleAudioUrl": "",
-    "detectionCount": 9,
+    "registerCount": 9,
     "confidence": 0.2344,
     "maxConfidence": 0.2344,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 6,
       "Perch": 9,
       "CustomModel": 0,
@@ -21581,8 +21581,8 @@ export const speciesData: Species[] = [
         "observationId": "0b6dcd4c-45be-4922-e03b-efba0d2a8bcf"
       }
     ],
-    "firstDetected": "2025-04-01T06:55:00Z",
-    "lastDetected": "2025-04-06T06:15:00Z",
+    "firstRegistered": "2025-04-01T06:55:00Z",
+    "lastRegistered": "2025-04-06T06:15:00Z",
     "mapUrl": "https://mol.org/species/map/Psarocolius%20angustifrons"
   },
   {
@@ -21593,18 +21593,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/452504047/medium.jpeg",
     "attribution": "(c) Antonio Amaral; some rights reserved (CC BY-NC); uploaded by Antonio Amaral",
     "sampleAudioUrl": "",
-    "detectionCount": 571,
+    "registerCount": 571,
     "confidence": 0.157,
     "maxConfidence": 0.157,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 58,
       "Perch": 6,
       "CustomModel": 571,
       "max": 571
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Pulsatrix%20koeniswaldiana"
   },
   {
@@ -21615,11 +21615,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/226401151/medium.jpeg",
     "attribution": "(c) Randy Gomez Alvarado; all rights reserved; uploaded by Randy Gomez Alvarado",
     "sampleAudioUrl": "",
-    "detectionCount": 2761,
+    "registerCount": 2761,
     "confidence": 0.7408,
     "maxConfidence": 0.7408,
-    "lastDetected": "2025-04-08T19:35:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T19:35:00Z",
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 18,
       "CustomModel": 2761,
@@ -43731,7 +43731,7 @@ export const speciesData: Species[] = [
         "observationId": "8a44649b-abb0-dc92-1b4c-04e75650edbd"
       }
     ],
-    "firstDetected": "2025-03-31T18:20:00Z",
+    "firstRegistered": "2025-03-31T18:20:00Z",
     "mapUrl": "https://mol.org/species/map/Pulsatrix%20perspicillata"
   },
   {
@@ -43742,18 +43742,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/267351662/medium.jpg",
     "attribution": "(c) stevebrazil; some rights reserved (CC BY-NC)",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0.4374,
     "maxConfidence": 0.4374,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 1,
       "CustomModel": 1,
       "max": 2
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Pygochelidon%20cyanoleuca"
   },
   {
@@ -43764,18 +43764,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/139367700/medium.jpg",
     "attribution": "(c) Luciano Bernardes; some rights reserved (CC BY-NC); uploaded by Luciano Bernardes",
     "sampleAudioUrl": "",
-    "detectionCount": 30,
+    "registerCount": 30,
     "confidence": 0.7963,
     "maxConfidence": 0.7963,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 30,
       "Perch": 29,
       "CustomModel": 16,
       "max": 30
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Pyriglena%20leucoptera"
   },
   {
@@ -43786,18 +43786,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/2510145/medium.jpg",
     "attribution": "(c) Francesco Veronesi; some rights reserved (CC BY-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 11,
+    "registerCount": 11,
     "confidence": 0.7192,
     "maxConfidence": 0.7192,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 3,
       "Perch": 11,
       "CustomModel": 0,
       "max": 11
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Pyroderus%20scutatus"
   },
   {
@@ -43808,18 +43808,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/66312147/medium.jpeg",
     "attribution": "(c) Javier González; some rights reserved (CC BY-NC); uploaded by Javier González",
     "sampleAudioUrl": "",
-    "detectionCount": 3,
+    "registerCount": 3,
     "confidence": 0.9328,
     "maxConfidence": 0.9328,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 3,
       "CustomModel": 0,
       "max": 3
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Ramphastos%20dicolorus"
   },
   {
@@ -43830,32 +43830,32 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/63281117/medium.jpg",
     "attribution": "(c) Paul Steeves; some rights reserved (CC BY-NC); uploaded by Paul Steeves",
     "sampleAudioUrl": "",
-    "detectionCount": 118,
+    "registerCount": 118,
     "confidence": 0.9268,
     "maxConfidence": 0.9268,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 118,
       "Perch": 115,
       "CustomModel": 101,
       "max": 118
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Ramphastos%20toco"
   },
   {
     "id": "sp-Ramphocaenus_melanurus",
     "scientificName": "Ramphocaenus melanurus",
-    "commonName": "",
+    "commonName": "Long-Billed Gnatwren",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/74174585/medium.jpg",
+    "attribution": "(c) Oswaldo Hernández, some rights reserved (CC BY-NC), uploaded by Oswaldo Hernández",
     "sampleAudioUrl": "",
-    "detectionCount": 12,
+    "registerCount": 12,
     "confidence": 0.5476,
     "maxConfidence": 0.5476,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 12,
       "CustomModel": 4,
@@ -43999,8 +43999,8 @@ export const speciesData: Species[] = [
         "observationId": "8da16373-6f4b-bc01-1fe3-8bdd9512a63c"
       }
     ],
-    "firstDetected": "2025-03-31T13:35:00Z",
-    "lastDetected": "2025-04-08T11:15:00Z",
+    "firstRegistered": "2025-03-31T13:35:00Z",
+    "lastRegistered": "2025-04-08T11:15:00Z",
     "mapUrl": "https://mol.org/species/map/Ramphocaenus%20melanurus"
   },
   {
@@ -44011,11 +44011,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/57574978/medium.jpg",
     "attribution": "(c) ierpabirding2019; some rights reserved (CC BY-NC)",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.3634,
     "maxConfidence": 0.3634,
-    "lastDetected": "2025-04-03T11:30:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-03T11:30:00Z",
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 1,
@@ -44031,29 +44031,29 @@ export const speciesData: Species[] = [
         "observationId": "a0f5a35b-26a7-3dc8-1154-eebc1b6662da"
       }
     ],
-    "firstDetected": "2025-04-03T11:30:00Z",
+    "firstRegistered": "2025-04-03T11:30:00Z",
     "mapUrl": "https://mol.org/species/map/Ramphocelus%20carbo"
   },
   {
     "id": "sp-Ramphotrigon_megacephalum",
     "scientificName": "Ramphotrigon megacephalum",
-    "commonName": "",
+    "commonName": "Large-Headed Flatbill",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/60274852/medium.jpg",
+    "attribution": "(c) Oswaldo Hernández, some rights reserved (CC BY-NC), uploaded by Oswaldo Hernández",
     "sampleAudioUrl": "",
-    "detectionCount": 15,
+    "registerCount": 15,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 15,
       "Perch": 7,
       "CustomModel": 15,
       "max": 15
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Ramphotrigon%20megacephalum"
   },
   {
@@ -44064,18 +44064,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/51081666/medium.jpg",
     "attribution": "(c) Mariano Ordoñez; all rights reserved; uploaded by Mariano Ordoñez",
     "sampleAudioUrl": "",
-    "detectionCount": 10,
+    "registerCount": 10,
     "confidence": 0.1485,
     "maxConfidence": 0.1485,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 8,
       "Perch": 9,
       "CustomModel": 10,
       "max": 10
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Saltator%20similis"
   },
   {
@@ -44086,18 +44086,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/92509958/medium.jpeg",
     "attribution": "(c) Maicon Molina; all rights reserved; uploaded by Maicon Molina",
     "sampleAudioUrl": "",
-    "detectionCount": 22,
+    "registerCount": 22,
     "confidence": 0.8103,
     "maxConfidence": 0.8103,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 22,
       "Perch": 19,
       "CustomModel": 14,
       "max": 22
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Schiffornis%20virescens"
   },
   {
@@ -44108,18 +44108,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/242707779/medium.jpg",
     "attribution": "(c) Allan Clé Porto; all rights reserved; uploaded by Allan Clé Porto",
     "sampleAudioUrl": "",
-    "detectionCount": 13,
+    "registerCount": 13,
     "confidence": 0.6633,
     "maxConfidence": 0.6633,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 8,
       "Perch": 10,
       "CustomModel": 13,
       "max": 13
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Sclerurus%20scansor"
   },
   {
@@ -44130,18 +44130,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/162050248/medium.jpg",
     "attribution": "(c) Javier Chiavone; all rights reserved; uploaded by Javier Chiavone",
     "sampleAudioUrl": "",
-    "detectionCount": 32,
+    "registerCount": 32,
     "confidence": 0.3989,
     "maxConfidence": 0.3989,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 25,
       "Perch": 26,
       "CustomModel": 32,
       "max": 32
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Sirystes%20sibilator"
   },
   {
@@ -44152,11 +44152,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/245961193/medium.jpg",
     "attribution": "(c) Tomaz Nascimento de Melo; some rights reserved (CC BY-NC-ND); uploaded by Tomaz Nascimento de Melo",
     "sampleAudioUrl": "",
-    "detectionCount": 180,
+    "registerCount": 180,
     "confidence": 1.0,
     "maxConfidence": 1.0,
-    "lastDetected": "2025-04-08T17:30:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T17:30:00Z",
+    "registerInfo": {
       "BirdNET": 87,
       "Perch": 143,
       "CustomModel": 180,
@@ -46900,7 +46900,7 @@ export const speciesData: Species[] = [
         "observationId": "04e3f03b-5782-c115-6e23-343f6f73da5c"
       }
     ],
-    "firstDetected": "2025-03-31T14:25:00Z",
+    "firstRegistered": "2025-03-31T14:25:00Z",
     "mapUrl": "https://mol.org/species/map/Sittasomus%20griseicapillus"
   },
   {
@@ -46911,11 +46911,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/187884875/medium.jpg",
     "attribution": "(c) gabovinasco1; some rights reserved (CC BY-NC)",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.1256,
     "maxConfidence": 0.1256,
-    "lastDetected": "2025-04-03T10:30:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-03T10:30:00Z",
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 1,
@@ -46931,7 +46931,7 @@ export const speciesData: Species[] = [
         "observationId": "e0ee5dce-cd70-36f9-fc1b-8e8b826481ce"
       }
     ],
-    "firstDetected": "2025-04-03T10:30:00Z",
+    "firstRegistered": "2025-04-03T10:30:00Z",
     "mapUrl": "https://mol.org/species/map/Spizaetus%20ornatus"
   },
   {
@@ -46942,11 +46942,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/32282100/medium.jpg",
     "attribution": "(c) Dave Wendelken; some rights reserved (CC BY-NC); uploaded by Dave Wendelken",
     "sampleAudioUrl": "",
-    "detectionCount": 19,
+    "registerCount": 19,
     "confidence": 0.3583,
     "maxConfidence": 0.3583,
-    "lastDetected": "2025-04-07T16:35:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-07T16:35:00Z",
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 19,
       "CustomModel": 3,
@@ -47026,7 +47026,7 @@ export const speciesData: Species[] = [
         "observationId": "22ab5da3-15fc-a0a8-0c68-2a917c91304d"
       }
     ],
-    "firstDetected": "2025-04-02T09:25:00Z",
+    "firstRegistered": "2025-04-02T09:25:00Z",
     "mapUrl": "https://mol.org/species/map/Spizaetus%20tyrannus"
   },
   {
@@ -47037,18 +47037,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/89726/medium.jpg",
     "attribution": "(c) Dario Sanches; some rights reserved (CC BY-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0.2714,
     "maxConfidence": 0.2714,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 2,
       "CustomModel": 2,
       "max": 2
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Sporophila%20falcirostris"
   },
   {
@@ -47059,18 +47059,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/89727/medium.jpg",
     "attribution": "(c) Dario Sanches; some rights reserved (CC BY-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 3,
+    "registerCount": 3,
     "confidence": 0.7783,
     "maxConfidence": 0.7783,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 3,
       "CustomModel": 2,
       "max": 3
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Sporophila%20frontalis"
   },
   {
@@ -47081,11 +47081,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/21141/medium.jpg",
     "attribution": "(c) Mauricio Mercadante; some rights reserved (CC BY-NC-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 12,
+    "registerCount": 12,
     "confidence": 0.1729,
     "maxConfidence": 0.1729,
-    "lastDetected": "2025-04-08T14:25:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T14:25:00Z",
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 1,
       "CustomModel": 12,
@@ -47197,29 +47197,29 @@ export const speciesData: Species[] = [
         "observationId": "635dfe51-ef17-5801-fb3a-54901b93ace6"
       }
     ],
-    "firstDetected": "2025-03-31T17:00:00Z",
+    "firstRegistered": "2025-03-31T17:00:00Z",
     "mapUrl": "https://mol.org/species/map/Sporophila%20nigricollis"
   },
   {
     "id": "sp-Sporophila_schistacea",
     "scientificName": "Sporophila schistacea",
-    "commonName": "",
+    "commonName": "Slate-Colored Seedeater",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/58790930/medium.jpg",
+    "attribution": "(c) Dan Riskin, some rights reserved (CC BY), uploaded by Dan Riskin",
     "sampleAudioUrl": "",
-    "detectionCount": 46,
+    "registerCount": 46,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 46,
       "Perch": 1,
       "CustomModel": 0,
       "max": 46
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Sporophila%20schistacea"
   },
   {
@@ -47230,18 +47230,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/197970/medium.jpg",
     "attribution": "(c) Dario Sanches; some rights reserved (CC BY-SA)",
     "sampleAudioUrl": "",
-    "detectionCount": 235,
+    "registerCount": 235,
     "confidence": 0.9583,
     "maxConfidence": 0.9583,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 20,
       "CustomModel": 235,
       "max": 235
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Strix%20hylophila"
   },
   {
@@ -47252,18 +47252,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/540077338/medium.jpg",
     "attribution": "(c) Gustavo Dallaqua; all rights reserved; uploaded by Gustavo Dallaqua",
     "sampleAudioUrl": "",
-    "detectionCount": 71,
+    "registerCount": 71,
     "confidence": 0.3704,
     "maxConfidence": 0.3704,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 70,
       "Perch": 62,
       "CustomModel": 71,
       "max": 71
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Synallaxis%20cinerascens"
   },
   {
@@ -47274,18 +47274,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/327548198/medium.jpg",
     "attribution": "(c) Alan Hentz; some rights reserved (CC BY-NC); uploaded by Alan Hentz",
     "sampleAudioUrl": "",
-    "detectionCount": 27,
+    "registerCount": 27,
     "confidence": 0.5934,
     "maxConfidence": 0.5934,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 25,
       "Perch": 27,
       "CustomModel": 13,
       "max": 27
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Synallaxis%20ruficapilla"
   },
   {
@@ -47296,18 +47296,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/358417745/medium.jpg",
     "attribution": "(c) Sanjay Veiga; all rights reserved; uploaded by Sanjay Veiga",
     "sampleAudioUrl": "",
-    "detectionCount": 5,
+    "registerCount": 5,
     "confidence": 0.7205,
     "maxConfidence": 0.7205,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 4,
       "Perch": 5,
       "CustomModel": 1,
       "max": 5
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Synallaxis%20scutata"
   },
   {
@@ -47318,18 +47318,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/179819376/medium.jpg",
     "attribution": "(c) Luiz Fernando Matos; all rights reserved; uploaded by Luiz Fernando Matos",
     "sampleAudioUrl": "",
-    "detectionCount": 74,
+    "registerCount": 74,
     "confidence": 0.6935,
     "maxConfidence": 0.6935,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 74,
       "Perch": 65,
       "CustomModel": 64,
       "max": 74
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Syndactyla%20rufosuperciliata"
   },
   {
@@ -47340,18 +47340,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/301208967/medium.jpg",
     "attribution": "(c) Ricardo Mitidieri; all rights reserved; uploaded by Ricardo Mitidieri",
     "sampleAudioUrl": "",
-    "detectionCount": 335,
+    "registerCount": 335,
     "confidence": 0.8669,
     "maxConfidence": 0.8669,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 335,
       "Perch": 196,
       "CustomModel": 309,
       "max": 335
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Tachyphonus%20coronatus"
   },
   {
@@ -47362,11 +47362,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/465726492/medium.jpg",
     "attribution": "(c) Don Danko; all rights reserved; uploaded by Don Danko",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.2285,
     "maxConfidence": 0.2285,
-    "lastDetected": "2025-04-07T06:15:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-07T06:15:00Z",
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 1,
       "CustomModel": 0,
@@ -47382,21 +47382,21 @@ export const speciesData: Species[] = [
         "observationId": "ab059c50-552c-fb93-7187-a4621b8be331"
       }
     ],
-    "firstDetected": "2025-04-07T06:15:00Z",
+    "firstRegistered": "2025-04-07T06:15:00Z",
     "mapUrl": "https://mol.org/species/map/Tachyphonus%20rufus"
   },
   {
     "id": "sp-Tangara_chilensis",
     "scientificName": "Tangara chilensis",
-    "commonName": "",
+    "commonName": "Paradise Tanager",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/52936237/medium.jpg",
+    "attribution": "(c) Phil Kahler, some rights reserved (CC BY-NC), uploaded by Phil Kahler",
     "sampleAudioUrl": "",
-    "detectionCount": 3,
+    "registerCount": 3,
     "confidence": 0.3475,
     "maxConfidence": 0.3475,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 3,
       "CustomModel": 3,
@@ -47436,30 +47436,30 @@ export const speciesData: Species[] = [
         "observationId": "3cdf7978-f97f-6b99-befc-d50743a0a1ea"
       }
     ],
-    "firstDetected": "2025-04-03T11:50:00Z",
-    "lastDetected": "2025-04-06T09:55:00Z",
+    "firstRegistered": "2025-04-03T11:50:00Z",
+    "lastRegistered": "2025-04-06T09:55:00Z",
     "mapUrl": "https://mol.org/species/map/Tangara%20chilensis"
   },
   {
     "id": "sp-Tangara_cyanocephala",
     "scientificName": "Tangara cyanocephala",
-    "commonName": "",
+    "commonName": "Red-Necked Tanager",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/26372064/medium.jpeg",
+    "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
     "sampleAudioUrl": "",
-    "detectionCount": 23,
+    "registerCount": 23,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 23,
       "CustomModel": 14,
       "max": 23
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Tangara%20cyanocephala"
   },
   {
@@ -47470,18 +47470,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/106167555/medium.jpg",
     "attribution": "(c) Joao Quental; all rights reserved; uploaded by Joao Quental",
     "sampleAudioUrl": "",
-    "detectionCount": 206,
+    "registerCount": 206,
     "confidence": 0.3489,
     "maxConfidence": 0.3489,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 151,
       "Perch": 206,
       "CustomModel": 123,
       "max": 206
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Tangara%20cyanoventris"
   },
   {
@@ -47492,54 +47492,54 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/118975036/medium.jpg",
     "attribution": "(c) Luciano Bernardes; some rights reserved (CC BY-NC); uploaded by Luciano Bernardes",
     "sampleAudioUrl": "",
-    "detectionCount": 66,
+    "registerCount": 66,
     "confidence": 0.5947,
     "maxConfidence": 0.5947,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 16,
       "Perch": 66,
       "CustomModel": 37,
       "max": 66
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Tangara%20desmaresti"
   },
   {
     "id": "sp-Tangara_gyrola",
     "scientificName": "Tangara gyrola",
-    "commonName": "",
+    "commonName": "Bay-Headed Tanager",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/93482880/medium.jpg",
+    "attribution": "(c) Arley Vargas, some rights reserved (CC BY-NC-ND)",
     "sampleAudioUrl": "",
-    "detectionCount": 12,
+    "registerCount": 12,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 12,
       "CustomModel": 0,
       "max": 12
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Tangara%20gyrola"
   },
   {
     "id": "sp-Tangara_mexicana",
     "scientificName": "Tangara mexicana",
-    "commonName": "",
+    "commonName": "Turquoise Tanager",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://static.inaturalist.org/photos/120311101/medium.jpg",
+    "attribution": "(c) Jessica dos Anjos, all rights reserved, uploaded by Jessica dos Anjos",
     "sampleAudioUrl": "",
-    "detectionCount": 95,
+    "registerCount": 95,
     "confidence": 0.8212,
     "maxConfidence": 0.8212,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 13,
       "Perch": 0,
       "CustomModel": 95,
@@ -48315,8 +48315,8 @@ export const speciesData: Species[] = [
         "observationId": "a6d1f59f-f6fa-6223-300a-8dd6b202a18c"
       }
     ],
-    "firstDetected": "2025-03-31T12:55:00Z",
-    "lastDetected": "2025-04-08T10:50:00Z",
+    "firstRegistered": "2025-03-31T12:55:00Z",
+    "lastRegistered": "2025-04-08T10:50:00Z",
     "mapUrl": "https://mol.org/species/map/Tangara%20mexicana"
   },
   {
@@ -48327,32 +48327,32 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/28179493/medium.jpg",
     "attribution": "(c) Marcio Fontana; all rights reserved; uploaded by Marcio Fontana",
     "sampleAudioUrl": "",
-    "detectionCount": 22,
+    "registerCount": 22,
     "confidence": 0.3148,
     "maxConfidence": 0.3148,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 22,
       "Perch": 6,
       "CustomModel": 9,
       "max": 22
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Tangara%20seledon"
   },
   {
     "id": "sp-Tangara_velia",
     "scientificName": "Tangara velia",
-    "commonName": "",
+    "commonName": "Opal-Rumped Tanager",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/93315437/medium.jpg",
+    "attribution": "(c) Joao Quental, some rights reserved (CC BY)",
     "sampleAudioUrl": "",
-    "detectionCount": 8,
+    "registerCount": 8,
     "confidence": 0.8184,
     "maxConfidence": 0.8184,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 1,
       "CustomModel": 8,
@@ -48432,8 +48432,8 @@ export const speciesData: Species[] = [
         "observationId": "f36f2af4-81af-31aa-912d-8750267e8b17"
       }
     ],
-    "firstDetected": "2025-03-31T12:45:00Z",
-    "lastDetected": "2025-04-08T07:25:00Z",
+    "firstRegistered": "2025-03-31T12:45:00Z",
+    "lastRegistered": "2025-04-08T07:25:00Z",
     "mapUrl": "https://mol.org/species/map/Tangara%20velia"
   },
   {
@@ -48444,11 +48444,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/226698613/medium.jpg",
     "attribution": "(c) Oswaldo Hernández; some rights reserved (CC BY-NC); uploaded by Oswaldo Hernández",
     "sampleAudioUrl": "",
-    "detectionCount": 5,
+    "registerCount": 5,
     "confidence": 0.7463,
     "maxConfidence": 0.7463,
-    "lastDetected": "2025-04-04T23:10:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-04T23:10:00Z",
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 1,
       "CustomModel": 5,
@@ -48512,29 +48512,29 @@ export const speciesData: Species[] = [
         "observationId": "d4ef6c80-9b65-aa0b-1290-cfbc6db25e7e"
       }
     ],
-    "firstDetected": "2025-03-31T15:55:00Z",
+    "firstRegistered": "2025-03-31T15:55:00Z",
     "mapUrl": "https://mol.org/species/map/Tersina%20viridis"
   },
   {
     "id": "sp-Thamnomanes_saturninus",
     "scientificName": "Thamnomanes saturninus",
-    "commonName": "",
+    "commonName": "Saturnine Antshrike",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/198027676/medium.jpg",
+    "attribution": "(с) Mike Melton, некоторые права защищены (CC BY-NC), загрузил Mike Melton",
     "sampleAudioUrl": "",
-    "detectionCount": 5,
+    "registerCount": 5,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 5,
       "Perch": 1,
       "CustomModel": 1,
       "max": 5
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Thamnomanes%20saturninus"
   },
   {
@@ -48545,18 +48545,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/210204427/medium.jpeg",
     "attribution": "(c) joseluisblazquez; some rights reserved (CC BY-NC)",
     "sampleAudioUrl": "",
-    "detectionCount": 127,
+    "registerCount": 127,
     "confidence": 0.7542,
     "maxConfidence": 0.7542,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 92,
       "Perch": 65,
       "CustomModel": 127,
       "max": 127
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Thamnophilus%20caerulescens"
   },
   {
@@ -48567,18 +48567,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/1854563/medium.JPG",
     "attribution": "(c) angel_castillo_birdingtours; some rights reserved (CC BY-NC); uploaded by angel_castillo_birdingtours",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.6962,
     "maxConfidence": 0.6962,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 1,
       "max": 1
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Thamnophilus%20doliatus"
   },
   {
@@ -48589,18 +48589,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/61685756/medium.jpg",
     "attribution": "(c) André Adeodato; all rights reserved",
     "sampleAudioUrl": "",
-    "detectionCount": 4,
+    "registerCount": 4,
     "confidence": 0.9402,
     "maxConfidence": 0.9402,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 4,
       "Perch": 1,
       "CustomModel": 4,
       "max": 4
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Thlypopsis%20sordida"
   },
   {
@@ -48611,11 +48611,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/2967027/medium.jpg",
     "attribution": "(c) Greg Lasley; some rights reserved (CC BY-NC); uploaded by Greg Lasley",
     "sampleAudioUrl": "",
-    "detectionCount": 6,
+    "registerCount": 6,
     "confidence": 0.7102,
     "maxConfidence": 0.7102,
-    "lastDetected": "2025-04-05T11:10:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-05T11:10:00Z",
+    "registerInfo": {
       "BirdNET": 6,
       "Perch": 3,
       "CustomModel": 2,
@@ -48663,21 +48663,21 @@ export const speciesData: Species[] = [
         "observationId": "cb5e03dc-0da8-8f4e-adf0-878a4569a105"
       }
     ],
-    "firstDetected": "2025-04-03T07:35:00Z",
+    "firstRegistered": "2025-04-03T07:35:00Z",
     "mapUrl": "https://mol.org/species/map/Thraupis%20palmarum"
   },
   {
     "id": "sp-Threnetes_leucurus",
     "scientificName": "Threnetes leucurus",
-    "commonName": "",
+    "commonName": "Pale-Tailed Barbthroat",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://static.inaturalist.org/photos/140061760/medium.jpg",
+    "attribution": "(c) Pedro Peloso, all rights reserved, uploaded by Pedro Peloso",
     "sampleAudioUrl": "",
-    "detectionCount": 5,
+    "registerCount": 5,
     "confidence": 0.5315,
     "maxConfidence": 0.5315,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 5,
       "CustomModel": 0,
@@ -48717,22 +48717,22 @@ export const speciesData: Species[] = [
         "observationId": "dffd9622-24c5-b690-de6b-0ad98af9123e"
       }
     ],
-    "firstDetected": "2025-04-01T13:25:00Z",
-    "lastDetected": "2025-04-08T11:00:00Z",
+    "firstRegistered": "2025-04-01T13:25:00Z",
+    "lastRegistered": "2025-04-08T11:00:00Z",
     "mapUrl": "https://mol.org/species/map/Threnetes%20leucurus"
   },
   {
     "id": "sp-Tityra_semifasciata",
     "scientificName": "Tityra semifasciata",
-    "commonName": "",
+    "commonName": "Masked Tityra",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://static.inaturalist.org/photos/15684198/medium.jpeg",
+    "attribution": "(c) María Cecilia Alvarez, all rights reserved, uploaded by María Cecilia Alvarez",
     "sampleAudioUrl": "",
-    "detectionCount": 332,
+    "registerCount": 332,
     "confidence": 0.9966,
     "maxConfidence": 0.9966,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 17,
       "Perch": 332,
       "CustomModel": 12,
@@ -51260,8 +51260,8 @@ export const speciesData: Species[] = [
         "observationId": "c00a51b5-583c-04d5-bd33-3fa44ca50a23"
       }
     ],
-    "firstDetected": "2025-03-31T16:10:00Z",
-    "lastDetected": "2025-04-08T17:55:00Z",
+    "firstRegistered": "2025-03-31T16:10:00Z",
+    "lastRegistered": "2025-04-08T17:55:00Z",
     "mapUrl": "https://mol.org/species/map/Tityra%20semifasciata"
   },
   {
@@ -51272,18 +51272,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/15044125/medium.jpg",
     "attribution": "(c) Carlos Henrique; some rights reserved (CC BY-NC)",
     "sampleAudioUrl": "",
-    "detectionCount": 32,
+    "registerCount": 32,
     "confidence": 0.8475,
     "maxConfidence": 0.8475,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 15,
       "Perch": 32,
       "CustomModel": 29,
       "max": 32
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Todirostrum%20poliocephalum"
   },
   {
@@ -51294,11 +51294,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/348692639/medium.jpg",
     "attribution": "(c) Ad Konings; some rights reserved (CC BY-NC); uploaded by Ad Konings",
     "sampleAudioUrl": "",
-    "detectionCount": 209,
+    "registerCount": 209,
     "confidence": 1.0,
     "maxConfidence": 1.0,
-    "lastDetected": "2025-04-08T11:20:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T11:20:00Z",
+    "registerInfo": {
       "BirdNET": 93,
       "Perch": 209,
       "CustomModel": 186,
@@ -54282,29 +54282,29 @@ export const speciesData: Species[] = [
         "observationId": "2a779cd4-47a8-8bfd-17b6-6fd32c0a3bd0"
       }
     ],
-    "firstDetected": "2025-03-31T13:10:00Z",
+    "firstRegistered": "2025-03-31T13:10:00Z",
     "mapUrl": "https://mol.org/species/map/Tolmomyias%20sulphurescens"
   },
   {
     "id": "sp-Touit_surdus",
     "scientificName": "Touit surdus",
-    "commonName": "",
+    "commonName": "Golden-Tailed Parrotlet",
     "iucnStatus": "VU",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/187592531/medium.jpeg",
+    "attribution": "(c) Eric Carpenter, some rights reserved (CC BY-NC), uploaded by Eric Carpenter",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 1,
       "CustomModel": 1,
       "max": 1
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Touit%20surdus"
   },
   {
@@ -54315,18 +54315,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/27445973/medium.jpg",
     "attribution": "(c) João Paulo Rosa; some rights reserved (CC BY-NC); uploaded by João Paulo Rosa",
     "sampleAudioUrl": "",
-    "detectionCount": 47,
+    "registerCount": 47,
     "confidence": 0.8833,
     "maxConfidence": 0.8833,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 18,
       "Perch": 17,
       "CustomModel": 47,
       "max": 47
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Trichothraupis%20melanops"
   },
   {
@@ -54337,18 +54337,18 @@ export const speciesData: Species[] = [
     "imageUrl": "",
     "attribution": "",
     "sampleAudioUrl": "",
-    "detectionCount": 15,
+    "registerCount": 15,
     "confidence": 0,
     "maxConfidence": 0,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 9,
       "CustomModel": 15,
       "max": 15
     },
     "sensorInfo": [],
-    "firstDetected": null,
-    "lastDetected": null,
+    "firstRegistered": null,
+    "lastRegistered": null,
     "mapUrl": "https://mol.org/species/map/Troglodytes%20aedon%20musculus"
   },
   {
@@ -54359,11 +54359,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/8003653/medium.jpg",
     "attribution": "(c) marvtorrez; some rights reserved (CC BY-NC); uploaded by marvtorrez",
     "sampleAudioUrl": "",
-    "detectionCount": 4,
+    "registerCount": 4,
     "confidence": 0.1727,
     "maxConfidence": 0.1727,
-    "lastDetected": "2025-04-03T05:45:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-03T05:45:00Z",
+    "registerInfo": {
       "BirdNET": 4,
       "Perch": 0,
       "CustomModel": 2,
@@ -54387,7 +54387,7 @@ export const speciesData: Species[] = [
         "observationId": "f9f27b30-e719-1c1b-d314-d5630687beb9"
       }
     ],
-    "firstDetected": "2025-04-01T05:45:00Z",
+    "firstRegistered": "2025-04-01T05:45:00Z",
     "mapUrl": "https://mol.org/species/map/Trogon%20rufus"
   },
   {
@@ -54398,11 +54398,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/128834938/medium.jpg",
     "attribution": "(c) Sergio R Porto; some rights reserved (CC BY-NC); uploaded by Sergio R Porto",
     "sampleAudioUrl": "",
-    "detectionCount": 98,
+    "registerCount": 98,
     "confidence": 0.9999,
     "maxConfidence": 0.9999,
-    "lastDetected": "2025-04-05T15:05:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-05T15:05:00Z",
+    "registerInfo": {
       "BirdNET": 83,
       "Perch": 98,
       "CustomModel": 86,
@@ -55906,7 +55906,7 @@ export const speciesData: Species[] = [
         "observationId": "8da16373-6f4b-bc01-1fe3-8bdd9512a63c"
       }
     ],
-    "firstDetected": "2025-03-31T16:10:00Z",
+    "firstRegistered": "2025-03-31T16:10:00Z",
     "mapUrl": "https://mol.org/species/map/Turdus%20albicollis"
   },
   {
@@ -55917,11 +55917,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/416376009/medium.jpg",
     "attribution": "(c) Luciano Bernardes; some rights reserved (CC BY-NC); uploaded by Luciano Bernardes",
     "sampleAudioUrl": "",
-    "detectionCount": 57,
+    "registerCount": 57,
     "confidence": 1.0,
     "maxConfidence": 1.0,
-    "lastDetected": "2025-04-05T07:25:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-05T07:25:00Z",
+    "registerInfo": {
       "BirdNET": 46,
       "Perch": 40,
       "CustomModel": 57,
@@ -56713,7 +56713,7 @@ export const speciesData: Species[] = [
         "observationId": "20e19b5d-fe61-fa3b-ce93-9e7505673860"
       }
     ],
-    "firstDetected": "2025-04-01T07:10:00Z",
+    "firstRegistered": "2025-04-01T07:10:00Z",
     "mapUrl": "https://mol.org/species/map/Turdus%20leucomelas"
   },
   {
@@ -56724,18 +56724,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/1507197/medium.jpg",
     "attribution": "(c) Nigel Voaden; some rights reserved (CC BY)",
     "sampleAudioUrl": "",
-    "detectionCount": 9,
+    "registerCount": 9,
     "confidence": 0.9267,
     "maxConfidence": 0.9267,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 7,
       "CustomModel": 9,
       "max": 9
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Turdus%20rufiventris"
   },
   {
@@ -56746,18 +56746,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/56589057/medium.jpg",
     "attribution": "(c) E.E. Prodossimo; all rights reserved; uploaded by E.E. Prodossimo",
     "sampleAudioUrl": "",
-    "detectionCount": 8,
+    "registerCount": 8,
     "confidence": 0.615,
     "maxConfidence": 0.615,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 8,
       "Perch": 4,
       "CustomModel": 5,
       "max": 8
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Turdus%20subalaris"
   },
   {
@@ -56768,11 +56768,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/254986834/medium.jpg",
     "attribution": "(c) Steven Mlodinow; some rights reserved (CC BY-NC); uploaded by Steven Mlodinow",
     "sampleAudioUrl": "",
-    "detectionCount": 4,
+    "registerCount": 4,
     "confidence": 0.931,
     "maxConfidence": 0.931,
-    "lastDetected": "2025-04-05T12:45:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-05T12:45:00Z",
+    "registerInfo": {
       "BirdNET": 4,
       "Perch": 2,
       "CustomModel": 0,
@@ -56796,7 +56796,7 @@ export const speciesData: Species[] = [
         "observationId": "c9a1397c-b73e-9108-765e-9369e9981fea"
       }
     ],
-    "firstDetected": "2025-04-05T12:45:00Z",
+    "firstRegistered": "2025-04-05T12:45:00Z",
     "mapUrl": "https://mol.org/species/map/Tyrannus%20melancholicus"
   },
   {
@@ -56807,32 +56807,32 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/58351633/medium.jpg",
     "attribution": "(c) Diogo Luiz; some rights reserved (CC BY); uploaded by Diogo Luiz",
     "sampleAudioUrl": "",
-    "detectionCount": 10,
+    "registerCount": 10,
     "confidence": 0.8284,
     "maxConfidence": 0.8284,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 7,
       "Perch": 10,
       "CustomModel": 3,
       "max": 10
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Xiphocolaptes%20albicollis"
   },
   {
     "id": "sp-Xiphocolaptes_promeropirhynchus",
     "scientificName": "Xiphocolaptes promeropirhynchus",
-    "commonName": "",
+    "commonName": "Strong-Billed Woodcreeper",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/84293/medium.jpg",
+    "attribution": "(c) barloventomagico, some rights reserved (CC BY-NC-ND)",
     "sampleAudioUrl": "",
-    "detectionCount": 3,
+    "registerCount": 3,
     "confidence": 0.1018,
     "maxConfidence": 0.1018,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 2,
       "Perch": 3,
       "CustomModel": 0,
@@ -56848,8 +56848,8 @@ export const speciesData: Species[] = [
         "observationId": "3f67c121-973a-d134-6bf3-22f529dc1e05"
       }
     ],
-    "firstDetected": "2025-04-03T06:00:00Z",
-    "lastDetected": "2025-04-03T06:00:00Z",
+    "firstRegistered": "2025-04-03T06:00:00Z",
+    "lastRegistered": "2025-04-03T06:00:00Z",
     "mapUrl": "https://mol.org/species/map/Xiphocolaptes%20promeropirhynchus"
   },
   {
@@ -56860,32 +56860,32 @@ export const speciesData: Species[] = [
     "imageUrl": "https://static.inaturalist.org/photos/38306331/medium.jpg",
     "attribution": "(c) Eden Fontes; all rights reserved; uploaded by Eden Fontes",
     "sampleAudioUrl": "",
-    "detectionCount": 14,
+    "registerCount": 14,
     "confidence": 0.6988,
     "maxConfidence": 0.6988,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 7,
       "Perch": 14,
       "CustomModel": 10,
       "max": 14
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Xiphorhynchus%20fuscus"
   },
   {
     "id": "sp-Xiphorhynchus_guttatus",
     "scientificName": "Xiphorhynchus guttatus",
-    "commonName": "",
+    "commonName": "Buff-Throated Woodcreeper",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/532778097/medium.jpg",
+    "attribution": "(c) cello caruso-turiello, some rights reserved (CC BY), uploaded by cello caruso-turiello",
     "sampleAudioUrl": "",
-    "detectionCount": 15,
+    "registerCount": 15,
     "confidence": 0.2282,
     "maxConfidence": 0.2282,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 15,
@@ -57013,8 +57013,8 @@ export const speciesData: Species[] = [
         "observationId": "dd09efc6-8315-2fd4-2004-b6542c8bba42"
       }
     ],
-    "firstDetected": "2025-03-31T18:05:00Z",
-    "lastDetected": "2025-04-08T12:35:00Z",
+    "firstRegistered": "2025-03-31T18:05:00Z",
+    "lastRegistered": "2025-04-08T12:35:00Z",
     "mapUrl": "https://mol.org/species/map/Xiphorhynchus%20guttatus"
   },
   {
@@ -57025,32 +57025,32 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/150067382/medium.jpg",
     "attribution": "(c) Paul Donahue; some rights reserved (CC BY-NC); uploaded by Paul Donahue",
     "sampleAudioUrl": "",
-    "detectionCount": 2,
+    "registerCount": 2,
     "confidence": 0.9071,
     "maxConfidence": 0.9071,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 0,
       "Perch": 2,
       "CustomModel": 1,
       "max": 2
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Xolmis%20velatus"
   },
   {
     "id": "sp-Zebrilus_undulatus",
     "scientificName": "Zebrilus undulatus",
-    "commonName": "",
+    "commonName": "Zigzag Heron",
     "iucnStatus": "LC",
-    "imageUrl": "",
-    "attribution": "",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/160446861/medium.jpeg",
+    "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
     "sampleAudioUrl": "",
-    "detectionCount": 1,
+    "registerCount": 1,
     "confidence": 0.1379,
     "maxConfidence": 0.1379,
-    "detectionInfo": {
+    "registerInfo": {
       "BirdNET": 1,
       "Perch": 0,
       "CustomModel": 1,
@@ -57066,8 +57066,8 @@ export const speciesData: Species[] = [
         "observationId": "53b90b08-2dea-9ac0-6538-6d8ecfd477b3"
       }
     ],
-    "firstDetected": "2025-04-01T23:20:00Z",
-    "lastDetected": "2025-04-01T23:20:00Z",
+    "firstRegistered": "2025-04-01T23:20:00Z",
+    "lastRegistered": "2025-04-01T23:20:00Z",
     "mapUrl": "https://mol.org/species/map/Zebrilus%20undulatus"
   },
   {
@@ -57078,18 +57078,18 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/85633474/medium.jpeg",
     "attribution": "(c) Diego Caballero; some rights reserved (CC BY-NC); uploaded by Diego Caballero",
     "sampleAudioUrl": "",
-    "detectionCount": 6,
+    "registerCount": 6,
     "confidence": 0.9269,
     "maxConfidence": 0.9269,
-    "lastDetected": null,
-    "detectionInfo": {
+    "lastRegistered": null,
+    "registerInfo": {
       "BirdNET": 4,
       "Perch": 2,
       "CustomModel": 6,
       "max": 6
     },
     "sensorInfo": [],
-    "firstDetected": null,
+    "firstRegistered": null,
     "mapUrl": "https://mol.org/species/map/Zenaida%20auriculata"
   },
   {
@@ -57100,11 +57100,11 @@ export const speciesData: Species[] = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/112061150/medium.jpeg",
     "attribution": "(c) Esteban Poveda; some rights reserved (CC BY); uploaded by Esteban Poveda",
     "sampleAudioUrl": "",
-    "detectionCount": 631,
+    "registerCount": 631,
     "confidence": 0.6857,
     "maxConfidence": 0.6857,
-    "lastDetected": "2025-04-08T16:10:00Z",
-    "detectionInfo": {
+    "lastRegistered": "2025-04-08T16:10:00Z",
+    "registerInfo": {
       "BirdNET": 631,
       "Perch": 45,
       "CustomModel": 0,
@@ -57496,7 +57496,7 @@ export const speciesData: Species[] = [
         "observationId": "9963b9f9-a0a1-6264-9a52-e81f54009700"
       }
     ],
-    "firstDetected": "2025-03-31T15:00:00Z",
+    "firstRegistered": "2025-03-31T15:00:00Z",
     "mapUrl": "https://mol.org/species/map/Zonotrichia%20capensis"
   }
 ];

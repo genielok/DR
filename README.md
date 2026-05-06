@@ -5,11 +5,11 @@ A web-based dashboard for visualising biodiversity monitoring data collected fro
 ## Features
 
 - **Project overview** — browse monitoring campaigns with location, date range, and status
-- **Species detection list** — view all species detected per campaign or per sensor, with IUCN Red List status badges and confidence scores
+- **Species register list** — view all species detected per campaign or per sensor, with IUCN Red List status badges and confidence scores
 - **IUCN donut chart** — interactive breakdown of species by conservation status (LC, NT, VU, EN, CR, EX, DD)
-- **Detection details** — per-species detection history, audio playback, and image lightbox
-- **Sensor drill-down** — filter detections by individual sensor
-- **Data import** — upload new detection data into a campaign
+- **Register details** — per-species register history, audio playback, and image lightbox
+- **Sensor drill-down** — filter registers by individual sensor
+- **Data import** — upload new register data into a campaign
 
 ## Tech Stack
 

@@ -24,12 +24,14 @@ export interface Species {
   iucnStatus: IUCNStatus;
   imageUrl: string;
   sampleAudioUrl: string;
-  detectionCount: number;
+  registerCount: number;
   confidence: number;
   maxConfidence: number;
-  lastDetected: string;
+  lastRegistered: string;
   attribution?: string;
-  detectionInfo?: {
+  firstRegistered?: string;
+  mapUrl?: string;
+  registerInfo?: {
     BirdNET: number;
     Perch: number;
     CustomModel: number;
@@ -78,6 +80,6 @@ export interface ProcessingResult {
   processingDate: string;
   model: "BirdNET" | "Perch" | "Custom Model" | "Map of Life";
   modelVersion: string;
-  detections: number;
+  registers: number;
   status: "pending" | "processing" | "completed" | "failed";
 }

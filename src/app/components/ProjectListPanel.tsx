@@ -142,34 +142,34 @@ export function ProjectListPanel({
       </div>
 
       {/* Create New Project */}
-      <button
+      {/* <button
         className="bg-[#474f5f] hover:bg-[#556070] text-[rgba(255,255,255,0.9)] h-[38px] w-full flex items-center justify-center gap-[8px] transition-colors duration-200 shrink-0"
         onClick={() => setIsModalOpen(true)}
       >
         <Plus size={14} />
         <span className="font-['Hexagon_Akkurat:regular',sans-serif] text-[13px]">Create New Project</span>
-      </button>
+      </button> */}
 
       {/* Projects List */}
       <div className="flex flex-col gap-[6px] items-start w-full shrink-0">
-          {projects.map((campaign) => {
-            const isHovered = hoveredProjectId === campaign.id;
-            const isActive = activeProjectId === campaign.id;
-            return (
-              <ProjectCard
-                key={campaign.id}
-                campaign={campaign as Campaign}
-                isHovered={isHovered}
-                isActive={isActive}
-                onMouseEnter={() => onCardHover?.(campaign.id)}
-                onMouseLeave={() => onCardHover?.(null)}
-                onClick={() => onCardClick?.(campaign.id)}
-                onEdit={(e) => handleEditProject(campaign as Campaign, e)}
-                onDelete={(e) => { e.stopPropagation(); deleteProject(campaign.id); }}
-                onOpenProject={() => onCardClick?.(campaign.id)}
-              />
-            );
-          })}
+        {projects.map((campaign) => {
+          const isHovered = hoveredProjectId === campaign.id;
+          const isActive = activeProjectId === campaign.id;
+          return (
+            <ProjectCard
+              key={campaign.id}
+              campaign={campaign as Campaign}
+              isHovered={isHovered}
+              isActive={isActive}
+              onMouseEnter={() => onCardHover?.(campaign.id)}
+              onMouseLeave={() => onCardHover?.(null)}
+              onClick={() => onCardClick?.(campaign.id)}
+              onEdit={(e) => handleEditProject(campaign as Campaign, e)}
+              onDelete={(e) => { e.stopPropagation(); deleteProject(campaign.id); }}
+              onOpenProject={() => onCardClick?.(campaign.id)}
+            />
+          );
+        })}
       </div>
 
       {/* Create Modal */}
@@ -318,15 +318,15 @@ function ProjectCard({
         isActive
           ? "bg-[#1e2a3e]"
           : isHovered
-          ? "bg-[#3a4354] shadow-[0_4px_20px_rgba(0,0,0,0.35)]"
-          : "bg-[#252a38] hover:bg-[#2d3345]",
+            ? "bg-[#3a4354] shadow-[0_4px_20px_rgba(0,0,0,0.35)]"
+            : "bg-[#252a38] hover:bg-[#2d3345]",
       )}
       style={{
         borderLeft: isActive
           ? "2px solid rgba(59,130,246,0.9)"
           : isHovered
-          ? "2px solid rgba(59,130,246,0.6)"
-          : "2px solid rgba(255,255,255,0.06)",
+            ? "2px solid rgba(59,130,246,0.6)"
+            : "2px solid rgba(255,255,255,0.06)",
         borderTop: isActive ? "1px solid rgba(59,130,246,0.2)" : "1px solid rgba(255,255,255,0.06)",
         borderRight: isActive ? "1px solid rgba(59,130,246,0.2)" : "1px solid rgba(255,255,255,0.06)",
         borderBottom: isActive ? "1px solid rgba(59,130,246,0.2)" : "1px solid rgba(255,255,255,0.06)",
@@ -338,7 +338,7 @@ function ProjectCard({
         <span className="font-['Hexagon_Akkurat:bold',sans-serif] text-[16px] leading-[22px] truncate text-[rgba(255,255,255,0.9)]">
           {campaign.name}
         </span>
-        <div className="flex items-center gap-[6px] flex-shrink-0">
+        {/* <div className="flex items-center gap-[6px] flex-shrink-0">
           <div
             className="h-[26px] w-[26px] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-150 text-white   hover:text-[#f87171] hover:bg-[rgba(248,113,113,0.1)]"
             onClick={onDelete}>
@@ -352,7 +352,7 @@ function ProjectCard({
             onClick={onEdit}>
             <Edit2 size={11} />
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Row 2: Location + Date */}

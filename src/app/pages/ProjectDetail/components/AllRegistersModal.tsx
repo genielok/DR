@@ -75,17 +75,17 @@ function playMockAudio(durationSec: number, onEnd: () => void): () => void {
 const confDotColor = (c: number) =>
   c > 0.7 ? "#10b981" : c > 0.5 ? "#f59e0b" : "#D03A1E";
 
-interface AllDetectionsModalProps {
+interface AllRegistersModalProps {
   species: Species;
   iucnColor: string;
   onClose: () => void;
 }
 
-export function AllDetectionsModal({
+export function AllRegistersModal({
   species,
   iucnColor,
   onClose,
-}: AllDetectionsModalProps) {
+}: AllRegistersModalProps) {
   const [page, setPage] = useState(1);
   const [sensorFilter, setSensorFilter] = useState("all");
   const [confidenceFilter, setConfidenceFilter] = useState("all");
@@ -163,11 +163,11 @@ export function AllDetectionsModal({
     return rows;
   }, [allRows, sensorFilter, confidenceFilter, sortOrder]);
 
-  const totalDetections = filteredRows.length;
-  const totalPages = Math.ceil(totalDetections / ITEMS_PER_PAGE);
+  const totalRegisters = filteredRows.length;
+  const totalPages = Math.ceil(totalRegisters / ITEMS_PER_PAGE);
 
-  const showingStart = totalDetections === 0 ? 0 : (page - 1) * ITEMS_PER_PAGE + 1;
-  const showingEnd = Math.min(page * ITEMS_PER_PAGE, totalDetections);
+  const showingStart = totalRegisters === 0 ? 0 : (page - 1) * ITEMS_PER_PAGE + 1;
+  const showingEnd = Math.min(page * ITEMS_PER_PAGE, totalRegisters);
 
   const pagedRows = filteredRows.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE);
 
@@ -378,7 +378,7 @@ export function AllDetectionsModal({
           style={{ borderTop: "1px solid #474f5f" }}
         >
           <span className="text-[11px] text-[#778192]" style={{ fontFamily: F.regular }}>
-            Showing {showingStart}–{showingEnd} of {totalDetections.toLocaleString()} detections
+            Showing {showingStart}–{showingEnd} of {totalRegisters.toLocaleString()} registers
           </span>
           <div className="flex gap-[4px]">
             <button

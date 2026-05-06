@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { Play, Pause } from "lucide-react";
 
-interface DetectionAudioPlayerProps {
+interface RegisterAudioPlayerProps {
   sampleKey: string;
   sensorId: string;
   date: string;
@@ -24,14 +24,14 @@ const F = {
   mono: "ui-monospace,monospace",
 };
 
-export function DetectionAudioPlayer({
+export function RegisterAudioPlayer({
   sampleKey,
   sensorId,
   date,
   time,
   isActive,
   onToggle,
-}: DetectionAudioPlayerProps) {
+}: RegisterAudioPlayerProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [current, setCurrent] = useState(0);
   const [isDragging, setIsDragging] = useState(false);

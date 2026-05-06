@@ -39,20 +39,20 @@ export function RailNav({ onTogglePanelMenu, onTogglePanelInfo, showPanelMenu, s
         {/* Menu items */}
         <div className="content-stretch flex flex-col gap-[10px] items-center justify-center" data-name="Menu items">
           {/* Home button */}
-          <NavButton active={false}>
+          {/* <NavButton active={false}>
             <div className="absolute inset-[15.02%_18.75%_14.58%_18.75%]">
               <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 15 16.8943">
                 <path d={svgPaths.p222a2d00} fill="var(--fill-0, #B4BAC4)" />
               </svg>
             </div>
-          </NavButton>
+          </NavButton> */}
 
           {/* Divider */}
-          <div className="h-px relative shrink-0 w-full">
+          {/* <div className="h-px relative shrink-0 w-full">
             <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 56 1">
               <path clipRule="evenodd" d="M56 1H0V0H56V1Z" fill="#474F5F" fillRule="evenodd" />
             </svg>
-          </div>
+          </div> */}
 
           {/* Panel Menu Toggle */}
           <NavButton active={showPanelMenu} onClick={onTogglePanelMenu}>
@@ -64,38 +64,38 @@ export function RailNav({ onTogglePanelMenu, onTogglePanelInfo, showPanelMenu, s
           </NavButton>
 
           {/* Panel Info Toggle */}
-          <NavButton active={showPanelInfo} onClick={onTogglePanelInfo}>
+          {/* <NavButton active={showPanelInfo} onClick={onTogglePanelInfo}>
             <div className="absolute inset-[14.58%]">
               <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 17.0312 17.0312">
                 <path d={svgPathsInfo.p46e6200} fill={showPanelInfo ? "#F5F7FA" : "var(--fill-0, #B4BAC4)"} />
               </svg>
             </div>
-          </NavButton>
+          </NavButton> */}
 
           {/* Additional button */}
-          <NavButton active={false}>
+          {/* <NavButton active={false}>
             <div className="absolute inset-[10.42%]">
               <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 19 19">
                 <path d={svgPaths.p23e72630} fill="var(--fill-0, #B4BAC4)" />
               </svg>
             </div>
-          </NavButton>
+          </NavButton> */}
         </div>
       </div>
 
       {/* Bottom content */}
       <div className="content-stretch flex flex-col gap-[24px] items-center" data-name="Bottom content">
         {/* Settings button */}
-        <NavButton active={false}>
+        {/* <NavButton active={false}>
           <div className="absolute inset-[10.42%_10.85%]">
             <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18.792 19">
               <path d={svgPaths.p11ef0160} fill="var(--fill-0, #B4BAC4)" />
             </svg>
           </div>
-        </NavButton>
+        </NavButton> */}
 
         {/* Language selector */}
-        <En className="overflow-clip relative shrink-0 size-[24px]" />
+        {/* <En className="overflow-clip relative shrink-0 size-[24px]" /> */}
 
         {/* Avatar */}
         <div className="bg-[#b4bac4] max-h-[32px] max-w-[32px] min-h-[32px] min-w-[32px] relative rounded-[999px] shrink-0 size-[32px]">

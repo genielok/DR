@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import {
   Leaf,
   AlertTriangle,
@@ -8,10 +8,10 @@ import {
 } from "lucide-react";
 import { type Campaign, type Species } from "../../../data/mockData";
 import { getSpeciesByCampaign, getSpeciesBySensor } from "@/api";
-import { AllDetectionsModal } from "./AllDetectionsModal";
+import { AllRegistersModal } from "./AllRegistersModal";
 import { StatCard } from "./StatCard";
 import { IucnDonutChart } from "./IucnDonutChart";
-import { SpeciesList } from "./SpeciesList";
+import { SpeciesList, type SpeciesListHandle } from "./SpeciesList";
 import { ImageLightbox } from "./ImageLightbox";
 import { STATUS_ORDER, IUCN_COLORS } from "../const";
 
@@ -49,9 +49,10 @@ export function OverviewTab({
     commonName: string;
     scientificName: string;
   } | null>(null);
-  const [detectionsModal, setDetectionsModal] = useState<Species | null>(null);
+  const [registersModal, setRegistersModal] = useState<Species | null>(null);
   const [playingAudio, setPlayingAudio] = useState<string | null>(null);
   const [hiddenLegends, setHiddenLegends] = useState<Set<string>>(new Set());
+  const speciesListRef = useRef<SpeciesListHandle>(null);
 
   const speciesData = species.reduce(
     (acc, s) => {
@@ -76,8 +77,8 @@ export function OverviewTab({
 
   const AtRiskCount = (speciesData["EN"] ?? 0) + (speciesData["CR"] ?? 0) + (speciesData["VU"] ?? 0);
 
-  const totalDetections = species.reduce(
-    (sum, s) => sum + s.detectionCount,
+  const totalRegisters = species.reduce(
+    (sum, s) => sum + s.registerCount,
     0,
   );
 
@@ -117,8 +118,8 @@ export function OverviewTab({
           tooltip="Species classified as Endangered (EN) or Critically Endangered (CR) on the IUCN Red List. Vulnerable (VU) and Near Threatened (NT) are excluded."
         />
         <StatCard
-          label="Total Detections"
-          value={totalDetections.toLocaleString()}
+          label="Total Registers"
+          value={totalRegisters.toLocaleString()}
           icon={<Activity size={16} className="text-[#778192]" />}
           accentColor="#778192"
         />
@@ -155,8 +156,10 @@ export function OverviewTab({
           hiddenLegends={hiddenLegends}
           onLegendHover={handleLegendHover}
           onLegendClick={handleLegendClick}
+          onScrollToStatus={(status) => speciesListRef.current?.scrollToStatus(status)}
         />
         <SpeciesList
+          ref={speciesListRef}
           species={species}
           totalSpecies={totalSpecies}
           playingAudio={playingAudio}
@@ -164,16 +167,16 @@ export function OverviewTab({
           onImageClick={(url, commonName, scientificName) =>
             setLightboxImage({ url, commonName, scientificName })
           }
-          onOpenDetections={setDetectionsModal}
+          onOpenRegisters={setRegistersModal}
         />
       </div>
 
-      {/* Detections Modal */}
-      {detectionsModal && (
-        <AllDetectionsModal
-          species={detectionsModal}
-          iucnColor={IUCN_COLORS[detectionsModal.iucnStatus] ?? "#778192"}
-          onClose={() => setDetectionsModal(null)}
+      {/* Registers Modal */}
+      {registersModal && (
+        <AllRegistersModal
+          species={registersModal}
+          iucnColor={IUCN_COLORS[registersModal.iucnStatus] ?? "#778192"}
+          onClose={() => setRegistersModal(null)}
         />
       )}
 
