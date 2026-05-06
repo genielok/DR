@@ -51,13 +51,13 @@ export default function ProjectDetail() {
                 </h1>
               </div>
               <div className="flex items-center gap-[8px] ml-[38px] flex-wrap">
-                <span className="text-[11px] leading-[16px] text-[rgba(255,255,255,0.6)]" style={{ fontFamily: F.regular }}>{campaign.client}</span>
-                <span className="text-[11px] text-[#778192]">·</span>
-                <MapPin size={10} className="text-[#778192] flex-shrink-0" />
-                <span className="text-[11px] leading-[16px] text-[#b7b9be] truncate" style={{ fontFamily: F.regular }}>{campaign.location}</span>
-                <span className="text-[11px] text-[#778192]">·</span>
-                <Calendar size={10} className="text-[#778192] flex-shrink-0" />
-                <span className="text-[11px] leading-[16px] text-[#b7b9be] whitespace-nowrap" style={{ fontFamily: F.regular }}>{period}</span>
+                <span className="text-[14px] leading-[16px] text-[rgba(255,255,255,0.6)]" style={{ fontFamily: F.regular }}>{campaign.client}</span>
+                <span className="text-[14px] text-[#778192]">·</span>
+                <MapPin size={14} className="text-[#778192] flex-shrink-0" />
+                <span className="text-[14px] leading-[16px] text-[#b7b9be] truncate" style={{ fontFamily: F.regular }}>{campaign.location}</span>
+                <span className="text-[14px] text-[#778192]">·</span>
+                <Calendar size={14} className="text-[#778192] flex-shrink-0" />
+                <span className="text-[14px] leading-[16px] text-[#b7b9be] whitespace-nowrap" style={{ fontFamily: F.regular }}>{period}</span>
               </div>
             </div>
 

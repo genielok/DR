@@ -160,7 +160,7 @@ export function IucnDonutChart({
                   }
                 >
                   <span
-                    className="text-[10px] px-[5px] py-[1px] flex-shrink-0"
+                    className="text-[12px] px-[5px] py-[1px] flex-shrink-0"
                     style={{
                       fontFamily: F.bold,
                       background: item.color,
@@ -173,7 +173,7 @@ export function IucnDonutChart({
                     {item.name}
                   </span>
                   <span
-                    className="text-[11px] text-[#778192] flex-1 truncate"
+                    className="text-[13px] text-[#778192] flex-1 truncate"
                     style={{
                       fontFamily: F.regular,
                       textDecoration: isHidden

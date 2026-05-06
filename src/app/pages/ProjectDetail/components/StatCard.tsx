@@ -26,16 +26,16 @@ export function StatCard({
       <div className="flex items-center justify-between mb-[8px]">
         <div className="flex items-center gap-[4px]">
           <span
-            className="text-[12px] leading-[14px] text-[#778192] uppercase tracking-wider"
+            className="text-[12px] leading-[14px] text-[#b2b7bf] uppercase tracking-wider"
             style={{ fontFamily: F.bold }}
           >
             {label}
           </span>
           {tooltip && (
             <div className="relative group/tip flex-shrink-0">
-              <Info size={13} className="text-[#778192] hover:text-white transition-colors cursor-default" />
+              <Info size={15} className="text-[#778192] hover:text-white transition-colors cursor-pointer" />
               <div
-                className="absolute top-full left-0 mt-[6px] w-[240px] px-[12px] py-[10px] text-[11px] text-[#b7b9be] leading-[16px] pointer-events-none opacity-0 group-hover/tip:opacity-100 transition-opacity duration-150 z-50"
+                className="absolute top-full left-0 mt-[6px] w-[240px] px-[12px] py-[10px] text-[13px] text-[#b7b9be] leading-[16px] pointer-events-none opacity-0 group-hover/tip:opacity-100 transition-opacity duration-150 z-50"
                 style={{
                   fontFamily: F.regular,
                   background: "#1e2230",
@@ -61,7 +61,7 @@ export function StatCard({
       </div>
       {subtext && (
         <div
-          className="text-[10px] text-[#778192] mt-[2px] truncate"
+          className="text-[12px] text-[#778192] mt-[2px] truncate"
           style={{ fontFamily: F.regular }}
         >
           {subtext}

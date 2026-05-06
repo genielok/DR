@@ -358,12 +358,12 @@ function ProjectCard({
       {/* Row 2: Location + Date */}
       <div className="flex items-center gap-[6px] mt-[6px] flex-wrap">
         <MapPin size={10} className={clsx("flex-shrink-0", isHovered ? "text-[rgba(255,255,255,0.5)]" : "text-[#778192]")} />
-        <span className={clsx("font-['Hexagon_Akkurat:regular',sans-serif] text-[11px] leading-[16px] truncate", isHovered ? "text-[rgba(255,255,255,0.7)]" : "text-[#b7b9be]")}>
+        <span className={clsx("font-['Hexagon_Akkurat:regular',sans-serif] text-[13px] leading-[16px] truncate", isHovered ? "text-[rgba(255,255,255,0.7)]" : "text-[#b7b9be]")}>
           {campaign.location}
         </span>
-        <span className={clsx("text-[11px]", isHovered ? "text-[rgba(255,255,255,0.3)]" : "text-[#778192]")}>·</span>
+        <span className={clsx("text-[13px]", isHovered ? "text-[rgba(255,255,255,0.3)]" : "text-[#778192]")}>·</span>
         <Calendar size={10} className={clsx("flex-shrink-0", isHovered ? "text-[rgba(255,255,255,0.5)]" : "text-[#778192]")} />
-        <span className={clsx("font-['Hexagon_Akkurat:regular',sans-serif] text-[11px] leading-[16px] whitespace-nowrap", isHovered ? "text-[rgba(255,255,255,0.7)]" : "text-[#b7b9be]")}>
+        <span className={clsx("font-['Hexagon_Akkurat:regular',sans-serif] text-[13px] leading-[16px] whitespace-nowrap", isHovered ? "text-[rgba(255,255,255,0.7)]" : "text-[#b7b9be]")}>
           {new Date(campaign.startDate).toLocaleDateString(undefined, { month: "short", year: "numeric" })}
         </span>
       </div>
@@ -371,13 +371,13 @@ function ProjectCard({
       {/* Row 3: Key metrics */}
       <div className="flex items-center gap-[6px] mt-[10px]">
         <span className="font-['Hexagon_Akkurat:bold',sans-serif] text-[13px] text-[rgba(255,255,255,0.9)] leading-[18px]">{campaign.speciesCount.toLocaleString()}</span>
-        <span className={clsx("font-['Hexagon_Akkurat:regular',sans-serif] text-[11px] leading-[18px]", isHovered ? "text-[rgba(255,255,255,0.6)]" : "text-[#b7b9be]")}>Species</span>
-        <span className={clsx("text-[11px]", isHovered ? "text-[rgba(255,255,255,0.3)]" : "text-[#778192]")}>·</span>
+        <span className={clsx("font-['Hexagon_Akkurat:regular',sans-serif] text-[13px] leading-[18px]", isHovered ? "text-[rgba(255,255,255,0.6)]" : "text-[#b7b9be]")}>Species</span>
+        <span className={clsx("text-[13px]", isHovered ? "text-[rgba(255,255,255,0.3)]" : "text-[#778192]")}>·</span>
         <span className="font-['Hexagon_Akkurat:bold',sans-serif] text-[13px] text-[rgba(255,255,255,0.9)] leading-[18px]">{formatCount(campaign.totalRecordings)}</span>
-        <span className={clsx("font-['Hexagon_Akkurat:regular',sans-serif] text-[11px] leading-[18px]", isHovered ? "text-[rgba(255,255,255,0.6)]" : "text-[#b7b9be]")}>Registers</span>
-        <span className={clsx("text-[11px]", isHovered ? "text-[rgba(255,255,255,0.3)]" : "text-[#778192]")}>·</span>
+        <span className={clsx("font-['Hexagon_Akkurat:regular',sans-serif] text-[13px] leading-[18px]", isHovered ? "text-[rgba(255,255,255,0.6)]" : "text-[#b7b9be]")}>Registers</span>
+        <span className={clsx("text-[13px]", isHovered ? "text-[rgba(255,255,255,0.3)]" : "text-[#778192]")}>·</span>
         <span className="font-['Hexagon_Akkurat:bold',sans-serif] text-[13px] text-[rgba(255,255,255,0.9)] leading-[18px]">{campaign.sensors.length}</span>
-        <span className={clsx("font-['Hexagon_Akkurat:regular',sans-serif] text-[11px] leading-[18px]", isHovered ? "text-[rgba(255,255,255,0.6)]" : "text-[#b7b9be]")}>Sensors</span>
+        <span className={clsx("font-['Hexagon_Akkurat:regular',sans-serif] text-[13px] leading-[18px]", isHovered ? "text-[rgba(255,255,255,0.6)]" : "text-[#b7b9be]")}>Sensors</span>
       </div>
 
       {/* Row 4: IUCN stacked bar — always visible */}
@@ -395,8 +395,8 @@ function ProjectCard({
             {iucnData.filter((d) => d.count > 0).map((d) => (
               <div key={d.key} className="flex items-center gap-[3px]">
                 <span className="w-[8px] h-[8px] flex-shrink-0" style={{ backgroundColor: d.color }} />
-                <span className="font-['Hexagon_Akkurat:bold',sans-serif] text-[10px]" style={{ color: d.color }}>{d.key}</span>
-                <span className="font-['Hexagon_Akkurat:regular',sans-serif] text-[11px] text-[rgba(255,255,255,0.6)]">{d.count}</span>
+                <span className="font-['Hexagon_Akkurat:bold',sans-serif] text-[12px]" style={{ color: d.color }}>{d.key}</span>
+                <span className="font-['Hexagon_Akkurat:regular',sans-serif] text-[13px] text-[rgba(255,255,255,0.6)]">{d.count}</span>
               </div>
             ))}
           </div>

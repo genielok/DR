@@ -65,7 +65,7 @@ export const SpeciesItem = memo(
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={(e) => e.stopPropagation()}
-                className="flex-shrink-0 flex items-center gap-[2px] text-[10px] text-[#778192] hover:text-white transition-colors"
+                className="flex-shrink-0 flex items-center gap-[2px] text-[12px] text-[#778192] hover:text-white transition-colors"
                 style={{ fontFamily: F.regular }}
               >
                 <ExternalLink size={9} />
@@ -135,13 +135,13 @@ export const SpeciesItem = memo(
               <div className="grid grid-cols-2 gap-x-[12px] gap-y-[6px]">
                 <div>
                   <div
-                    className="text-[10px] text-[#778192] uppercase tracking-wider mb-[2px]"
+                    className="text-[12px] text-[#778192] uppercase tracking-wider mb-[2px]"
                     style={{ fontFamily: F.bold }}
                   >
                     Sensor
                   </div>
                   <div
-                    className="text-[12px] text-[rgba(255,255,255,0.9)] truncate"
+                    className="text-[14px] text-[rgba(255,255,255,0.9)] truncate"
                     style={{ fontFamily: F.bold }}
                   >
                     {species.sensorInfo.length > 0
@@ -151,13 +151,13 @@ export const SpeciesItem = memo(
                 </div>
                 <div>
                   <div
-                    className="text-[10px] text-[#778192] uppercase tracking-wider mb-[2px]"
+                    className="text-[12px] text-[#778192] uppercase tracking-wider mb-[2px]"
                     style={{ fontFamily: F.bold }}
                   >
                     Date Range
                   </div>
                   <div
-                    className="text-[12px] text-[rgba(255,255,255,0.9)]"
+                    className="text-[14px] text-[rgba(255,255,255,0.9)]"
                     style={{ fontFamily: F.bold }}
                   >
                     {(() => {
@@ -172,14 +172,14 @@ export const SpeciesItem = memo(
                 </div>
                 <div>
                   <div
-                    className="text-[10px] text-[#778192] uppercase tracking-wider mb-[2px]"
+                    className="text-[12px] text-[#778192] uppercase tracking-wider mb-[2px]"
                     style={{ fontFamily: F.bold }}
                   >
                     Registers
                   </div>
                   <div className="flex items-center gap-[5px]">
                     <span
-                      className="text-[12px] text-[rgba(255,255,255,0.9)]"
+                      className="text-[14px] text-[rgba(255,255,255,0.9)]"
                       style={{ fontFamily: F.bold }}
                     >
                       {(() => {
@@ -191,28 +191,25 @@ export const SpeciesItem = memo(
                     </span>
                   </div>
                 </div>
-                <div>
-                  <div
-                    className="text-[10px] text-[#778192] uppercase tracking-wider mb-[3px]"
-                    style={{ fontFamily: F.bold }}
-                  >
-                    Confidence Range
-                  </div>
-                  {species.sensorInfo.length > 0
-                    ? (() => {
-                      const confidences = species.sensorInfo.map((s) => s.confidence);
-                      const minPct = Math.round(Math.min(...confidences) * 100);
-                      const maxPct = Math.round(Math.max(...confidences) * 100);
-                      const color = maxPct >= 70 ? "#60A896" : maxPct >= 50 ? "#E6901A" : "#D03A1E";
-                      return (
-                        <span className="text-[11px]" style={{ fontFamily: F.bold, color }}>
-                          {minPct === maxPct ? `${minPct}%` : `${minPct}% – ${maxPct}%`}
-                        </span>
-                      );
-                    })()
-                    : <span className="text-[12px] text-[#778192]">—</span>
-                  }
-                </div>
+                {species.sensorInfo.length > 0 && (() => {
+                  const confidences = species.sensorInfo.map((s) => s.confidence);
+                  const minPct = Math.round(Math.min(...confidences) * 100);
+                  const maxPct = Math.round(Math.max(...confidences) * 100);
+                  const color = maxPct >= 70 ? "#60A896" : maxPct >= 50 ? "#E6901A" : "#D03A1E";
+                  return (
+                    <div>
+                      <div
+                        className="text-[12px] text-[#778192] uppercase tracking-wider mb-[3px]"
+                        style={{ fontFamily: F.bold }}
+                      >
+                        Confidence Range
+                      </div>
+                      <span className="text-[13px]" style={{ fontFamily: F.bold, color }}>
+                        {minPct === maxPct ? `${minPct}%` : `${minPct}% – ${maxPct}%`}
+                      </span>
+                    </div>
+                  );
+                })()}
               </div>
 
               {/* Divider */}
@@ -241,12 +238,12 @@ export const SpeciesItem = memo(
               </div> */}
 
               {/* View All Registers */}
-              <div className="border-t border-[#474f5f] pt-[8px]">
+              <div className="pt-[8px]">
                 <button
                   onClick={(e) => { e.stopPropagation(); onOpenRegisters(species); }}
                   className="w-full h-[30px] flex items-center justify-center gap-[6px] bg-[#3b82f6] hover:bg-[#2563eb] text-white transition-colors duration-150 cursor-pointer"
                 >
-                  <span style={{ fontFamily: F.regular, fontSize: "11px" }}>View All Registers</span>
+                  <span style={{ fontFamily: F.regular, fontSize: "14px" }}>View All Registers</span>
                 </button>
               </div>
             </div>

@@ -10,7 +10,8 @@
       "Bash(git merge *)",
       "Bash(npm run *)",
       "Bash(gh run *)",
-      "Bash(git commit --allow-empty -m ' *)"
+      "Bash(git commit --allow-empty -m ' *)",
+      "Bash(npx tsc *)"
     ]
   }
 }

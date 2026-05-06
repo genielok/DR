@@ -94,13 +94,13 @@ export const SpeciesList = forwardRef<SpeciesListHandle, SpeciesListProps>(
           <div className="px-[20px] pt-[12px] pb-[8px] flex flex-col gap-[8px]">
             <div className="flex items-center justify-between">
               <span
-                className="text-[13px] leading-[18px] text-[rgba(255,255,255,0.9)]"
+                className="text-[16px] leading-[18px] text-[rgba(255,255,255,0.9)] bold"
                 style={{ fontFamily: F.bold }}
               >
                 Species Registered
               </span>
               <span
-                className="text-[11px] px-[6px] py-[2px] bg-[#474f5f] text-[#778192]"
+                className="text-[12px] px-[6px] py-[2px] bg-[#474f5f] text-[#778192]"
                 style={{ fontFamily: F.bold }}
               >
                 {(searchQuery || iucnFilter.size > 0)
@@ -120,7 +120,7 @@ export const SpeciesList = forwardRef<SpeciesListHandle, SpeciesListProps>(
                   placeholder="Search species…"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full h-[28px] bg-[#1e2230] border border-[#474f5f] pl-[26px] pr-[8px] text-[11px] text-[rgba(255,255,255,0.9)] placeholder-[#778192] outline-none focus:border-[#778192] transition-colors"
+                  className="w-full h-[28px] bg-[#1e2230] border border-[#474f5f] pl-[26px] pr-[8px] text-[14px] text-[rgba(255,255,255,0.9)] placeholder-[#778192] outline-none focus:border-[#778192] transition-colors"
                   style={{ fontFamily: F.regular }}
                 />
                 {searchQuery && (
@@ -154,7 +154,7 @@ export const SpeciesList = forwardRef<SpeciesListHandle, SpeciesListProps>(
                       {STATUS_ORDER.filter((s) => iucnFilter.has(s)).map((s) => (
                         <span
                           key={s}
-                          className="text-[9px] px-[3px] py-[0px]"
+                          className="text-[12px] px-[3px] py-[0px]"
                           style={{ fontFamily: F.bold, background: IUCN_COLORS[s], color: IUCN_TEXT[s] }}
                         >
                           {s}
@@ -163,7 +163,7 @@ export const SpeciesList = forwardRef<SpeciesListHandle, SpeciesListProps>(
                     </div>
                   )}
                   <ChevronDown
-                    size={10}
+                    size={12}
                     className={`transition-transform duration-150 ${iucnDropdownOpen ? "rotate-180" : ""}`}
                     style={{ color: "#778192", flexShrink: 0 }}
                   />
@@ -184,7 +184,7 @@ export const SpeciesList = forwardRef<SpeciesListHandle, SpeciesListProps>(
                     {iucnFilter.size > 0 && (
                       <button
                         onClick={() => setIucnFilter(new Set())}
-                        className="w-full text-left px-[12px] py-[5px] text-[10px] text-[#778192] hover:text-white transition-colors"
+                        className="w-full text-left px-[12px] py-[5px] text-[12px] text-[#778192] hover:text-white transition-colors"
                         style={{ fontFamily: F.regular }}
                       >
                         Clear filter
@@ -220,13 +220,13 @@ export const SpeciesList = forwardRef<SpeciesListHandle, SpeciesListProps>(
                             )}
                           </div>
                           <span
-                            className="text-[10px] px-[4px] py-[1px] flex-shrink-0"
+                            className="text-[12px] px-[4px] py-[1px] flex-shrink-0"
                             style={{ fontFamily: F.bold, background: color, color: IUCN_TEXT[status] }}
                           >
                             {status}
                           </span>
                           <span
-                            className="text-[11px] flex-1 text-left truncate"
+                            className="text-[12px] flex-1 text-left truncate"
                             style={{ fontFamily: F.regular, color: checked ? "rgba(255,255,255,0.9)" : "#a0aab8" }}
                           >
                             {IUCNStatusText[status]}
@@ -262,15 +262,15 @@ export const SpeciesList = forwardRef<SpeciesListHandle, SpeciesListProps>(
                           : [...p, status],
                       )
                     }
-                    className="sticky top-0 z-10 w-full flex items-center justify-between px-[12px] h-[36px] transition-colors hover:bg-[#556070] cursor-pointer"
+                    className="sticky top-0 z-10 w-full flex items-center justify-between px-[12px] h-[40px] transition-colors hover:bg-[#556070] cursor-pointer"
                     style={{
                       background: `${color}18`,
                       backdropFilter: "blur(8px)",
                     }}
                   >
-                    <div className="flex items-center gap-[8px]">
+                    <div className="flex items-center gap-[10px]">
                       <span
-                        className="text-[10px] px-[5px] py-[1px] flex-shrink-0"
+                        className="text-[12px] px-[5px] py-[2px] flex-shrink-0"
                         style={{
                           fontFamily: F.bold,
                           background: color,
@@ -280,13 +280,13 @@ export const SpeciesList = forwardRef<SpeciesListHandle, SpeciesListProps>(
                         {status}
                       </span>
                       <span
-                        className="text-[12px] text-[rgba(255,255,255,0.9)]"
+                        className="text-[14px] text-[rgba(255,255,255,0.9)]"
                         style={{ fontFamily: F.bold }}
                       >
                         {IUCNStatusText[status]}
                       </span>
                       <span
-                        className="text-[10px] px-[5px] py-[1px] bg-[#474f5f] text-[#778192]"
+                        className="text-[12px] px-[5px] py-[1px] bg-[#474f5f] text-[#bec6d5]"
                         style={{ fontFamily: F.regular }}
                       >
                         {group.length}

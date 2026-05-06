@@ -262,7 +262,7 @@ export function AllRegistersModal({
           <table className="w-full">
             <thead>
               <tr className="bg-[#474f5f]">
-                {["#", "Timestamp", "Sensor ID", "Model", "Confidence", "File Name", "Audio"].map((h) => (
+                {["#", "Timestamp", "Sensor ID", "Model", "Confidence", "File Name"].map((h) => (
                   <th
                     key={h}
                     className="px-[14px] h-[36px] text-left"
@@ -297,12 +297,12 @@ export function AllRegistersModal({
                     style={{ background: rowBg }}
                   >
                     <td className="px-[14px] h-[42px]">
-                      <span className="text-[11px] text-[#778192]" style={{ fontFamily: F.regular }}>
+                      <span className="text-[13px] text-[#778192]" style={{ fontFamily: F.regular }}>
                         {rowNum}
                       </span>
                     </td>
                     <td className="px-[14px] h-[42px]">
-                      <span className="text-[11px] text-[#b7b9be]" style={{ fontFamily: F.regular }}>
+                      <span className="text-[13px] text-[#b7b9be]" style={{ fontFamily: F.regular }}>
                         {formatTimestamp(row.timestamp)}
                       </span>
                     </td>
@@ -312,7 +312,7 @@ export function AllRegistersModal({
                       </span>
                     </td>
                     <td className="px-[14px] h-[42px]">
-                      <span className="text-[11px] text-[#b7b9be]" style={{ fontFamily: F.regular }}>
+                      <span className="text-[13px] text-[#b7b9be]" style={{ fontFamily: F.regular }}>
                         {row.model}
                       </span>
                     </td>
@@ -331,11 +331,11 @@ export function AllRegistersModal({
                       </span>
                     </td>
                     <td className="px-[14px] h-[42px]">
-                      <span className="text-[11px] text-[#778192]" style={{ fontFamily: F.regular }}>
+                      <span className="text-[13px] text-[#778192]" style={{ fontFamily: F.regular }}>
                         {row.fileName}
                       </span>
                     </td>
-                    <td className="px-[14px] h-[42px]">
+                    {/* <td className="px-[14px] h-[42px]">
                       {(() => {
                         const isPlaying = playingRowId === row.id;
                         const rowProgress = isPlaying ? progress : 0;
@@ -358,13 +358,13 @@ export function AllRegistersModal({
                                 style={{ width: `${rowProgress}%` }}
                               />
                             </div>
-                            <span className="text-[10px] text-[#778192] flex-shrink-0" style={{ fontFamily: F.regular }}>
+                            <span className="text-[12px] text-[#778192] flex-shrink-0" style={{ fontFamily: F.regular }}>
                               {durLabel}
                             </span>
                           </div>
                         );
                       })()}
-                    </td>
+                    </td> */}
                   </tr>
                 );
               })}
@@ -377,7 +377,7 @@ export function AllRegistersModal({
           className="px-[20px] py-[10px] flex items-center justify-between shrink-0"
           style={{ borderTop: "1px solid #474f5f" }}
         >
-          <span className="text-[11px] text-[#778192]" style={{ fontFamily: F.regular }}>
+          <span className="text-[13px] text-[#778192]" style={{ fontFamily: F.regular }}>
             Showing {showingStart}–{showingEnd} of {totalRegisters.toLocaleString()} registers
           </span>
           <div className="flex gap-[4px]">

@@ -101,7 +101,7 @@ export function OverviewTab({
         <StatCard
           label="Total Species"
           value={String(totalSpecies)}
-          icon={<Leaf size={16} className="text-[#60A896]" />}
+          icon={<Leaf size={22} className="text-[#60A896]" />}
           accentColor="#60A896"
         />
         <StatCard
@@ -109,7 +109,7 @@ export function OverviewTab({
           value={String(AtRiskCount)}
           icon={
             <AlertTriangle
-              size={16}
+              size={22}
               className="text-[#D03A1E]"
             />
           }
@@ -120,7 +120,7 @@ export function OverviewTab({
         <StatCard
           label="Total Registers"
           value={totalRegisters.toLocaleString()}
-          icon={<Activity size={16} className="text-[#778192]" />}
+          icon={<Activity size={22} className="text-[#778192]" />}
           accentColor="#778192"
         />
         {sensorInfo ? (
@@ -128,7 +128,7 @@ export function OverviewTab({
             label="Location"
             value={sensorInfo.coordinates}
             icon={
-              <MapPin size={16} className="text-[#778192]" />
+              <MapPin size={22} className="text-[#778192]" />
             }
             accentColor="#778192"
             subtext={`${sensorInfo.elevation} · ${sensorInfo.habitat}`}
@@ -139,11 +139,11 @@ export function OverviewTab({
             value={String(project.sensors.length)}
             icon={
               <RadioTower
-                size={16}
-                className="text-[#778192]"
+                size={22}
+                className="text-[#3a74d8]"
               />
             }
-            accentColor="#778192"
+            accentColor="#3a74d8"
           />
         )}
       </div>

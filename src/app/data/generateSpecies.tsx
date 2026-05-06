@@ -46929,6 +46929,14 @@ export const speciesData: Species[] = [
         "fileName": "predictions/Hexagon/XP01_Audio2/BirdNET/assets/1_2MM06956_20250403_103000.wav_0.00_60.00.mp3",
         "confidence": 0.1256,
         "observationId": "e0ee5dce-cd70-36f9-fc1b-8e8b826481ce"
+      },
+      {
+        "sensorId": "2MM06956",
+        "date": "2025-04-03T10:30:00Z",
+        "model": "BirdNET",
+        "fileName": "predictions/Hexagon/XP01_Audio2/BirdNET/assets/1_2MM06956_20250403_103000.wav_0.00_60.00.mp3",
+        "confidence": 0.1429,
+        "observationId": "e0ee5dce-cd70-36f9-fc1b-8e8b826481ce"
       }
     ],
     "firstRegistered": "2025-04-03T10:30:00Z",

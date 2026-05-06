@@ -110,7 +110,7 @@ export function RegisterAudioPlayer({
 
       {/* Sensor · date · time */}
       <span
-        className="text-[10px] text-[#778192] flex-shrink-0 truncate"
+        className="text-[12px] text-[#778192] flex-shrink-0 truncate"
         style={{ fontFamily: F.regular, maxWidth: "90px" }}
       >
         {sensorId} · {date}
@@ -118,7 +118,7 @@ export function RegisterAudioPlayer({
 
       {/* Current time */}
       <span
-        className="text-[10px] text-[#778192] flex-shrink-0 w-[26px] text-right"
+        className="text-[12px] text-[#778192] flex-shrink-0 w-[26px] text-right"
         style={{ fontFamily: F.mono }}
       >
         {fmt(current)}
@@ -147,7 +147,7 @@ export function RegisterAudioPlayer({
 
       {/* Total duration */}
       <span
-        className="text-[10px] text-[#778192] flex-shrink-0 w-[26px]"
+        className="text-[12px] text-[#778192] flex-shrink-0 w-[26px]"
         style={{ fontFamily: F.mono }}
       >
         {fmt(DURATION)}

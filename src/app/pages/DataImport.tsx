@@ -322,7 +322,7 @@ export default function DataImport() {
             <div className="flex items-start justify-between">
               <div>
                 <span
-                  className="text-[11px] text-[#778192]"
+                  className="text-[13px] text-[#778192]"
                   style={{ fontFamily: F.regular }}
                 >
                   Project
@@ -341,7 +341,7 @@ export default function DataImport() {
                 </div>
                 <div className="flex items-center gap-[8px] mt-[6px]">
                   <span
-                    className="text-[11px] text-[#778192]"
+                    className="text-[13px] text-[#778192]"
                     style={{ fontFamily: F.regular }}
                   >
                     {new Date(
@@ -354,7 +354,7 @@ export default function DataImport() {
                   </span>
                   <span className="text-[#474f5f]">·</span>
                   <span
-                    className="text-[10px] px-[6px] py-[1px] inline-flex items-center"
+                    className="text-[12px] px-[6px] py-[1px] inline-flex items-center"
                     style={{
                       fontFamily: F.bold,
                       backgroundColor:
@@ -373,7 +373,7 @@ export default function DataImport() {
               {project.sensors.length > 0 && (
                 <div className="text-right">
                   <span
-                    className="text-[11px] text-[#778192]"
+                    className="text-[13px] text-[#778192]"
                     style={{ fontFamily: F.regular }}
                   >
                     Existing Sensors
@@ -395,7 +395,7 @@ export default function DataImport() {
                 style={{ borderTop: "1px solid #474f5f" }}
               >
                 <span
-                  className="text-[11px] text-[#778192] block mb-[8px]"
+                  className="text-[13px] text-[#778192] block mb-[8px]"
                   style={{ fontFamily: F.regular }}
                 >
                   Current sensors in this project:
@@ -443,7 +443,7 @@ export default function DataImport() {
                 Sensor Deployment
               </div>
               <div
-                className="text-[11px] text-[#778192] mt-[2px]"
+                className="text-[13px] text-[#778192] mt-[2px]"
                 style={{ fontFamily: F.regular }}
               >
                 Configure the new sensor and its deployment
@@ -619,7 +619,7 @@ export default function DataImport() {
             {/* Notes */}
             <div className="mt-[12px]">
               <span
-                className="text-[11px] text-[#778192] block mb-[4px]"
+                className="text-[13px] text-[#778192] block mb-[4px]"
                 style={{ fontFamily: F.bold }}
               >
                 <FileText size={12} className="inline mr-[4px] text-[#778192]" />
@@ -684,7 +684,7 @@ export default function DataImport() {
                   Drop audio files here or click to browse
                 </div>
                 <div
-                  className="text-[11px] text-[#778192]"
+                  className="text-[13px] text-[#778192]"
                   style={{ fontFamily: F.regular }}
                 >
                   Supports WAV, FLAC, MP3, OGG — Max 500MB per
@@ -706,7 +706,7 @@ export default function DataImport() {
               <div className="mt-[12px]">
                 <div className="flex items-center justify-between mb-[6px]">
                   <span
-                    className="text-[11px] text-[#778192]"
+                    className="text-[13px] text-[#778192]"
                     style={{ fontFamily: F.regular }}
                   >
                     {files.length} file
@@ -726,7 +726,7 @@ export default function DataImport() {
                   {!importStarted && (
                     <button
                       onClick={() => setFiles([])}
-                      className="text-[10px] text-[#778192] hover:text-white transition-colors duration-150 cursor-pointer"
+                      className="text-[12px] text-[#778192] hover:text-white transition-colors duration-150 cursor-pointer"
                       style={{ fontFamily: F.regular }}
                     >
                       Clear all
@@ -754,7 +754,7 @@ export default function DataImport() {
                         {file.name}
                       </span>
                       <span
-                        className="text-[10px] text-[#778192] flex-shrink-0"
+                        className="text-[12px] text-[#778192] flex-shrink-0"
                         style={{ fontFamily: F.regular }}
                       >
                         {formatFileSize(file.size)}
@@ -815,7 +815,7 @@ export default function DataImport() {
               <div className="flex items-center gap-[10px]">
                 {files.length > 0 && (
                   <span
-                    className="text-[11px] text-[#778192]"
+                    className="text-[13px] text-[#778192]"
                     style={{ fontFamily: F.regular }}
                   >
                     {
@@ -906,13 +906,13 @@ function FormField({
       <div className="flex items-center gap-[4px] mb-[4px]">
         {icon}
         <span
-          className="text-[11px] text-[#778192]"
+          className="text-[13px] text-[#778192]"
           style={{ fontFamily: F.bold }}
         >
           {label}
         </span>
         {required && (
-          <span className="text-[#D03A1E] text-[11px]">*</span>
+          <span className="text-[#D03A1E] text-[13px]">*</span>
         )}
       </div>
       {children}

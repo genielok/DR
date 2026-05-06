@@ -3,9 +3,9 @@ import type { Campaign, AuditLog, ProcessingResult } from "../../app/data/mockDa
 export const mockCampaigns: Campaign[] = [
   {
     id: "camp-001",
-    name: "Cópia de",
+    name: "Mina Águas Claras",
     client: "R-evolution",
-    location: "Cópia de, Brazil",
+    location: "Mina Águas Claras, Brazil",
     startDate: "2025-03-31",
     endDate: "2025-04-31",
     status: "completed",

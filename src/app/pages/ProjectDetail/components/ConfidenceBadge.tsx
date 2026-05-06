@@ -8,13 +8,13 @@ export function ConfidenceBadge({ confidence }: { confidence: number }) {
   return (
     <div className="flex items-center gap-[5px]">
       <span
-        className="text-[11px]"
+        className="text-[13px]"
         style={{ fontFamily: F.bold, color }}
       >
         {pct}%
       </span>
       <span
-        className="text-[11px] px-[4px] py-[1px] uppercase tracking-wider"
+        className="text-[13px] px-[4px] py-[1px] uppercase tracking-wider"
         style={{
           fontFamily: F.bold,
           color,
